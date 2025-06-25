@@ -11,12 +11,6 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
 - ⚡ Fast response times with local LLM
 - 🔍 Context-aware answers using vector search
 
-## Prerequisites
-
-- Python 3.8+
-- [Ollama](https://ollama.ai) installed and running
-- At least 4GB RAM (for running local models)
-
 ## Setup
 
 1. **Clone the repository:**
@@ -125,29 +119,6 @@ Use the inspection utility to see what's stored:
 python inspect_chunks.py
 ```
 
-### Customizing the Model
-
-Edit `main.py` to change:
-- The LLM model (line 6)
-- The prompt template (lines 8-20)
-- Response formatting
-
-## Troubleshooting
-
-**Common Issues:**
-
-1. **"Model not found" error:**
-   - Ensure Ollama is running: `ollama serve`
-   - Pull required models: `ollama pull llama3.2`
-
-2. **Empty responses:**
-   - Check if vector database exists: run `python vector.py`
-   - Verify data files are in the `Data/` folder
-
-3. **Slow responses:**
-   - Consider using a smaller model
-   - Adjust chunk size and retrieval parameters
-
 ## Contributing
 
 1. Fork the repository
@@ -155,15 +126,3 @@ Edit `main.py` to change:
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or support, please contact the development team or create an issue on GitHub.
-
----
-
-*Built with ❤️ for Jatiya Kabi Kazi Nazrul Islam University*
