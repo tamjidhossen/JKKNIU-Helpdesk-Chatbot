@@ -1,0 +1,185 @@
+{
+  "university": {
+    "name": "Jatiya Kabi Kazi Nazrul Islam University",
+    "location": "Namapara Battala, Trishal, Mymensingh",
+    "faculties": 6,
+    "departments": 25,
+    "students": "~9000",
+    "teachers": null,
+    "teachers_with_phd": null,
+    "residential_halls": [
+      { "name": "Agnibina Hall", "gender": "Male", "capacity": null },
+      { "name": "Dolonchanpa Hall", "gender": "Female", "capacity": null },
+      { "name": "Bidrohi Hall", "gender": "Male", "capacity": null },
+      { "name": "Shiulimala Hall", "gender": "Female", "capacity": null }
+    ]
+  },
+
+
+  "authority": [
+    {
+      "name": "Prof. Dr. Md Jahangir Alam",
+      "designation": "Vice Chancellor",
+      "email": "vc@jkkniu.edu.bd",
+      "phone": null,
+      "office": "VC Office, Admin Building"
+    },
+    {
+      "name": "Abdullah Al Mamun",
+      "designation": "Deputy Registrar (Engineering Section)",
+      "email": "mamuntp@jkkniu.edu.bd",
+      "phone": null
+    }
+  ],
+
+
+  
+  "departments": [
+    {
+      "name": "Computer Science and Engineering",
+      "teachers": [
+        {
+          "name": "Dr. Subrata Kumar Das",
+          "designation": "Professor",
+          "email": "sdas_ce@jkkniu.edu.bd",
+          "alt_email": "sdas_ce@yahoo.com",
+          "phone": "+8801721006007",
+          "office_ext": "09032-56212-125",
+          "education": [
+            "B.Sc. CSE, Islamic University, Kushtia, 2004",
+            "M.Sc. CSE, Islamic University, Kushtia, 2005"
+          ],
+          "research_areas": [
+            "Distributed Database",
+            "Patient Data Management",
+            "Data Science",
+            "Machine Learning",
+            "Security"
+          ],
+          "career_timeline": [
+            { "position": "Lecturer", "institution": "Institute of Science, Trade and Technology, Dhaka", "from": "2008-03-29", "to": "2009-06-28" },
+            { "position": "Lecturer", "institution": "Jessore University of Science and Technology", "from": "2009-06-29", "to": "2012-08-04" },
+            { "position": "Assistant Professor", "institution": "Jessore University of Science and Technology", "from": "2012-08-05", "to": "2015-05-18" },
+            { "position": "Assistant Professor", "institution": "JKKNIU", "from": "2015-05-19", "to": "2018-04-29" },
+            { "position": "Associate Professor", "institution": "JKKNIU", "from": "2018-04-30", "to": "2025-01-15" },
+            { "position": "Professor", "institution": "JKKNIU", "from": "2025-01-16", "to": "present" }
+          ],
+          "courses_taught": [
+            "Digital Logic Design",
+            "Database Management System",
+            "Theory of Computation",
+            "Compiler Design",
+            "Data Science",
+            "Machine Learning",
+            "Parallel and Distributed Processing",
+            "Simulation and Modeling"
+          ],
+          "notable_trainings": [
+            "Creative Teaching Techniques (World Bank & UGC), 2013"
+          ]
+        },
+        {
+          "name": "Professor Dr. A. H. M. Kamal",
+          "designation": "Professor",
+          "email": "kamal@jkkniu.edu.bd",
+          "alt_email": "ahmkctg@yahoo.com",
+          "phone": "+8801732226402",
+          "office_ext": "09032-56212-364",
+          "education": [
+            "PhD, CSE, BUET, Dhaka, Bangladesh",
+            "MSc in IT, UPC Barcelona, Spain",
+            "MSc in IT, UCL Belgium",
+            "BSc Engg in Electronics and Computer Science, SUST"
+          ],
+          "research_areas": [
+            "Medical Imaging",
+            "ICT for Healthcare",
+            "Information Security",
+            "Information Fusion"
+          ],
+          "career_timeline": [
+            { "position": "Lecturer", "institution": "USTC", "period": "2001–2005" },
+            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2008–2014" },
+            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2014–2018" },
+            { "position": "Professor", "institution": "JKKNIU", "period": "2018–present" }
+          ],
+          "courses_taught": [
+            "Algorithms",
+            "Computer Networks",
+            "Digital Logic Designs",
+            "Advanced Network Security",
+            "Stochastic Process",
+            "Compiler Construction",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "awards_and_projects": [
+            "Doctoral Fellowship (ICT Division, Govt. of Bangladesh)",
+            "Erasmus Mundus Scholarship",
+            "HEQEP research project (PI)"
+          ]
+        },
+        {
+          "name": "Prof. Dr. Md. Sujan Ali (Sheikh Sujan Ali)",
+          "designation": "Professor & Head",
+          "email": "sujan_cse@jkkniu.edu.bd",
+          "alt_email": "msujanali@gmail.com",
+          "phone": ["+8801919817351", "+8801732155234"],
+          "office_ext": "09032-56212-361",
+          "education": [
+            "PhD, CSE, University of Rajshahi, 2019",
+            "MSc in EEE, Islamic University, 2006",
+            "BSc in EEE, Islamic University, 2004"
+          ],
+          "research_areas": [
+            "Brain–Computer Interface (BCI)",
+            "Digital Signal Processing",
+            "Digital Image Processing"
+          ],
+          "career_timeline": [
+            { "position": "Lecturer", "institution": "Metropolitan University Sylhet", "period": "2006–2008" },
+            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2011–2016" },
+            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2016–2020" },
+            { "position": "Professor", "institution": "JKKNIU", "period": "2020–present" }
+          ],
+          "courses_taught": [
+            "Neural Signal Processing",
+            "Digital Image Processing",
+            "Microprocessor",
+            "Pattern Recognition",
+            "MATLAB Programming Lab",
+            "Digital Electronics"
+          ],
+          "achievements": [
+            "ICT Fellowship for PhD (ICT Division)",
+            "Numerous international publications"
+          ]
+        },
+        {
+          "name": "Dr. Tushar Kanti Saha",
+          "designation": "Professor",
+          "email": "tusharcsebd@gmail.com",
+          "education": [
+            "PhD, Saitama University, Japan, 2018",
+            "MSc, Islamic University, Kushtia, 2004",
+            "BSc, Islamic University, Kushtia, 2003"
+          ],
+          "research_areas": [
+            "Information & Cyber Security",
+            "Cloud Computing",
+            "Post-Quantum Cryptography",
+            "Homomorphic Encryption",
+            "Privacy-Preserving Techniques",
+            "Data Mining",
+            "Machine Learning"
+          ],
+          "publications_count": { "journal": ">15", "conference": ">10" },
+          "awards_and_roles": [
+            "MEXT Scholarship (PhD)",
+            "Editorial board, Journal of Information Security"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+How do I apply for admission? What documents are needed?
+Admission to JKKNIU is conducted through the GST-integrated public university entrance test. Applicants must apply online via the GST admission portal at gstadmission.ac.bd. During the application process, you need to upload scanned copies of your SSC and HSC transcripts, a passport-size photograph, and the payment receipt as proof of application fee payment.
+
+Where do I check exam schedules, admit cards, and eligibility?
+All official notices, exam schedules, admit cards, and seat plans are published on the GST admission portal and JKKNIU's official website. Candidates should regularly check these portals to stay updated on exam-related information.
+
+Can I transfer credits from another institution?
+There is no publicly available information on credit transfer policies at JKKNIU. Generally, credit transfer requires a formal petition to the Academic Council, and you should confirm the details and procedure with the Registrar's office.
+
+Can I change my department or pursue a dual major?
+Changing departments or opting for dual majors is generally not permitted once the program has begun. Exceptions may be made if special permission is granted after admission, but these are rare and subject to university regulations.
+
+Is JKKNIU's academic system open-credit or fixed-credit?
+JKKNIU follows a fixed credit system where students must complete prescribed courses as per the curriculum. Flexibility in credit selection is limited compared to open-credit systems.
+
+How qualified are the teachers at JKKNIU?
+The university employs over 160 full-time faculty members, including Professors, Associate Professors, Assistant Professors, and Lecturers, ensuring a strong academic environment.
+
+What are the best departments at JKKNIU, and what is the status of the CSE department?
+According to EduRank, JKKNIU is recognized for its publications in Computer Science and Environmental Science. The Department of Computer Science and Engineering (CSE) was one of the first four established departments and benefits from modern academic and laboratory facilities.
+
+How many faculties and departments does JKKNIU have, and what are the GPA criteria for admission?
+JKKNIU has six faculties encompassing 25 departments across Science & Engineering, Arts, Business, Social Sciences, Fine Arts, and Law. Minimum GPA requirements for admission vary by discipline; applicants should refer to the annual admission circular available on the GST portal.
+
+Is there an admission test, and where can past questions be found?
+Yes, an admission test is required for all units under the GST system. Past questions may be accessed through senior student groups on social media platforms like Facebook or via preparatory coaching centers.
+
+What are the application deadlines and how are results published?
+Application deadlines vary each year and are announced in the official admission circular on the GST portal. Admission test results are posted online and displayed on notice boards at the university.
+
+Faculties & Research
+
+How many faculties and departments are there?
+JKKNIU consists of six faculties and twenty-five departments, all operational and offering various academic programs.
+
+What is the newest department and is it fully functional?
+The departments have been expanded through 2011, with all currently fully functional. The newest departments date from the most recent batches established around that period.
+
+Do the departments have labs and research support?
+Science and Engineering departments are well-equipped with laboratories. The university library is digitized and supports research activities with ICT tools such as Koha and DSpace.
+
+Library & IT Support
+
+What library services does JKKNIU provide?
+The library offers automated services for acquisition, circulation, and reference management through Koha and DSpace digital repositories. It houses over 32,000 books, subscribes to 53 journals, and provides cyber facilities for users.
+
+What digital support is available for students and faculty?
+Free access to computing resources and internet is provided across campus. Facilities for photocopying and scanning are also available.
+
+How can I get IT help or reset my password?
+A central IT support desk operates within the university. Password resets and technical assistance are typically managed through the Registrar's or ICT office, with ticket logging systems in place.
+
+Campus Life, Events & Administration
+
+What clubs and festivals are active on campus?
+Various clubs such as the JKKNIU Student Development Club (SDC) and programming or hobbyist groups exist. Major annual events include the cultural festival "Kuyasha Utshab" and celebrations for Nazrul Jayanti, reflecting the university's diverse cultural environment.
+
+What residential halls and sports facilities are available?
+The campus offers four residential halls named Agnibeena, Doloncapa, Bidrohi, and Shiulimala. There are sports grounds where students regularly participate in inter-university competitions.
+
+What security and student support services are provided?
+Located on a rural campus of approximately 57 acres, JKKNIU maintains standard security measures including proctors and university help-lines to ensure student safety and support.
+
+What You Can Do Next
+For further information, consult the official JKKNIU website at jkkniu.edu.bd, the admission portal at gstadmission.ac.bd, or contact the university librarian Dr. Md. Azizur Rahman for library and e-resource assistance.
+
+Department of Computer Science and Engineering (CSE)
+
+When was the CSE department established, and what programs are offered?
+The Department of Computer Science and Engineering at JKKNIU was established on June 3, 2007. It offers a Bachelor of Science (B.Sc.) in Computer Science and Engineering spanning eight semesters with a total of 162 credits, and a Master of Science (M.Sc.) program lasting three semesters with 36 credits.
+
+What is the current student enrollment and faculty size?
+Approximately 300 students are enrolled in the department, supported by a faculty of 15 members and 7 administrative staff.
+
+Who are some of the key faculty members?
+Professors include Dr. A. H. M. Kamal, Dr. Md. Mijanur Rahman, Dr. Md. Sujan Ali (Head of Department), among others. The department also has Associate Professors, Assistant Professors, and a Principal Demonstrator specializing in hardware.
+
+What labs and research facilities are available?
+The department features Software, Network, and Hardware labs. Additionally, the Emerging Technologies Lab (EmTech JKKNIU) supports research in Structural Health Monitoring, Robotics, Machine Learning, and the Internet of Things (IoT).
+
+What are the main academic and research focus areas?
+Research areas include Machine Learning, Deep Learning, Digital Signal Processing, Digital Image Processing, Medical Imaging, Computer Networks, and Network Security.
+
+Are there notable alumni from the CSE department?
+Yes, notable alumni include Ferdaus Anam Jibon, who is currently an Associate Professor at IUBAT.
+
+How does the admission process work for the CSE department?
+Admission is conducted under the GST system through a competitive test. Applicants must apply via the GST admission portal, with deadlines and procedures detailed on the official site.
+
+Has the department received any notable recognition?
+Professor Dr. A. H. M. Kamal has been honored with a National Award for his contributions to Telecom and ICT. The department also organizes alumni events and offers digital skills training programs such as EDGE.
+
+What is the current student enrollment and faculty size?
+Approximately 300 students are enrolled in the department, supported by a faculty of 15 members and 7 administrative staff.
+
+Who are some of the key faculty members?
+Professors include Dr. A. H. M. Kamal, Dr. Md. Mijanur Rahman, Dr. Md. Sujan Ali (Head of Department), among others. The department also has Associate Professors, Assistant Professors, and a Principal Demonstrator specializing in hardware.
+
+What labs and research facilities are available?
+The department features Software, Network, and Hardware labs. Additionally, the Emerging Technologies Lab (EmTech JKKNIU) supports research in Structural Health Monitoring, Robotics, Machine Learning, and the Internet of Things (IoT).
+
+What are the main academic and research focus areas?
+Research areas include Machine Learning, Deep Learning, Digital Signal Processing, Digital Image Processing, Medical Imaging, Computer Networks, and Network Security.
+
+Are there notable alumni from the CSE department?
+Yes, notable alumni include Ferdaus Anam Jibon, who is currently an Associate Professor at IUBAT.
+
+How does the admission process work for the CSE department?
+Admission is conducted under the GST system through a competitive test. Applicants must apply via the GST admission portal, with deadlines and procedures detailed on the official site.
+
+Has the department received any notable recognition?
+Professor Dr. A. H. M. Kamal has been honored with a National Award for his contributions to Telecom and ICT. The department also organizes alumni events and offers digital skills training programs such as EDGE.
+
