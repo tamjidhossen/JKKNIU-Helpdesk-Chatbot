@@ -10,6 +10,7 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
 - 🏢 Campus facilities and services
 - ⚡ Fast response times with local LLM
 - 🔍 Context-aware answers using vector search
+- 📊 Optional LangSmith integration for monitoring and debugging
 
 ## Setup
 
@@ -37,16 +38,46 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
    ollama pull nomic-embed-text  # Embedding model
    ```
 
-5. **Initialize the vector database:**
+5. **Configure LangSmith (Optional):**
+   
+   LangSmith is a platform for monitoring, debugging, and improving LLM applications. You can either enable it for enhanced observability or disable it completely.
+
+   **Option A: Enable LangSmith**
+   
+   Create a `.env` file in the project root:
+   ```bash
+   LANGSMITH_TRACING=true
+   LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+   LANGSMITH_API_KEY="your_api_key_here"
+   LANGSMITH_PROJECT="your_project_name"
+   ```
+   
+   To get your API key:
+   1. Sign up at [LangSmith](https://smith.langchain.com/)
+   2. Create a new project
+   3. Copy your API key from the settings
+   4. Replace `your_api_key_here` and `your_project_name` in the `.env` file
+
+   **Option B: Disable LangSmith**
+   
+   Create a `.env` file with tracing disabled:
+   ```bash
+   LANGSMITH_TRACING=false
+   ```
+   
+   Or simply don't create a `.env` file - the application will work without LangSmith.
+
+6. **Initialize the vector database:**
    ```bash
    python vector.py
    ```
    This will process the data files and create the local vector database.
 
-6. **Run the chatbot:**
+7. **Run the chatbot:**
    ```bash
    python main.py
    ```
+
 
 ## Project Structure
 
@@ -55,6 +86,7 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
 ├── vector.py              # Vector database setup and retrieval
 ├── inspect_chunks.py      # Utility for inspecting stored chunks
 ├── requirements.txt       # Python dependencies
+├── .env                   # Environment variables (LangSmith config)
 ├── Data/
 │   ├── Q&A.txt           # FAQ data
 │   └── structure_data.json # University structure data
@@ -91,6 +123,7 @@ The chatbot uses the following default configurations:
 - **Chunk Size:** 500 characters
 - **Chunk Overlap:** 50 characters
 - **Retrieval Results:** Top 5 similar chunks
+- **LangSmith:** Optional (configured via .env file)
 
 ## Data Sources
 

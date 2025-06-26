@@ -1,6 +1,17 @@
 """Configuration settings for the University Helpdesk Chatbot"""
 
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Verify LangSmith configuration
+if os.getenv("LANGSMITH_TRACING") == "true":
+    print("LangSmith tracing enabled")
+    print(f"Project: {os.getenv('LANGSMITH_PROJECT')}")
+else:
+    print("LangSmith tracing disabled")
 
 # Model configurations
 EMBEDDING_MODEL = "nomic-embed-text"

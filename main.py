@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 import time
@@ -7,6 +12,7 @@ from config import LLM_MODEL, CHATBOT_TEMPLATE
 model = OllamaLLM(model=LLM_MODEL)
 
 template = CHATBOT_TEMPLATE
+
 
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
