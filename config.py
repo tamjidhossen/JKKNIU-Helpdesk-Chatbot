@@ -15,7 +15,7 @@ else:
 
 # Model configurations
 EMBEDDING_MODEL = "nomic-embed-text"
-LLM_MODEL = "llama3.2"
+LLM_MODEL = "gemma3"
 
 # Vector store configuration
 VECTOR_DB_PATH = "./chroma_langchain_db"

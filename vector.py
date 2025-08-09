@@ -51,6 +51,9 @@ if add_documents:
     halls_text = "Residential Halls:\n" + "\n".join([f"- {hall['name']} ({hall['gender']})" for hall in halls])
     uni_text += f"\n{halls_text}"
     
+    print("Print Uni_text: ")
+    print(uni_text)
+
     # Chunk university info if it's long
     uni_chunks = text_splitter.split_text(uni_text)
     for i, chunk in enumerate(uni_chunks):
@@ -60,6 +63,9 @@ if add_documents:
         )
         documents.append(document)
     
+    print("Uni_text chunked")
+    print(uni_chunks)
+
     # Process faculty info (chunk each faculty member's info)
     cse_dept = structured_data["departments"][0]
     for j, teacher in enumerate(cse_dept["teachers"]):

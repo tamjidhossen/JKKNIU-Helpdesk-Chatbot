@@ -98,10 +98,10 @@
             "Information Fusion"
           ],
           "career_timeline": [
-            { "position": "Lecturer", "institution": "USTC", "period": "2001–2005" },
-            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2008–2014" },
-            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2014–2018" },
-            { "position": "Professor", "institution": "JKKNIU", "period": "2018–present" }
+            { "position": "Lecturer", "institution": "USTC", "period": "2001-2005" },
+            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2008-2014" },
+            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2014-2018" },
+            { "position": "Professor", "institution": "JKKNIU", "period": "2018-present" }
           ],
           "courses_taught": [
             "Algorithms",
@@ -132,15 +132,15 @@
             "BSc in EEE, Islamic University, 2004"
           ],
           "research_areas": [
-            "Brain–Computer Interface (BCI)",
+            "Brain-Computer Interface (BCI)",
             "Digital Signal Processing",
             "Digital Image Processing"
           ],
           "career_timeline": [
-            { "position": "Lecturer", "institution": "Metropolitan University Sylhet", "period": "2006–2008" },
-            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2011–2016" },
-            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2016–2020" },
-            { "position": "Professor", "institution": "JKKNIU", "period": "2020–present" }
+            { "position": "Lecturer", "institution": "Metropolitan University Sylhet", "period": "2006-2008" },
+            { "position": "Assistant Professor", "institution": "JKKNIU", "period": "2011-2016" },
+            { "position": "Associate Professor", "institution": "JKKNIU", "period": "2016-2020" },
+            { "position": "Professor", "institution": "JKKNIU", "period": "2020-present" }
           ],
           "courses_taught": [
             "Neural Signal Processing",
