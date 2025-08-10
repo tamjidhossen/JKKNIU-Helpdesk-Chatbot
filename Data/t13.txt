@@ -1,0 +1,138 @@
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Contact Information:
+- Email: mijan@jkkniu.edu.bdh
+- Website: https://jkkniu.edu.bd/teachers_personal_page/?t=301
+- Shared Resources: See Course Materials
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Areas of Interest:
+- AI and Machine Learning
+- Digital Speech and Image processing
+- Neural Networks
+- IoT and Biometric Technology
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Education:
+- B.Sc. (Hons) in Computer Science and Engineering from Islamic University, Kushtia (Result: First-class first)
+- M.Sc. in Computer Science and Engineering from Islamic University, Kushtia (Result: First-class first)
+- Ph.D. in Computer Science and Engineering from Jahangirnagar University (2014), Supervisor: Professor Dr. Md. Al-Amin Bhuiyan
+- Post-Doctoral Fellow from UGC (2022)
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Employment History:
+- Professor at Jatiya Kabi Kazi Nazrul Islam University, Department of Computer Science and Engineering (April 2008 - Present). Served as Lecturer, Assistant Professor, and Associate Professor prior.
+- Instructor (Tech) Computer at Govt. Polytechnic Institute (December 2005 - April 2008).
+- Head of Computer Department at Jhenaidah Polytechnic Institute (2006-2007).
+- Technical Manager for Preparation of Voter List and NID Card Project (2007-2008).
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Professional Memberships:
+- IEEE, Bangladesh Section (Since 2020)
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Performance analysis of a parameterized minutiae-based approach for securing fingerprint templates". Authors: Md Mijanur Rahman, Tanjarul Islam Mishu, Md Al Amin Bhuiyan. Journal: Journal of Information Security and Applications, Volume: 67(103209), Year: 2022. Publisher: Elsevier. DOI: https://doi.org/10.1016/j.jisa.2022.103209. Metrics: SCOPUS, Q1, CS:7.6, IF: 4.96.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "The evolving roles and impacts of 5G enabled technologies in healthcare: The world epidemic COVID-19 issues". Authors: M.M. Rahman, F. Khatun, S.I. Sami et al. Journal: Array, Year: 2022. Publisher: Elsevier. DOI: https://doi.org/10.1016/j.array.2022.100178. Metrics: SCOPUS.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "A comprehensive study of artificial intelligence and machine learning approaches in confronting the coronavirus (COVID-19) pandemic". Authors: Md Mijanur Rahman, Fatema Khatun, Sadia Islam Sami, Ashik Uzzaman, Md Al Amin Bhuiyan, Tiong Sieh Kiong. Journal: International Journal of Health Services, Volume: 51(4), Pages: 446-461, Year: 2021. DOI: 10.1177/00207314211017469. Metrics: WoS IF: 2.181, SCIE & SCOPUS, Q2.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Prospective methodologies in hybrid renewable energy systems for energy prediction using artificial neural networks". Authors: Md Mijanur Rahman, Mohammad Shakeri, Sieh Kiong Tiong et al. Journal: Sustainability, Volume: 13(4), Year: 2021. Publisher: MDPI. DOI: 10.3390/su13042393. Metrics: WoS IF: 3.889 & SCOPUS, Q1.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Network-Based Genetic Profiling Reveals Cellular Pathway Differences Between Follicular Thyroid Carcinoma and Follicular Thyroid Adenoma". Authors: Hossain, M.A., Asa, T.A., Rahman, M.M., Uddin, S., Moustafa, A.A., Quinn, J.M.W., Moni, M.A. Journal: International Journal of Environmental Research and Public Health, Volume: 17(4), Pages: 1373, Year: 2020. DOI: 10.3390/ijerph17041373. Metrics: WoS IF: 4.799 & SCOPUS, Q1.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "A Comparative Study and Performance Analysis of ATM Card Fraud Detection Techniques". Authors: Rahman, M.M., Saha, A.R. Journal: Journal of Information Security, Volume: 10, Pages: 188-197, Year: 2019.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Extracting Text Information from Digital Images". Authors: Md. Mijanur Rahman, Mahnuma Rahman Rinty, Fouzia Risdin. Journal: International Journal of Scientific & Engineering Research, Volume: 10(6), Pages: 1350-1356, Year: 2019.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Improvement of Single Seeded Region Growing Algorithm on Image Segmentation". Authors: Mahbubun Nahar, Md. Sujan Ali, Md. Mijanur Rahman. Journal: Global Journal of Computer Science and Technology, Volume: 18(1), Pages: 14-22, Year: 2018.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Implementing a Search Engine for Bangladeshi E-Commerce Product". Authors: Md. Mijanur Rahman, Razia Sultana Rupa, Hasan Mahmud Tuhin. Journal: Global Journal of Computer Science and Technology, Volume: 18(1), Pages: 29-34, Year: 2018.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Article:
+Title: "Vulnerabilities of Fingerprint Authentication Systems and Their Securities". Authors: Tanjarul Islam Mishu, Md. Mijanur Rahman. Journal: International Journal of Computer Science and Information Security, Volume: 16(3), Pages: 99-104, Year: 2018. Metrics: IF: 0.702, SCI.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Proceeding:
+Title: "Developing a Real-Time Touchless Human-Computer Interaction using Hand Gesture Recognition". Authors: Md. Mijanur Rahman, Ashik Uzzaman, Md. Aktaruzzaman. Conference: IEEE CS BDC Summer Symposium, Year: 2023. Publisher: IEEE Computer Society Bangladesh Chapter.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Proceeding:
+Title: "Prospective Methodology of Hand Gesture Image Processing for Human-Computer Interaction Systems". Authors: Md. Mijanur Rahman, Ashik Uzzaman, Md. Aktaruzzaman. Conference: Nazrul University 2nd International Conference on Technology, Business, and Justice towards Smart Bangladesh, Year: 2023.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Proceeding:
+Title: "Dynamic Thresholding with Short-Time Signal Features in Continuous Bangla Speech Segmentation". Authors: Md. Mijanur Rahman, Mahnuma Rahman Rinty. Conference: International Conference on Paradigms of Computing, Communication and Data Sciences, Year: 2023. Publisher: Springer. DOI: https://doi.org/10.1007/978-981-19-8742-7_17.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Proceeding:
+Title: "Implementing Deep Neural Network Based Encoder-Decoder Framework for Image Captioning". Authors: Md. Mijanur Rahman, Ashik Uzzaman, Sadia Islam Sami. Conference: IEEE SPICSCON, Year: 2022. Publisher: IEEE. DOI: 10.1109/SPICSCON54707.2021.9885414. Metrics: SCOPUS, WoS, IET.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Proceeding:
+Title: "FCJ2020: Generating Fingerprint Templates with Image Processing and Verification". Authors: Md. Mijanur Rahman, Tanjarul Islam Mishu. Conference: 5th International Conference on Computing Sciences, Year: 2021. Publisher: IEEE. DOI: 10.1109/ICCS54944.2021.00068. Metrics: SCOPUS, WoS, IET.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book Chapter:
+Title: "Challenges and Prospective of AI and 5G-Enabled Technologies in Emerging Applications during the Pandemic". Authors: Md. Mijanur Rahman, Fatema Khatun. Book: Industry 4.0 - Perspectives and Applications, Year: 2023. Publisher: IntechOpen. DOI: 10.5772/intechopen.109450.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book Chapter:
+Title: "Text Information Extraction from Digital Image Documents Using Optical Character Recognition". Authors: Md. Mijanur Rahman, Mahnuma Rahman Rinty. Book: Computational Intelligence in Image and Video Processing, Year: 2023. Publisher: CRC, Taylor & Francis. DOI: 10.1201/9781003218111.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book Chapter:
+Title: "Study on Introducing Biometric Fingerprint Authentication in Automated Student Attendance System". Authors: Rahman, M. M. Book: New Visions in Science and Technology Vol. 4, Pages: 121-131, Year: 2021. DOI: 10.9734/bpi/nvst/v4/4580F.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book:
+Title: "Pandemic vs Technology: AI and 5G Powered Emerging Technologies and Applications". Publisher: Notion Press, Year: 2023. ISBN: 9798888496268. URL: https://notionpress.com/read/pandemic-vs-technology.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book:
+Title: "Continuous Bangla Speech Processing: Segmentation, Classification and Recognition". Publisher: bpi publication, Year: 2022. ISBN Print: 978-93-5547-173-4, ISBN Ebook: 978-93-5547-181-9. DOI: 10.9734/bpi/mono/978-93-5547-173-4.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "Study on advanced dynamic thresholding with short-term signal features in continuous Bangla speech segmentation". Period: 2022-2023.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "A comprehensive study on the evolving roles and impacts of 5G enabled technologies in healthcare: World epidemic COVID-19 issues". Period: 2021-2022.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "Secure Template Generation Technique for Protecting Fingerprint Patterns from Security Attacks". Period: 2019-2020.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "OCR-Based Text Information Extraction from Digital Images". Period: 2018-2019.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "Biometric Student Registration and Verification System". Period: 2017-2018.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "Developing Student Attendance System Based on Fingerprint Recognition". Period: 2015-2016.
+
+Prof. Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Project:
+Title: "Bangla Voice Command Driven System". Period: 2011-2012.

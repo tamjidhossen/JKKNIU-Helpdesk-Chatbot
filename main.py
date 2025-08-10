@@ -31,4 +31,4 @@ while True:
     result = chain.invoke({"context": context, "question": question})
     elapsed_time = time.time() - start_time
     print(result.content)
-    print(f"Response time: {elapsed_time:.2f} seconds")
+    print(f"\n\n\nResponse time: {elapsed_time:.2f} seconds")

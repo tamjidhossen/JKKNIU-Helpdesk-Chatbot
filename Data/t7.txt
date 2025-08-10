@@ -1,0 +1,157 @@
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Contact Information:
+- PABX: 09032-56212-125
+- Mobile: +88 01721006007
+- Email: sdas_ce@yahoo.com, sdas_ce@jkkniu.edu.bd
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Education:
+- M.Sc (2005): Computer Science and Engineering, Islamic University, Kushtia, Bangladesh
+- B.Sc (2004): Computer Science and Engineering, Islamic University, Kushtia, Bangladesh
+- HSC (1999): Science Group, Govt. Sundarban Adarsha College, Khulna-9000, Bangladesh
+- SSC (1997): Science Group, Gazirhat H. N. High School, Kalia, Narail, Bangladesh
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Experience:
+- Lecturer (29 March 2008 to 28 June 2009) at Department of Computer Science and Engineering, Institute of Science, Trade and Technology, Dhaka-1215, Bangladesh
+- Lecturer (29 June 2009 to 4 August 2012) at Department of Computer Science and Engineering, Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh
+- Assistant Professor (5 August 2012 to 18 May 2015) at Department of Computer Science and Engineering, Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh
+- Assistant Professor (19 May 2015 to 29 April 2018) at Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh
+- Associate Professor (30 April 2018 to 15 January 2025) at Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh
+- Professor (16 January 2025 to present) at Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Administrative Roles:
+- Chairman (08 January 2014 to 18 May 2015) at Department of Computer Science and Engineering, Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh
+- Assistant Proctor (19 January 2010 to 18 January 2011) at Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Areas of Interest:
+- Distributed Database
+- Patient Data Management
+- Data Science
+- Machine Learning
+- Security
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Courses Conducted:
+- CSE 205: Digital Logic Design
+- CSE 223: Database Management System
+- CSE 305: Theory of Computation
+- CSE 323: Compiler Design
+- CSE 411: Data Science
+- CSE 421: Machine Learning
+- CSE 437: Parallel and Distributed Processing
+- CSE 5405: Simulation and Modeling
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Training:
+- Training Course on Creative Teaching Techniques (2013) organized by World Bank and University Grant Commission, Bangladesh
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das and M. Z. Rahman. Title: "A secured compression technique based on encoding for sharing electronic patient data in slow-speed networks". Journal: Heliyon, Elsevier, Volume: 8, Issue: 10, Year: 2022.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das and M. Z. Rahman. Title: "A middleware architecture to integrate and share health data from heterogeneous and diverse data sources". Journal: Iran Journal of Computer Science, Springer, Volume: 5, Issue: 3, Year: 2022.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. Roy, S. K. Das and A. H. M. Kamal. Title: "A Multi-path Based Embedding Scheme at Perfect Maze". Journal: Indian Journal of Computer Science, Volume: 7, Issue: 1, Year: 2022.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das and M. Z. Rahman. Title: "A Study on Machine Learning Algorithms with Different Encoding Techniques for Identifying the Right One for Patients’ Big Data". Journal: Jahangirnagar University Journal of Science, Jahangirnagar University, Volume: 42, Issue: 1, Year: 2020.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das and M. Z. Rahman. Title: "Distinct Features of Healthcare Systems and An Architecture to Manage Healthcare Distributed Databases". Journal: International Journal of Computer Applications, FCS, Volume: 175, Issue: 24, Year: 2020.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: M. R. Mia, S. Roy, S. K. Das, and M. A. Rahman. Title: "Mango leaf disease recognition using neural network and support vector machine". Journal: Iran Journal of Computer Science, Springer, Volume: 3, Year: 2020.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. Roy, S. K. Das and I. Mandal. Title: "Hadoop Periodic Jobs Using Data Blocks to Achieve Efficiency". Journal: International Journal of Scientific Research in Computer Science, Engineering and Information Technology, Volume: 3, Issue: 3, Year: 2018.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. M. Shithil and S. K. Das. Title: "School for All in One Box (SAOB): Providing Education as a Service (EAAS) to the Bottom of the Pyramid (BOP) People". Journal: Asian Journal of Research in Computer Science, Volume: 1, Issue: 1, Year: 2018.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das, S. Roy, D. Sarker and M. M. Rahman. Title: "Energy Efficient Failure Recovery with Concurrent Execution in Hadoop Cluster". Journal: International Journal of Applied Research on Information Technology and Computing, Volume: 7, Issue: 1, Year: 2016.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das, M. A. Hossain, M. A. Sardar, R. K. Biswas, P. D. Nath. Title: "Performance Analysis of Client Side Encryption Tools". Journal: International Journal of Advanced Computer Research, Volume: 4, Issue: 3, Issue Number: 16, Year: 2014.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: R. R. Ema, A. Akram, M. A. Hossain and S. K. Das. Title: "Performance Analysis of DSDV, AODV and AOMDV Routing Protocols based on Fixed and Mobility Network Model in Wireless Sensor Network". Journal: Global Journal of Computer Science and Technology: E Network, Web & Security, Volume: 14, Issue: 6, Year: 2014.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: M. K. Islam and S. K. Das. Title: "Determining Project Success Criteria by Perspective in Sub-Contracting Situation". Journal: Indian Journal of Advances in Computer & Information Engineering, Volume: 1, Issue: 1, Year: 2013.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das, P. C. Barman, M. A. Nashiry and B. C. Singh. Title: "A New Termination Detection Protocol for Use in Diffusing Computation in Mobile ad Hoc Networks". Journal: APRN Journal of Science and Technology, Volume: 2, Issue: 2, Year: 2012.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: S. K. Das, A. U. Ambia, M. K. Islam and M. A. Hossain. Title: "A New Termination Detection Algorithm for Distributed System to Reduce the Computational Delay". Journal: IJCSES, Volume: 6, Issue: 2, Year: 2012.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: M. A. Hossain, M. K. Islam, S. K. Das, and M. A. Nashiry. Title: "Cryptanalyzing of message digest algorithms MD4 and MD5". Journal: International Journal on Cryptography and Information Security, Volume: 2, Issue: 1, Year: 2012.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: M. A. Nashiry, S. S. Sumi, S. K. Das and M. K. Islam. Title: "TCP Performance over Mobile IP Wired-cum-Wireless Networks". Journal: Global Journal of Computer Science and Technology, Volume: 12, Issue: 9, Pages: 53-59, Year: 2012.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publication:
+Authors: M. A. Nashiry, S. S. Sumi, S. K. Das and M. A. Hossain. Title: "UDP over various routing protocols for mobile ad hoc networks". Journal: Journal of Innovation & Development Strategy, Volume: 6, Issue: 1, Year: 2012.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A Study on Machine Learning Algorithms with Different Encoding Techniques for Identifying the Right One for Patients’ Big Data". Conference: 2nd International Conference on Technology, Business and Justice towards Smart Bangladesh Systems and Security (ICTBJ 2023), Location: JKKNIU, Mymensingh, Bangladesh, Date: June 05-06, 2023. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A Watermarking Approach to Communicate Patient Data Securely from Distributed Sources". Conference: 9th International Conference on Networking, Systems and Security (9th NSysS 2022), Location: BUET, ACM, Cox’s Bazar, Bangladesh, Date: December 20-22, 2022. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A New Watermarking Approach for Ensuring Patient Data Authentication Over a Low Quality Communication Environment". Conference: 24th International Conference on Computer and Information Technology (ICCIT), Location: Dhaka, Bangladesh, Date: December 18-20, 2021. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "Middleware to Integrate Patient Data from Heterogeneous Distributed Databases". Conference: International Conference on Engineering and Computer Science 2019 (ICESC’2019), Location: Kuala Lumpur, Malaysia, Date: August 2019. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "Data Integration Architecture to Collect, Store and Retrieve Health Data from Distributed Sources". Conference: The 5th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2018), Location: Dhaka, Bangladesh, Date: March 28-30, 2018. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A Data Integration Architecture to Collect and Share Healthcare Data from Distributed Sources". Conference: 3rd International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2016), Location: Dhaka, Bangladesh, Date: May 2016. Authors: Subrata Kumar Das, Mohammad Zahidur Rahman.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A Performance Evaluation of Cluster Hadoop Using Different Hadoop Components". Conference: IEEE International Conference on Computer and Communication Engineering (ICCCE), Kuala Lumpur, Malaysia, Date: May 2015. Authors: Subrata Kumar Das.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "Using Mobile Apps to Provide Education as a Service to the Bottom of Pyramid People". Conference: The International Conference on Technology, Education and Development 2014 (INTED 2014), Valencia, Spain, Date: March 2014. Authors: Subrata Kumar Das.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Paper:
+Title: "A Study on Client Side Encryption Tool and Its Performance Analysis". Conference: The 10th International Conference on Computer Science and Information Technology (ICCSIT), Singapore, Date: August 2013. Authors: Subrata Kumar Das.
+
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Patent:
+Title: "A system and method for secured compression of patient data for sharing in slow speed networks". Patent Office: Bangladesh Patent Office, Application Number: BRI-18886-2023, Date: 2023.

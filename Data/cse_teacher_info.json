@@ -1,0 +1,2747 @@
+
+
+
+
+
+
+
+Dr. A. H. M. Kamal
+{
+  "name": "Dr. A. H. M. Kamal",
+  "designation": "Professor",
+  "department": "Computer Science and Engineering",
+  "contact": {
+    "PABX": "09032-56212-364",
+    "mobile": "+88 017-32226-402",
+    "email": [
+      "kamal@jkkniu.edu.bd",
+      "ahmkctg@yahoo.com"
+    ]
+  },
+  "research_interests": [
+    "Medical Imaging",
+    "ICT for Improving Healthcare Services",
+    "Information Security",
+    "Information Fusion"
+  ],
+  "education": [
+    {
+      "degree": "PhD",
+      "field": "CSE",
+      "institution": "BUET",
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "degree": "M.Sc in Information Technology",
+      "institution": "UPC",
+      "location": "Barcelona, Spain",
+      "scholarship": "Erasmus Mundus Scholarship"
+    },
+    {
+      "degree": "M.Sc in Information Technology",
+      "institution": "UCL",
+      "location": "Belgium",
+      "scholarship": "Erasmus Mundus Scholarship"
+    },
+    {
+      "degree": "B.Sc. (Engg.) in Electronics and Computer Science",
+      "institution": "SUST",
+      "location": "Sylhet, Bangladesh",
+      "note": "Present Computer Science and Engineering Department of SUST"
+    },
+    {
+      "degree": "HSC",
+      "institution": "Dhaka Residential Model College",
+      "location": "Bangladesh"
+    },
+    {
+      "degree": "SSC",
+      "institution": "Sandikona High School",
+      "location": "Netrakona, Bangladesh"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Professor",
+      "period": "May 2018 to present",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University",
+      "location": "Trishal, Mymensingh-2220, Bangladesh"
+    },
+    {
+      "position": "Associate Professor",
+      "period": "March 2014 to May 2018",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University",
+      "location": "Trishal, Mymensingh-2220, Bangladesh"
+    },
+    {
+      "position": "Assistant Professor",
+      "period": "April 2008 to March 2014",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University",
+      "location": "Trishal, Mymensingh-2220, Bangladesh"
+    },
+    {
+      "position": "Radio Room Supervisor",
+      "period": "Dec 2007 to April 2008",
+      "organization": "United Nation Department of Safety and Security",
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "position": "Assistant Professor",
+      "period": "Aug 2005 to Dec 2007",
+      "institution": "University of Science and Technology Chittagong"
+    },
+    {
+      "position": "Lecturer",
+      "period": "July 2001 to July 2005",
+      "institution": "University of Science and Technology Chittagong"
+    }
+  ],
+  "achievements_awards": [
+    "Doctoral Fellowship by ICT Division, Ministry of Post, Telecommunication and IT, Government of Bangladesh",
+    "Erasmus Mundus Scholarship for double M.Sc. programs from European Union",
+    "Scholarship at different academic years in B.Sc. Engg. program",
+    "Double Star (both in SSC and HSC)",
+    "Dhaka board scholarship on SSC result",
+    "Talent pool scholarship (In Class VIII)",
+    "Primary scholarship",
+    "Various private scholarships"
+  ],
+  "courses_conducted": [
+    "Stochastic Process",
+    "Advanced Network Security",
+    "Advanced Communication Network",
+    "Digital Signal Processing",
+    "Computer Graphics",
+    "Data Communication",
+    "Compiler Construction",
+    "Computer Networks",
+    "Theory of Computing",
+    "Algorithms",
+    "Digital Logic Designs",
+    "Object Oriented Programming in C++",
+    "Data Structure",
+    "Structured Programming",
+    "Computer Programming in C",
+    "Discrete Mathematics",
+    "Computer Fundamentals",
+    "Operating System",
+    "Artificial Intelligence"
+  ],
+  "training": {
+    "title": "Making the Department Research Capability Upgrading Its Teachers, Lab Resources and Strategies",
+    "funding_authority": "Govt. of Bangladesh and World Bank through HEQEP of UGC of Bangladesh",
+    "worth": "14.7 Million Taka (0.17 Million USD)",
+    "duration": "3 years",
+    "role": "Chief Implementer"
+  },
+  "selected_publications": [
+	{
+      "id": 1,
+      "authors": "Islam, M. Z., Ishrak, M. A., & Kamal, A. H. M.",
+      "year": 2024,
+      "title": "Feature value quantization and reduction process for predicting heart attack possibility and the level of severity by a machine learning model",
+      "journal": "International Journal of Engineering and Computer Science",
+      "volume": "13",
+      "issue": "07",
+      "pages": "26257-26269",
+      "doi": "10.18535/ijecs/v13i07.4831",
+      "url": "https://doi.org/10.18535/ijecs/v13i07.4831"
+    },
+    {
+      "id": 2,
+      "authors": "Nahar, M., & Kamal, A. H. M.",
+      "year": 2024,
+      "title": "DNA Steganography: Embedding the Secret Messages Using Glass Stack Method and Detecting Errors Made by Different Attacks",
+      "journal": "International Journal of Computers and Applications",
+      "volume": "46",
+      "issue": "7",
+      "pages": "508-525",
+      "doi": "10.1080/1206212X.2024.2347456",
+      "url": "https://doi.org/10.1080/1206212X.2024.2347456"
+    },
+    {
+      "id": 3,
+      "authors": "Jibon FA, Jamil Chowdhury AR, Miraz MH, et al.",
+      "year": 2024,
+      "title": "Sequential graph convolutional network and DeepRNN based hybrid framework for epileptic seizure detection from EEG signal",
+      "journal": "DIGITAL HEALTH",
+      "volume": "10",
+      "doi": "10.1177/20552076241249874"
+    },
+    {
+      "id": 4,
+      "authors": "I. A. Anik, A. H. M. Kamal, M. A. Kabir, S. Uddin and M. A. Moni",
+      "year": 2024,
+      "title": "A Robust Deep-Learning Model to Detect Major Depressive Disorder Utilising EEG Signals",
+      "journal": "IEEE Transactions on Artificial Intelligence",
+      "doi": "10.1109/TAI.2024.3394792"
+    },
+    {
+      "id": 5,
+      "authors": "Habiba Sultana, A.H.M. Kamal, Tasnim Sakib Apon, Md. Golam Rabiul Alam",
+      "year": 2024,
+      "title": "Increasing embedding capacity of stego images by exploiting edge pixels in prediction error space",
+      "journal": "Cyber Security and Applications",
+      "volume": "2",
+      "pages": "100028",
+      "issn": "2772-9184",
+      "doi": "10.1016/j.csa.2023.100028",
+      "url": "https://doi.org/10.1016/j.csa.2023.100028"
+    },
+    {
+      "id": 6,
+      "authors": "Mahbubun Nahar, A.H.M. Kamal, Gahangir Hossain",
+      "year": 2023,
+      "title": "Protecting health data in the cloud through steganography: A table-driven, blind method using neural networks and bit-shuffling algorithm",
+      "journal": "Journal of Network and Computer Applications",
+      "volume": "217",
+      "pages": "103689",
+      "issn": "1084-8045",
+      "doi": "10.1016/j.jnca.2023.103689",
+      "url": "https://doi.org/10.1016/j.jnca.2023.103689"
+    },
+    {
+      "id": 7,
+      "authors": "A.H.M. Kamal, Md. Golam Rabiul Alam, Md Rafiul Hassan, Tasnim Sakib Apon, Mohammad Mehedi Hassan",
+      "year": 2023,
+      "title": "Explainable indoor localization of BLE devices through RSSI using recursive continuous wavelet transformation and XGBoost classifier",
+      "journal": "Future Generation Computer Systems",
+      "volume": "141",
+      "pages": "230-242",
+      "issn": "0167-739X",
+      "doi": "10.1016/j.future.2022.11.001",
+      "url": "https://doi.org/10.1016/j.future.2022.11.001"
+    },
+    {
+      "id": 8,
+      "authors": "Sultana H, Kamal AHM, Hossain G, Kabir MA",
+      "year": 2023,
+      "title": "A Novel Hybrid Edge Detection and LBP Code-Based Robust Image Steganography Method",
+      "journal": "Future Internet",
+      "volume": "15",
+      "issue": "3",
+      "pages": "108",
+      "doi": "10.3390/fi15030108",
+      "url": "https://doi.org/10.3390/fi15030108"
+    },
+    {
+      "id": 9,
+      "authors": "M. Nahar and A. Kamal",
+      "year": 2022,
+      "title": "An Efficient Use of Toffoli Quantum Gate for Boosting the Embedding Capacity in DNA Sequence",
+      "conference": "2022 IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE)",
+      "location": "Gold Coast, Australia",
+      "pages": "1-6",
+      "doi": "10.1109/CSDE56538.2022.10089308"
+    },
+    {
+      "id": 10,
+      "authors": "H. Sultana and A. H. M. Kamal",
+      "year": 2022,
+      "title": "An Edge Detection Based Reversible Data Hiding Scheme",
+      "conference": "2022 IEEE Delhi Section Conference (DELCON)",
+      "location": "New Delhi, India",
+      "pages": "1-6",
+      "doi": "10.1109/DELCON54057.2022.9753404"
+    },
+    {
+      "id": 11,
+      "authors": "Kama AHM, Abdullah M. K.",
+      "year": 2022,
+      "title": "A Predictive Investment Scheme for Dhaka Stock Exchange",
+      "journal": "Digital Technologies Research and Applications",
+      "volume": "1",
+      "issue": "1",
+      "pages": "7-13"
+    },
+    {
+      "id": 12,
+      "authors": "Aktar, S.; Talukder, A.; Ahamad, M.M.; Kamal, A.H.M.; Khan, J.R.; Protikuzzaman, M.; Hossain, N.; Azad, A.K.M.; Quinn, J.M.W.; Summers, M.A.; Liaw, T.; Eapen, V.; Moni, M.A.",
+      "year": 2021,
+      "title": "Machine Learning Approaches to Identify Patient Comorbidities and Symptoms That Increased Risk of Mortality in COVID-19",
+      "journal": "Diagnostics",
+      "impact_factor": 3.706,
+      "indexing": ["PubMed", "Scopus", "Science Citation Index Expanded"]
+    },
+    {
+      "id": 13,
+      "authors": "Aktar, S., Ahamad, M. M., Rashed-Al-Mahfuz, M., Azad, A. K. M., Uddin, S., Kamal, A. H. M., … & Moni, M. A.",
+      "year": 2021,
+      "title": "Machine Learning Approach to Predicting COVID-19 Disease Severity Based on Clinical Blood Test Data: Statistical Analysis and Model Development",
+      "journal": "JMIR Medical Informatics",
+      "volume": "9",
+      "issue": "4",
+      "article_id": "e25884",
+      "impact_factor": 2.58,
+      "indexing": ["PubMed", "PubMed Central", "Scopus", "Science Citation Index Expanded"]
+    },
+    {
+      "id": 14,
+      "authors": "Rahman M. H., Kamal AHM",
+      "year": 2021,
+      "title": "A Block Mean Insertion and Dual Stego Generation Based Embedding Strategy",
+      "journal": "Journal of Computer and Communications",
+      "volume": "9",
+      "issue": "3",
+      "pages": "70"
+    },
+    {
+      "id": 15,
+      "authors": "Akter O., Moni M. A., Islam M. M., Quinn J. M. W., Kamal A. H. M.",
+      "year": 2020,
+      "title": "Lung cancer detection using enhanced segmentation accuracy",
+      "journal": "Journal of Applied Intelligence",
+      "doi": "10.1007/s10489-020-02046-y",
+      "impact_factor": 3.325,
+      "indexing": ["Science Citation Index"]
+    },
+    {
+      "id": 16,
+      "authors": "Kamal A. H. M. and Islam M. M., Islam Z.",
+      "year": 2020,
+      "title": "An embedding technique for smart card supported e-healthcare services",
+      "journal": "Iranian Journal of Computer Science",
+      "publisher": "Springer International Publishing AG"
+    },
+    {
+      "id": 17,
+      "authors": "Kamal A. H. M. and Islam M. M.",
+      "year": 2019,
+      "title": "A prediction error based histogram association and mapping technique for data embedment",
+      "journal": "Journal of Information Security and Applications",
+      "publisher": "ELSEVIER",
+      "volume": "48",
+      "impact_factor": 2.327,
+      "citescore": 3.17,
+      "sjr": 0.387,
+      "indexing": ["Scopus", "Science Citation Index Expanded"]
+    },
+    {
+      "id": 18,
+      "authors": "Kamal A. H. M. and Islam M. M.",
+      "year": 2019,
+      "title": "A new histogram-shifting-imitated embedding scheme",
+      "journal": "Journal of Applied Computer Science and Technology",
+      "publisher": "IEB Publisher",
+      "volume": "1",
+      "issue": "2",
+      "pages": "82-86"
+    },
+    {
+      "id": 19,
+      "authors": "Kamal A. H. M. and Islam M. M.",
+      "year": 2018,
+      "title": "An image distortion-based enhanced embedding technique",
+      "journal": "Journal of Network Communications and Emerging Technologies",
+      "publisher": "International Journal of Computer Science and Information Security (IJCSIS)",
+      "volume": "8",
+      "issue": "4"
+    },
+  {
+    "id": 20,
+    "authors": "Kamal A. H. M.",
+    "title": "Securing the Smart Card Authentications Process by Embedment Random Number of Data Bits into Each Pixel",
+    "journal": "International Journal of u- and e- Service, Science and Technology",
+    "publisher": "Science & Engineering Research Support Society Publication",
+    "volume": "10",
+    "issue": "7",
+    "pages": "43-53",
+    "year": 2017,
+    "metrics": {"SJR": 0.11}
+  },
+  {
+    "id": 21,
+    "authors": "Kamal A. H. M. and Islam M. M.",
+    "title": "Enhancing embedding capacity and stego image quality by employing multi predictors",
+    "journal": "Journal of Information Security and Applications",
+    "publisher": "ELSEVIER",
+    "volume": "32",
+    "pages": "59-74",
+    "year": 2017,
+    "metrics": {"CiteScore": 3.17, "Impact Factor": 2.327, "SJR": 0.387},
+    "indexing": ["Scopus", "Science Citation Index Expanded"]
+  },
+  {
+    "id": 22,
+    "authors": "Kamal A. H. M. and Islam M. M.",
+    "title": "Enhancing the performance of the data embedment process through encoding errors",
+    "journal": "Journal of Electronics",
+    "publisher": "MDPI",
+    "volume": "5",
+    "issue": "4",
+    "pages": "79-95",
+    "year": 2016,
+    "metrics": {"CiteScore": 1.9, "Impact Factor": 2.412},
+    "indexing": ["Science Citation Index Expanded", "Scopus"]
+  },
+  {
+    "id": 23,
+    "authors": "Kamal A. H. M. and Islam M. M.",
+    "title": "Boosting up the data hiding rate multi cycle embedment process",
+    "journal": "Journal of Visual Communication and Image Representation",
+    "publisher": "ELSEVIER",
+    "volume": "40",
+    "pages": "574-588",
+    "year": 2016,
+    "metrics": {"CiteScore": 4.9, "Impact Factor": 2.479, "SJR": 0.508},
+    "indexing": ["Science Citation Index Expanded", "Scopus"]
+  },
+  {
+    "id": 24,
+    "authors": "Habiba S., Kamal A. H. M. and Islam M. M.",
+    "title": "Enhancing the robustness of visual degradation based HAM reversible data hiding",
+    "journal": "Journal of Computer Science",
+    "volume": "12",
+    "issue": "2",
+    "pages": "88-97",
+    "year": 2016,
+    "metrics": {"SJR": 0.3},
+    "indexing": ["Scopus"]
+  },
+  {
+    "id": 25,
+    "authors": "Kamal A. H. M. and Islam M. M.",
+    "title": "Facilitating and securing offline e-medicine service through image steganography",
+    "journal": "Healthcare Technology Letters",
+    "volume": "1",
+    "issue": "2",
+    "pages": "74-79",
+    "year": 2014,
+    "metrics": {"CiteScore": 3.1, "SNIP": 1.157, "SJR": 0.451},
+    "indexing": ["PubMed", "PubMed Central", "Emerging Source Citation Index"]
+  },
+  {
+    "id": 26,
+    "authors": "Kamal A. H. M.",
+    "title": "Retrieving Packets from Losing during Service Disruption Time, During Vertical Handover among UMTS and WLAN",
+    "journal": "International Journal of Advanced Networking and Applications",
+    "volume": "3",
+    "issue": "4",
+    "pages": "1229-1232",
+    "year": 2012,
+    "metrics": {"Indian UGC Approved": true}
+  },
+  {
+    "id": 27,
+    "authors": "Kamal A. H. M.",
+    "title": "Cross application of Round Robin Scheduling and Shortest Job First Serve in CPU Scheduling to improve preemptive scheduling",
+    "journal": "Journal of Nazrul University",
+    "volume": "1",
+    "issue": "1",
+    "pages": "9-14",
+    "year": 2012
+  },
+  {
+    "id": 28,
+    "authors": "Kamal A. H. M.",
+    "title": "UB Operator precedence parsing algorithm",
+    "journal": "Computer Science & Engineering Research Journal",
+    "volume": "7",
+    "year": 2011,
+    "pages": "37-42"
+  },
+  {
+    "id": 29,
+    "authors": "Kamal A. H. M.",
+    "title": "An Algorithm to trigger VHO based on the speed of roamer - who is just leaving the WLAN in a room",
+    "journal": "International Journal of Emerging Technologies in Science and Engineering",
+    "country": "Canada",
+    "volume": "3",
+    "issue": "1",
+    "pages": "21-25",
+    "year": 2010
+  },
+  {
+    "id": 30,
+    "authors": "Kamal A. H. M.",
+    "title": "Use of ICTs in Gender Equalization",
+    "journal": "USTA",
+    "volume": "15",
+    "issue": "1",
+    "pages": "201-207",
+    "year": 2009
+  },
+  {
+    "id": 31,
+    "authors": "A H M Kamal",
+    "title": "ICT in Managing Disaster in Bangladesh",
+    "journal": "USTA",
+    "volume": "15",
+    "issue": "1",
+    "pages": "208-212",
+    "year": 2009
+  },
+  {
+    "id": 32,
+    "authors": "Kamal A. H. M., Parada M.",
+    "title": "Blob translation based estimation technique to handle occlusion while using mean-shift in tracking",
+    "journal": "Research Journal of Applied Sciences",
+    "volume": "4",
+    "issue": "4",
+    "pages": "129-133",
+    "year": 2009,
+    "indexing": ["Scopus"]
+  },
+  {
+    "id": 33,
+    "authors": "Kamal A. H. M.",
+    "title": "An easy, flexible and linear way for generating precedence functions",
+    "journal": "Multimedia Cyberscape Journal (MMCJ)",
+    "volume": "2",
+    "pages": "44-49",
+    "year": 2004
+  },
+  {
+    "id": 34,
+    "authors": "Hossain G., Kamal A. H. M.",
+    "title": "A new approach of image encryption",
+    "journal": "Asian Journal of Information Technology",
+    "volume": "3",
+    "issue": "8",
+    "pages": "607-610",
+    "year": 2004
+  },
+  {
+    "id": 35,
+    "authors": "Kamal A. H. M., Khan Z. U. A., Islam M. K.",
+    "title": "K-Index-Sort: Sorting Unique Integer in Linear Time",
+    "journal": "Asian Journal of Information Technology",
+    "volume": "3",
+    "issue": "1",
+    "pages": "23-26",
+    "year": 2004
+  },
+  {
+    "id": 36,
+    "authors": "Kamal A. H. M., Islam M. K., Hossain M. G.",
+    "title": "Insertion Sort with Binary Search",
+    "journal": "USTC Teachers Annual (USTA-2003)",
+    "volume": "9",
+    "issue": "1",
+    "pages": "152-156",
+    "year": 2003
+  }
+    ]  ,
+{
+  "Conference Proceedings": [
+    {
+      "id": 37,
+      "authors": ["Kamal A. H. M.", "Islam M. M."],
+      "title": "Uses of Local Binary Pattern Codes for Enriching the Embedding Performance",
+      "conference": "International Conference of IEEE DELCON 2022",
+      "location": "Delhi, India",
+      "track": "Track 3",
+      "year": 2022
+    },
+    {
+      "id": 38,
+      "authors": ["Sultana Habiba", "Kamal A. H. M."],
+      "title": "An Edge Detection Based Reversible Data Hiding Scheme",
+      "conference": "International Conference of IEEE DELCON 2022",
+      "location": "Delhi, India",
+      "track": "Track 3",
+      "year": 2022
+    },
+    {
+      "id": 39,
+      "authors": ["Sultana Habiba", "Kamal A. H. M."],
+      "title": "Image Steganography System based on Hybrid Edge Detector",
+      "conference": "International Conference on Computer and Information Technology (ICCIT)",
+      "location": "North South University, Dhaka, Bangladesh",
+      "dates": "18-20 Dec 2021",
+      "year": 2021
+    },
+    {
+      "id": 40,
+      "authors": ["Kamal A. H. M.", "Islam M. M."],
+      "title": "Enhancing the embedding payload by handling the affair of association and mapping of block pixels through prediction errors histogram",
+      "conference": "International Conference on Networking, Systems and Security (NSysS)",
+      "location": "BUET, Dhaka",
+      "dates": "5-8 January 2016",
+      "year": 2016
+    },
+    {
+      "id": 41,
+      "authors": ["Kamal A. H. M.", "Islam M. M."],
+      "title": "Capacity improvement of reversible data hiding scheme through better prediction and double cycle embedding process",
+      "conference": "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)",
+      "location": "Kolkata, India",
+      "dates": "16-18 December 2015",
+      "year": 2015
+    },
+    {
+      "id": 42,
+      "authors": ["Kamal A. H. M.", "Islam M. K."],
+      "title": "Construction of deterministic finite automata (DFA) from regular expression",
+      "conference": "Computer, Communication and Control Technologies (CCCT)",
+      "location": "Florida, USA",
+      "volume": 5,
+      "year": 2003
+    },
+    {
+      "id": 43,
+      "authors": ["Kamal A. H. M.", "Azim E.", "Islam M. K."],
+      "title": "INSERTION SORT: THAT APPLY BINARY SEARCH AND KEEP TRACK",
+      "conference": "6th International Conference on Computer Communication and Information Technology (ICCIT)",
+      "volume": 1,
+      "pages": "68-71",
+      "location": "Bangladesh",
+      "year": 2003
+    },
+    {
+      "id": 44,
+      "authors": ["Kamal A. H. M.", "Salam M. A."],
+      "title": "Paging Binary Search Algorithm",
+      "conference": "6th International Conference on Computer Communication and Information Technology (ICCIT)",
+      "volume": 1,
+      "pages": "95-99",
+      "location": "Bangladesh",
+      "year": 2003
+    }
+  ]
+}
+}
+
+Professor Dr. Md. Sujan Ali (Sheikh Sujan Ali)
+
+{
+    "name": "Professor Dr. Md. Sujan Ali (Sheikh Sujan Ali)",
+    "designation": "Professor & Head of the Department",
+    "department": "Computer Science and Engineering",
+    "contact": {
+        "PABX": "09032-56212-361",
+        "mobile": [
+            "+88 01919817351",
+            "+88 01732155234"
+        ],
+        "email": [
+            "sujan_cse@jkkniu.edu.bd",
+            "msujanali@gmail.com"
+        ]
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "year": 2019,
+            "field": "Computer Science and Engineering",
+            "university": "University of Rajshahi, Bangladesh"
+        },
+        {
+            "degree": "M.Sc",
+            "year": 2006,
+            "field": "Electrical and Electronic Engineering",
+            "university": "Islamic University, Kushtia, Bangladesh"
+        },
+        {
+            "degree": "B.Sc",
+            "year": 2004,
+            "field": "Electrical and Electronic Engineering",
+            "university": "Islamic University, Kushtia, Bangladesh"
+        },
+        {
+            "degree": "HSC",
+            "year": 1997,
+            "group": "Science",
+            "institution": "Amla Govt. College, Mirpur, Kushtia, Bangladesh"
+        },
+        {
+            "degree": "SSC",
+            "year": 1995,
+            "group": "Science",
+            "institution": "Azampur High School, Mirpur, Kushtia, Bangladesh"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Professor",
+            "from": "15 March 2020",
+            "to": "Present",
+            "institution": "Jatiya Kabi Kazi Nazrul Islam University"
+        },
+        {
+            "position": "Associate Professor",
+            "from": "15 March 2016",
+            "to": "14 March 2020",
+            "institution": "Jatiya Kabi Kazi Nazrul Islam University"
+        },
+        {
+            "position": "Assistant Professor",
+            "from": "15 March 2011",
+            "to": "14 March 2016",
+            "institution": "Jatiya Kabi Kazi Nazrul Islam University"
+        },
+        {
+            "position": "Lecturer",
+            "from": "1 July 2006",
+            "to": "13 October 2008",
+            "institution": "Metropolitan University, Sylhet"
+        },
+        {
+            "position": "Lecturer",
+            "from": "14 October 2008",
+            "to": "14 March 2011",
+            "institution": "Jatiya Kabi Kazi Nazrul Islam University"
+        }
+    ],
+    "awards": [
+        "ICT Fellowship for PhD studies (ICT Division, Ministry of Post, Telecommunication and ICT, Bangladesh)"
+    ],
+    "interests": [
+        "Brain Computer Interface (BCI)",
+        "Digital Signal Processing",
+        "Digital Image Processing"
+    ],
+    "courses_conducted": [
+        "CSE 5406: Neural Signal Processing",
+        "CSE 5502: Speech Recognition",
+        "CSE 453: Pattern Recognition",
+        "CSE 454: Pattern Recognition Lab",
+        "CSE 439: Digital Image Processing",
+        "CSE 5402: Advanced Digital Image Processing",
+        "CSE 225: Computer Architecture and Organization",
+        "CSE 227: Digital Electronics and Pulse Techniques",
+        "CSE 228: Digital Electronics and Pulse Techniques Lab",
+        "CSE 301: Microprocessor",
+        "CSE 302: Microprocessor and Assembly Language Lab",
+        "CSE 325: Computer Peripherals and Interfacing",
+        "CSE 326: Computer Peripherals and Interfacing Lab",
+        "EEE 161: Basic Electrical Engineering",
+        "EEE 162: Basic Electrical Engineering Lab",
+        "EEE 175: Electronics",
+        "EEE 176: Electronics Lab",
+        "CSE 330: MATLAB Programming Lab"
+    ],
+    "publications": {
+        "journals": [
+	{
+  "journals": [
+    {
+      "year": 2021,
+      "articles": [
+        {
+          "authors": ["Jannatul Ferdous", "Sujan Ali", "Ekramul Hamid", "Khademul Islam Molla"],
+          "title": "Sub-band selection approach to artifact suppression from electroencephalography signal using hybrid wavelet transform.",
+          "journal": "International Journal of Advanced Robotic Systems",
+          "volume": 18,
+          "issue": 1,
+          "pages": "1729881421992269",
+          "publisher": "SAGE",
+          "impact_factor": 1.482,
+          "indexing": ["Scopus", "Science Citation Index Expanded (SCIE)"]
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "articles": [
+        {
+          "authors": ["Sujan Ali", "Jannatul Ferdous", "Ekramul Hamid", "Khademul Islam Molla"],
+          "title": "A Novel Features Selection Approach with Common Spatial Pattern for EEG Based Brain-Computer Interface Implementation",
+          "journal": "IETE Journal of Research",
+          "pages": "1-15",
+          "month": "October",
+          "doi": "10.1080/03772063.2019.1670106",
+          "publisher": "Taylor & Francis",
+          "impact_factor": 0.829,
+          "indexing": ["Scopus", "Science Citation Index Expanded (Thomson Reuters)", "Web of Science (Thomson Reuters)"]
+        },
+        {
+          "authors": ["Jannatul Ferdous", "Md. Sujan Ali"],
+          "title": "Comparison Among the Artifact Removing Algorithms for the Suppression of Artifact from EEG",
+          "journal": "Jagannath University Journal of Computer Science and Engineering",
+          "volume": 1,
+          "issue": 1,
+          "pages": "103-114",
+          "month": "March"
+        },
+        {
+          "authors": ["Sanjoy Kumar Saha", "Sujan Ali", "Jannatul Ferdous", "Somlal Das", "Sumon Kumar Debnath"],
+          "title": "A Filtering Approach to Clean EEG Signal Based on EMD-DF to Improve Classification Accuracy during Hands Movement",
+          "journal": "IJCSI International Journal of Computer Science Issues",
+          "volume": 16,
+          "issue": 1,
+          "pages": "14-20",
+          "month": "January"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "articles": [
+        {
+          "authors": ["Mahbubun Nahar", "Md. Sujan Ali", "Dr. Md. Mijanur Rahman"],
+          "title": "Study on the Improvement of Single Seeded Region Growing Algorithm on Image Segmentation",
+          "journal": "Global Journal of Computer Science and Technology: Graphics and Vision",
+          "volume": 18,
+          "issue": 1,
+          "version": "1.0",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "articles": [
+        {
+          "authors": ["Jannatul Ferdous", "Md. Sujan Ali", "Md. Ekramul Hamid", "Md. Khademul Islam Molla"],
+          "title": "Eyeblink Artifact Suppression from EEG Signal using Lifting Wavelet Transform",
+          "journal": "IOSR Journal of VLSI and Signal Processing (IOSR-JVSP)",
+          "volume": 7,
+          "issue": 2,
+          "version": "I",
+          "pages": "01-09",
+          "month": "Mar-Apr"
+        },
+        {
+          "authors": ["Jannatul Ferdous", "Md. Sujan Ali"],
+          "title": "Time-Frequency Analysis of EEG Signal processing for Artifact Detection",
+          "journal": "International Journal of Science and Research (IJSR)",
+          "volume": 6,
+          "issue": 4,
+          "pages": "2013-2021",
+          "month": "April"
+        },
+        {
+          "authors": ["Jannatul Ferdous", "Md. Sujan Ali"],
+          "title": "A Comparison of Wiener and Kalman Filters for the Artifact Suppression from EEG Signal",
+          "journal": "International Journal of Science and Research (IJSR)",
+          "volume": 6,
+          "issue": 4,
+          "pages": "2029-2035",
+          "month": "April"
+        },
+        {
+          "authors": ["Md. Sujan Ali", "Mst. Jannatul Ferdous"],
+          "title": "Electroencephalography Signal Classification based on Sub-Band Common Spatial Pattern (SBCSP)",
+          "journal": "IOSR Journal of VLSI and Signal Processing (IOSR-JVSP)",
+          "volume": 7,
+          "issue": 2,
+          "version": "I",
+          "pages": "74-82",
+          "month": "Mar-Apr"
+        },
+        {
+          "authors": ["Sujan Ali", "Mst. Jannatul Ferdous"],
+          "title": "Multiband Common Spatial Pattern Based EEG Classification for Brain-Computer Interface",
+          "journal": "IOSR Journal of Computer Engineering (IOSRJCE)",
+          "volume": 19,
+          "issue": 2,
+          "version": "V",
+          "pages": "90-99",
+          "month": "Mar-Apr"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "articles": [
+        {
+          "authors": ["Sujan Ali", "Mst. Jannatul Ferdous", "Md. Ekramul Hamid", "Md. Khademul Islam Molla"],
+          "title": "Time-Frequency Coherence of Multichannel EEG Signals: Synchrosqueezing Transform Based Analysis",
+          "journal": "International Journal of Computer Science Trends and Technology (IJCST)",
+          "volume": 4,
+          "issue": 3,
+          "pages": "40-48",
+          "month": "May-Jun"
+        },
+        {
+          "authors": ["Jannatul Ferdous", "Md. Sujan Ali", "Md. Ekramul Hamid", "Md. Khademul Islam Molla"],
+          "title": "A Comparison of Butterworth Bandpass Filter and Discrete Wavelet Transform Filter for the Suppression of Ocular Artifact from EEG Signal",
+          "journal": "International Journal of Research in Engineering Technology",
+          "volume": 1,
+          "issue": 4,
+          "pages": "19-28",
+          "month": "May-Jun"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "articles": [
+        {
+          "authors": ["Mahbubun Nahar", "Md. Sujan Ali"],
+          "title": "An Improved Approach for Digital Image Edge Detection",
+          "journal": "International Journal of Recent Development in Engineering and Technology",
+          "volume": 2,
+          "issue": 3,
+          "month": "March"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "articles": [
+        {
+          "authors": ["Jannatul Ferdous", "Sujan Ali"],
+          "title": "A survey report for performance analysis of finite impulse response digital filter by using different window techniques",
+          "journal": "IJRET: International Journal of Research in Engineering and Technology",
+          "volume": 2,
+          "issue": 12,
+          "pages": "265-270",
+          "month": "Dec"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "articles": [
+        {
+          "authors": ["Jannatul Ferdous", "Sujan Ali"],
+          "title": "Performance Enhancement of Optical Communication System by High Speed P-I-N Photodiode",
+          "journal": "International Journal of Engineering and Technology (IJET)",
+          "volume": 9,
+          "issue": 1,
+          "pages": "881-887",
+          "month": "March"
+        },
+        {
+          "authors": ["Sujan Ali", "Mst. Jannatul Ferdous"],
+          "title": "A Combination of Laplacian Energy, Global and Adaptive Techniques for Degraded Document Image Binarization",
+          "journal": "IOSR Journal of Computer Engineering (IOSRJCE)",
+          "volume": 7,
+          "issue": 3,
+          "pages": "36-40",
+          "month": "Nov-Dec"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "articles": [
+        {
+          "authors": ["Mst. J. Ferdous", "D. K. Saha", "Zahid Hasan Mahmud", "M. Sujan Ali", "M. Zaman"],
+          "title": "Energy band gap, transmittance and structural properties study of L-Alanine: HBr optical organic material",
+          "journal": "The Dhaka University Journal of Science",
+          "volume": 56,
+          "issue": 2,
+          "pages": "201-204",
+          "month": "July"
+        }
+      ]
+    }
+  ]
+}
+],
+  "Conference_Proceedings": [
+    {
+      "authors": ["Sanjoy Kumar Saha", "Md. Sujan Ali"],
+      "title": "Data Adaptive Filtering Approach to Improve the Classification Accuracy of Motor Imagery for BCI",
+      "conference": "9th International Conference on Electrical and Computer Engineering",
+      "date": "20-22 December, 2016",
+      "location": "Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh"
+    },
+    {
+      "authors": ["Sujan Ali", "Mst Janntul Ferdous", "Md. Ekramul Hamid", "Md. Khademul Islam Molla"],
+      "title": "Time-Frequency Coherence Analysis of Multichannel Brain Signals Using Synchrosqueezing Transform",
+      "conference": "International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2)",
+      "date": "24-25 March 2016",
+      "location": "University of Rajshahi, Bangladesh"
+    },
+    {
+      "authors": ["Mst. Jannatul Ferdous", "Md. Sujan Ali"],
+      "title": "A comparison characteristics of silica Based optical fiber materials for low loss transmission",
+      "conference": "3rd International Conference on Structure, Processing and Properties of Materials, SPPM 2010",
+      "date": "24-26 February 2010",
+      "location": "Dhaka Sheraton Hotel and Bangladesh University of Engineering and Technology (BUET), Dhaka"
+    },
+    {
+      "authors": ["Md. Sujan Ali", "M. N. Haque", "M. Rahman", "Mst. Jannatul Ferdous"],
+      "title": "Evaluation of Stratigraphic Cross-section and Sub-surface Layers Formation Thickness in the Southern Part of Daulatpur Upazial, Kushtia Using Hydrogeological and Geoelectrical Techniques",
+      "conference": "International Physics Conference",
+      "page": "58",
+      "location": "Bangladesh University of Engineering and Technology (BUET), Bangladesh",
+      "date": "May 2009"
+    },
+    {
+      "authors": ["Md. Sujan Ali", "M. N. Haque", "M. Rahman", "M. Shahinuzzaman", "M. J. Ferdous"],
+      "title": "Determination of Aquifer Properties and Groundwater Potentialities Using Hydrogeological and Geoelectrical Techniques",
+      "conference": "An International Conference on DELTAS (Bangladesh Venue)",
+      "page": "6",
+      "date": "January 2008"
+    }
+  ],
+
+{
+  "Workshop_Participation": [
+    {
+      "participant": "Sujan Ali",
+      "workshop": "AuthorAID workshop on Research Writing Skills",
+      "organizers": "AuthorAID@INASP with Bangladesh Academy of Sciences",
+      "location": "BRAC Centre Inn, Dhaka",
+      "date": "17-21 May, 2009"
+    },
+    {
+      "participant": "Md. Sujan Ali",
+      "workshop": "Workshop on Self Assessment and Quality Assurance in Higher Education",
+      "organizers": "Quality Assurance and Accreditation Council, Division of the University Grants Commission, Sri Lanka",
+      "date": "3-12 February, 2012"
+    }
+  ]
+}
+  }
+}
+
+
+Professor Dr. Md. Saiful Islam
+
+{
+  "name": "Professor Dr. Md. Saiful Islam",
+  "designation": "Professor",
+  "department": "Computer Science and Engineering",
+  "area_of_interest": "Fuzzy Mathematics",
+  "contact_information": {
+    "mobile": ["01552-637446", "01706-667172"],
+    "email": ["saifulmath@yahoo.com", "saifulmath@gmail.com", "saiful@jkkniu.edu.bd"]
+  },
+  "academic_qualification": [
+    "Ph.D. from Department of Mathematics, University of Rajshahi, Bangladesh",
+    "M.Phil. from Department of Mathematics, University of Rajshahi, Bangladesh",
+    "M.Sc. (1st class 1st in Pure Mathematics) from Department of Mathematics, University of Rajshahi, Bangladesh",
+    "B.Sc. (Hons., 1st class 2nd) from Department of Mathematics, University of Rajshahi, Bangladesh",
+    "H.S.C. (1st division) from Govt. K.C. College, Jhenaidah, Bangladesh",
+    "S.S.C. (1st division) from Uttar Narayonpur High School, Dakbangla Bazar, Jhenaidah, Bangladesh"
+  ],
+  "experience": [
+    {
+      "position": "Professor",
+      "period": "April 03, 2020 to present",
+      "department": "Dept. of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh"
+    },
+    {
+      "position": "Associate Professor",
+      "period": "April 03, 2015 to April 02, 2020",
+      "department": "Dept. of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh"
+    },
+    {
+      "position": "Assistant Professor",
+      "period": "April 03, 2011 to April 02, 2015",
+      "department": "Dept. of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh"
+    },
+    {
+      "position": "Lecturer",
+      "period": "April 03, 2008 to April 02, 2011",
+      "department": "Dept. of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh"
+    },
+    {
+      "position": "Lecturer",
+      "period": "August 01, 2006 to April 02, 2008",
+      "department": "Dept. of Mathematics, Rajuk Uttara Model College, Sec-6, Uttara, Dhaka, Bangladesh"
+    },
+    {
+      "position": "Lecturer",
+      "period": "April 01, 2002 to July 31, 2006",
+      "department": "Dept. of Mathematics, Dhaka Shiksha Board Laboratory College, Mirpur-1, Dhaka, Bangladesh"
+    }
+  ],
+  "other_experience": {
+    "position": "Head of the department",
+    "department": "Dept. of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh",
+    "period": "May 01, 2014 to Dec 26, 2016"
+  },
+  "publications": [
+    {
+      "authors": ["Md. Sahadat Hossain", "Md. Saiful Islam", "Mousumi Akter"],
+      "title": "Level Separation of Fuzzy Pairwise Regular Bitopological Spaces",
+      "journal": "Journal of Mechanics of Continua And Mathematical Sciences",
+      "volume": 18,
+      "issue": 8,
+      "date": "August 2023",
+      "pages": "1-13"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Md. Sahadat Hossain", "Md. Aman Mahbub"],
+      "title": "On Intuitionistic Fuzzy r-Regular Spaces",
+      "journal": "International Journal of Fuzzy Mathematical Archive",
+      "volume": 19,
+      "issue": 2,
+      "date": "December 2021",
+      "pages": "149-159"
+    },
+    {
+      "authors": ["M. S. Islam", "R. Islam", "M. S. Hossain"],
+      "title": "On a Study on Intuitionistic Fuzzy r-Normal Spaces",
+      "journal": "Notes on Intuitionistic Fuzzy Sets",
+      "volume": 27,
+      "issue": 3,
+      "date": "September 2021",
+      "pages": "69-82"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Md. Sahadat Hossain", "Md. Asaduzzaman"],
+      "title": "Level Separation on Intuitionistic Fuzzy T2 Spaces",
+      "journal": "Journal of Mathematical and Computational Science",
+      "volume": 8,
+      "issue": 3,
+      "date": "May-June 2018",
+      "pages": "353-372"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Md. Sahadat Hossain", "Md. Asaduzzaman"],
+      "title": "Level Separation on Intuitionistic Fuzzy T1 Spaces",
+      "journal": "Journal of Bangladesh Academy of Science",
+      "volume": 42,
+      "issue": 1,
+      "date": "January-June 2018",
+      "pages": "73-85"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Md. Sahadat Hossain", "Md. Asaduzzaman"],
+      "title": "Level Separation on Intuitionistic Fuzzy T0 Spaces",
+      "journal": "International Journal of Fuzzy Mathematical Archive",
+      "volume": 13,
+      "issue": 2,
+      "date": "July-December 2017",
+      "pages": "123-133"
+    },
+    {
+      "authors": ["Tushar Kanti Saha", "Md. Saiful Islam", "A.B.M. Shawkat Ali"],
+      "title": "Novel Algorithm for Detecting Bipartite and Complete Bipartite Graph",
+      "journal": "International Journal of Applied Research on Information Technology and Computing",
+      "volume": 7,
+      "issue": 2,
+      "date": "May-August 2016",
+      "pages": "71-79"
+    },
+    {
+      "authors": ["Tushar Kanti Saha", "Md. Saiful Islam"],
+      "title": "SIAM - A Proposed Model to Improve the Performance of Software Professionals",
+      "journal": "Journal of Computing Technologies",
+      "volume": 4,
+      "issue": 2,
+      "date": "February 2015",
+      "pages": "143-147"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Tushar Kanti Saha"],
+      "title": "A Novel Approach for Redemption of Trapezoidal Rule",
+      "journal": "Journal of Computing Technologies",
+      "volume": 4,
+      "issue": 2,
+      "date": "February 2015",
+      "pages": "137-142"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Dr. Md. Asaduzzaman", "Dr. Md. Nazrul Islam Mondal"],
+      "title": "Stability of an SVI Epidemic Model",
+      "journal": "IOSR Journal of Mathematics",
+      "volume": 10,
+      "issue": 3,
+      "date": "May-June 2014",
+      "pages": "51-58"
+    },
+    {
+      "authors": ["Md. Saiful Islam"],
+      "title": "Bisectional Interpolation Method for Solving Algebraic and Transcendental Equation",
+      "journal": "Journal of Nazrul University",
+      "volume": 1,
+      "issue": 1,
+      "date": "January-June 2012",
+      "pages": "23-34"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "Dr. Md. Asaduzzaman", "Dr. Md. Nazrul Islam Mondal"],
+      "title": "Stability Analysis at DFE of an Epidemic Model in the Presence of a Preventive Vaccine",
+      "journal": "IOSR Journal of Mathematics",
+      "volume": 3,
+      "issue": 2,
+      "date": "September-October 2012",
+      "pages": "25-31"
+    },
+    {
+      "authors": ["Md. Saiful Islam"],
+      "title": "Bisectional Circle Method",
+      "journal": "Journal of Nazrul University",
+      "volume": 1,
+      "issue": 2,
+      "date": "June-December 2012",
+      "pages": "181-189"
+    },
+    {
+      "authors": ["Md. Saiful Islam", "A H M Kamal"],
+      "title": "Ratio Method for Solving Any Equation of Single Variable",
+      "journal": "International Journal of Engineering and Technology",
+      "volume": 6,
+      "issue": 2,
+      "date": "April-June 2009",
+      "pages": "487-493"
+    }
+  ]
+}
+
+Professor Dr. Mst Jannatul Ferdous
+
+{
+  "name": "Professor Dr. Mst Jannatul Ferdous",
+  "present_designation": "Professor",
+  "department": "Computer Science and Engineering",
+  "shared_resources": "See Course Materials",
+  "publications": "See All",
+  "area_of_interest": [
+    "Digital Signal Processing (DSP)",
+    "EEG signals Processing",
+    "Brain Computer Interfacing (BCI)",
+    "Biomedical engineering"
+  ],
+  "biography": {
+    "name": "Mst. Jannatul Ferdous, PhD",
+    "designation": "Professor, Dept. of Computer Science and Engineering",
+    "contact": {
+      "PABX": "09032-56212 (Ext-133)",
+      "Mobile": "+88 01710695925",
+      "Email": ["mjferdous_cse@jkkniu.edu.bd", "mjannatul@gmail.com"]
+    },
+    "research_interest": [
+      "Digital Signal Processing (DSP)",
+      "EEG signals Processing",
+      "Brain Computer Interfacing (BCI)",
+      "Biomedical engineering"
+    ],
+    "education": {
+      "PhD": {
+        "year": 2019,
+        "department": "Department of Computer Science and Engineering (CSE)",
+        "institution": "University of Rajshahi, Rajshahi, Bangladesh"
+      },
+      "MSc": {
+        "year": 2003,
+        "degree": "M.Sc. in Electrical and Electronic Engineering (EEE)",
+        "institution": "Islamic University, Kushtia, Bangladesh"
+      },
+      "BSc": {
+        "year": 2002,
+        "degree": "B.Sc. in Electrical and Electronic Engineering (EEE)",
+        "institution": "Islamic University, Kushtia, Bangladesh"
+      },
+      "HSC": {
+        "year": 1997,
+        "group": "Science Group",
+        "institution": "Kushtia Govt. University College, Kushtia, Bangladesh"
+      },
+      "SSC": {
+        "year": 1995,
+        "group": "Science Group",
+        "institution": "Police Line High School, Kushtia, Bangladesh"
+      },
+      "PhD_Thesis": "Real time implementation of multichannel EEG cleaning from muscular artifacts in brain computer interfacing (BCI) paradigm.",
+      "MSc_Thesis": "Experimental Study on Organic Semiconductor Required for Optoelectronic Devices"
+    },
+    "teaching_experience": {
+      "present_university": {
+        "professor": "June, 2020 to till date",
+        "associate_professor": "March 15, 2016 to June, 2020",
+        "assistant_professor": "March 15, 2011 to March 14, 2016",
+        "lecturer": "January 19, 2010 to March 14, 2011",
+        "department": "Department of Computer Science and Engineering (CSE)",
+        "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+      },
+      "past_university": {
+        "assistant_professor": "May 13, 2009 to January 18, 2010",
+        "lecturer": "May 13, 2006 to May 12, 2009",
+        "department": "Department of Information and Communication Technology (ICT)",
+        "institution": "Metropolitan University, Sylhet, Bangladesh"
+      }
+    },
+    "additional_responsibilities": [
+      "Member Secretary, Sexual Harassment Prevention Committee (Permanent Committee), JKKNIU",
+      "President, Regional Committee, bdSTEM, JKKNIU",
+      "Women Welfare secretary, One Bangladesh Mymensingh District Committee"
+    ],
+    "other_experiences": {
+      "Dolon_Chanpa_Hall_Direction": {
+        "provost": "23.08.2017 to 29.09.2019",
+        "house_tutor": "26.11.2012 to 30.05.2014"
+      }
+    },
+    "achievements_awards": [
+      "Received ICT Fellowship in the PhD program. ICT Division, Ministry of Post, Telecommunication and ICT, Bangladesh.",
+      "Received University Scholarship in the Graduate level for holding very good result.",
+      "Received University Scholarship in each year of the Undergraduate level for holding very good result.",
+      "Received one of the ten best posters presented in the Annual Conference held from 04-05 May, 2007, organized by the Bangladesh Physical Society.",
+      "Life member: Bangladesh Physical Society"
+    ],
+    "social_professional_links": [],
+    "courses_conducted": [
+      "Basic Electrical Engineering",
+      "Basic Electronics",
+      "Digital Electronics",
+      "Digital Signal Processing",
+      "Biomedical Engineering",
+      "Fiber Optics Communication",
+      "Computer Fundamentals and Programming Basics",
+      "Data Communications",
+      "Algorithms",
+      "Operating Systems",
+      "Microprocessors",
+      "Computer Networking",
+      "Wireless Communication",
+      "Electronic Communications",
+      "Computer Interfacing",
+      "Computer Architecture and Organization",
+      "Software Engineering",
+      "Applied Acoustics and Applied Optics",
+      "Radio and TV Engineering",
+      "Microelectronics",
+      "Advanced Electronic Communication",
+      "Satellite and Radar Communication",
+      "C/C++",
+      "Data Structures",
+      "Numerical Analysis",
+      "Wireless and Mobile Communication Networks",
+      "Technical Writing and Communication"
+    ],
+    "training": [
+      {
+        "course": "Teaching-Learning and Curriculum Development",
+        "location": "Graduate Training Institute, Bangladesh Agricultural University, Mymensingh",
+        "date": "07-13 July, 2012"
+      }
+    ],
+    "participation": {
+      "conferences": [
+        {
+          "year": 2016,
+          "event": "International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2)",
+          "location": "University of Rajshahi, Bangladesh",
+          "date": "24-25 March 2016"
+        },
+        {
+          "year": 2010,
+          "event": "International Conference on Structure, Processing and Properties of Materials",
+          "date": "24-26 February, 2010"
+        },
+        {
+          "year": 2009,
+          "event": "International Physics Conference, organized by the Bangladesh Physical Society (Physics for sustainable development in the 21st century)",
+          "location": "BUET, Dhaka, Bangladesh",
+          "date": "May 15-17, 2009"
+        },
+        {
+          "year": 2008,
+          "event": "International Conference on DELTAS (Bangladesh venue)",
+          "date": "6-13 January, 2008"
+        },
+        {
+          "year": 2007,
+          "event": "Annual Conference organized by the Bangladesh Physical Society (Physics Education and Employment)",
+          "location": "BUET, Dhaka, Bangladesh",
+          "date": "May 4-5, 2007"
+        }
+      ],
+      "seminars_workshops": [
+        {
+          "event": "International Workshop on Biomedical Signal Processing and System at CSE",
+          "location": "RU, Bangladesh",
+          "date": "March 21-23, 2014"
+        },
+        {
+          "event": "AuthorAID Research Writing Skill Workshop",
+          "organizer": "International Network for the Availability of Scientific Publications (INASP)",
+          "location": "Oxford, UK, BRAC Centre Inn Hotel, Dhaka, Bangladesh",
+          "date": "May 17-21, 2009"
+        }
+      ]
+    },
+    "projects": [
+      {"type": "Research Project", "source": "REC, JKKNIU", "year": 2021, "location": "Bangladesh"},
+      {"type": "Research Project", "source": "REC, JKKNIU", "year": 2020, "location": "Bangladesh"},
+      {"type": "Development Project", "source": "REC, JKKNIU", "year": 2019, "location": "Bangladesh"},
+      {"type": "Development Project", "source": "JKKNIU", "year": 2018, "location": "Bangladesh"},
+      {"type": "Research Project", "source": "UGC", "year": 2017, "location": "Bangladesh"}
+    ],
+    "publication_list": {
+      "journals": [
+        {
+          "authors": ["Umme Farhana", "Mst Jannatul Ferdous"],
+          "title": "Improving Motor Imagery EEG Signals Classification Accuracy with CSP by Available Machine Learning Approach.",
+          "journal": "Journal of Engineering Science",
+          "volume": 12,
+          "number": 2,
+          "pages": "66-77",
+          "date": "July 2021",
+          "doi": "https://doi.org/10.3329/jes.v12i2.54632"
+        },
+        {
+          "authors": ["Mst. Jannatul Ferdous", "Md. Sujan Ali", "Md. Ekramul Hamid", "Md. Khademul Islam Molla"],
+          "title": "Sub-band selection approach to artifact suppression from electroencephalography signal using hybrid wavelet transform.",
+          "journal": "International Journal of Advanced Robotic Systems",
+          "volume": 18,
+          "number": 1,
+          "year": 2021,
+          "identifier": "1729881421992269"
+        },
+        {
+          "authors": ["Sujan Ali", "Jannatul Ferdous", "Ekramul Hamid", "Khademul Islam Molla"],
+          "title": "A Novel Features Selection Approach with Common Spatial Pattern for EEG Based Brain-Computer Interface Implementation",
+          "journal": "IETE Journal of Research",
+          "year": 2019,
+          "doi": "10.1080/03772063.2019.1670106"
+        },
+        {
+          "authors": ["Shyama Nandi", "Mst. Jannatul Ferdous"],
+          "title": "Comparison between DWT and SWT Algorithms for EEG signal enhancement.",
+          "journal": "International Journal of Engineering and Technology",
+          "volume": 7,
+          "number": 4,
+          "pages": "88-93",
+          "year": 2015
+        }
+      ],
+      "conference_papers": [
+        {
+          "authors": ["Umme Farhana", "Mst Jannatul Ferdous", "Md. Sujan Ali", "Md. Khademul Islam Molla"],
+          "title": "Artifact removal from EEG signals using sub-band selection approach",
+          "conference": "Proceedings of 7th International Conference on Electrical and Computer Engineering, ICECE 2022",
+          "date": "December 15-17, 2022",
+          "location": "Khulna, Bangladesh"
+        }
+      ]
+    }
+  }
+}
+
+
+Professor Dr. Uzzal Kumar Prodhan
+Dr. Tushar Kanti Saha
+{
+  "name": "Dr. Tushar Kanti Saha",
+  "present_designation": "Professor",
+  "department": "Computer Science and Engineering",
+  "area_of_interest": [
+    "Information and Cyber Security",
+    "Cloud Computing",
+    "Post-quantum Cryptography",
+    "Homomorphic Encryption",
+    "Privacy-preserving Techniques",
+    "Data Mining and Machine Learning"
+  ],
+  "biography": {
+    "birth": {
+      "place": "Rajbari, Bangladesh",
+      "date": "1981-11-28"
+    },
+    "education": [
+      {
+        "degree": "Ph.D.",
+        "field": "Computer Science and Engineering",
+        "university": "Saitama University, Japan",
+        "year": 2018
+      },
+      {
+        "degree": "M.Sc.",
+        "field": "Computer Science and Engineering",
+        "university": "Islamic University, Kushtia, Bangladesh",
+        "year": 2004
+      },
+      {
+        "degree": "B.Sc.",
+        "field": "Computer Science and Engineering",
+        "university": "Islamic University, Kushtia, Bangladesh",
+        "year": 2003
+      }
+    ],
+    "current_position": "Associate Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh",
+    "research_interests": [
+      "ICT",
+      "Cryptography",
+      "Information Security",
+      "Cloud Computing",
+      "Data Mining",
+      "Machine Learning"
+    ],
+    "publications_count": {
+      "international_journals": 15,
+      "conference_papers": 10
+    },
+    "scholarships": [
+      {
+        "name": "MEXT Scholarship",
+        "awarding_body": "Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan",
+        "for": "Ph.D."
+      }
+    ],
+    "editorial_board_memberships": [
+      {
+        "journal": "Journal of Information Security (JIS)",
+        "publisher": "Scientific Research"
+      }
+    ]
+  },
+  "publications": {
+    "book_chapter": [
+      {
+        "authors": ["Tushar Kanti Saha", "A.B.M. Shawkat Ali"],
+        "title": "Web Application Security Attacks and Countermeasures",
+        "book_title": "Case Studies in Secure Computing - Achievements and Trends",
+        "publisher": "Taylor and Francis Group, CRC Press",
+        "pages": "343-371",
+        "year": 2014,
+        "doi": "10.1201/b17352",
+        "isbn": "9781138034136"
+      }
+    ],
+    "journals": [
+      {
+        "authors": ["Tushar Kanti Saha", "Takeshi Koshiba"],
+        "title": "Efficient Private Conjunctive Query Protocol Over Encrypted Data",
+        "journal": "Cryptography",
+        "volume": "5",
+        "issue": "2",
+        "pages": "2-29",
+        "publisher": "MDPI",
+        "year": 2021,
+        "doi": "10.3390/cryptography5010002",
+        "metrics": {
+          "cite_score": 3.1,
+          "scopus": true,
+          "quartile": "Q2"
+        }
+      },
+      {
+        "authors": ["Abdul Muyeed", "Tushar Kanti Saha", "Rubya Shaharin", "Uzzal Kumar Prodhan"],
+        "title": "The Prevalence and Severity Comparison of COVID-19 Disease in SAARC Affiliated Countries: Pattern Analysis during the First Wave in 2020",
+        "journal": "Journal of Health & Biological Sciences",
+        "volume": "9",
+        "issue": "1",
+        "pages": "1-7",
+        "publisher": "Instituto para o Desenvolvimento da Educacao, Brazil",
+        "year": 2021,
+        "indexed": "DOAJ"
+      },
+      {
+        "authors": ["Uzzal Kumar Prodhan", "Tushar Kanti Saha", "Rubya Shaharin", "Toufik Ahmed Emon", "Mohammad Zahidur Rahman"],
+        "title": "Implementation of Low Cost Remote Primary Healthcare Services through Telemedicine: Bangladesh Perspectives",
+        "journal": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+        "volume": "11",
+        "issue": "11",
+        "publisher": "SAI",
+        "year": 2020,
+        "doi": "10.14569/IJACSA.2020.0111118",
+        "indexed": "Scopus"
+      },
+      {
+        "authors": ["Abdul Muyeed", "Md Nure Alam Siddiqi", "Tushar Kanti Saha", "Md Abdul Goni"],
+        "title": "Infection and Death Patterns of COVID-19 Disease in Bangladesh",
+        "journal": "Journal of Health & Biological Sciences",
+        "volume": "8",
+        "issue": "1",
+        "pages": "1-7",
+        "publisher": "Instituto para o Desenvolvimento da Educacao, Brazil",
+        "year": 2020,
+        "indexed": "DOAJ"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Deevashwer Rathee", "Takeshi Koshiba"],
+        "title": "Efficient Protocols for Private Wildcards Pattern Matching",
+        "journal": "Journal of Information Security and Applications",
+        "volume": "55",
+        "pages": "102609",
+        "publisher": "Springer",
+        "year": 2020,
+        "doi": "10.1016/j.jisa.2020.102609",
+        "impact_factor": 2.327,
+        "quartile": "Q2"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Mayank Rathee", "Takeshi Koshiba"],
+        "title": "Efficient private database queries using ring-LWE somewhat homomorphic encryption",
+        "journal": "Journal of Information Security and Application",
+        "volume": "49",
+        "pages": "102406",
+        "publisher": "Springer",
+        "year": 2019,
+        "doi": "10.1016/j.jisa.2019.102406",
+        "impact_factor": 2.327,
+        "quartile": "Q2"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Takeshi Koshiba"],
+        "title": "Outsourcing private equality test to the cloud",
+        "journal": "Journal of Information Security and Application",
+        "volume": "43",
+        "pages": "83-98",
+        "publisher": "Springer",
+        "year": 2018,
+        "doi": "10.1016/j.jisa.2018.09.002",
+        "impact_factor": 2.327,
+        "quartile": "Q2"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Md. Saiful Islam", "A.B.M. Shawkat Ali"],
+        "title": "Novel Algorithms for Detecting Bipartite and Complete Bipartite Graph",
+        "journal": "International Journal of Applied Research on Information Technology and Computing",
+        "volume": "7",
+        "issue": "2",
+        "pages": "71-79",
+        "publisher": "Indianjournals",
+        "year": 2016,
+        "doi": "10.5958/0975-8089.2016.00007.5"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "A.B.M. Shawkat Ali"],
+        "title": "D2i2D: A novel secure approach for cloud storage with cost minimization",
+        "journal": "Journal of Software",
+        "volume": "11",
+        "issue": "8",
+        "pages": "787-802",
+        "publisher": "International Academy Publishing",
+        "year": 2016,
+        "doi": "10.17706/jsw.11.8.787-802"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Md. Saiful Islam"],
+        "title": "SIAM - A Proposed Model to Improve the Performance of Software Professionals",
+        "journal": "Journal of Computing Technologies",
+        "volume": "4",
+        "issue": "2",
+        "pages": "143-147",
+        "publisher": "JCTjournals",
+        "year": 2015
+      },
+      {
+        "authors": ["Md. Saiful Islam", "Tushar Kanti Saha"],
+        "title": "A Novel Approach for Redemption of Trapezoidal Rule",
+        "journal": "Journal of Computing Technologies",
+        "volume": "4",
+        "issue": "2",
+        "pages": "137-142",
+        "publisher": "JCTjournals",
+        "year": 2015
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "A.B.M. Shawkat Ali"],
+        "title": "Domain Specific Custom Search for Quicker Information Retrieval",
+        "journal": "International Journal of Information Retrieval Research",
+        "volume": "3",
+        "issue": "3",
+        "pages": "26-39",
+        "publisher": "IGI-Global",
+        "year": 2013,
+        "doi": "10.4018/ijirr.2013070102"
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Ahsan-Ul-Ambia"],
+        "title": "Code Generation Tools for Automated Server-side HTML form Validation",
+        "journal": "International Journal of Computer Science and Management Research (IJCSMR)",
+        "volume": "2",
+        "issue": "1",
+        "pages": "22-25",
+        "publisher": "IJCSMR",
+        "year": 2013
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Ahsan-Ul-Ambia"],
+        "title": "Mining the Web in Bengali Language: Opportunities and Future",
+        "journal": "Journal of Computing Technologies",
+        "volume": "1",
+        "issue": "8",
+        "pages": "22-25",
+        "publisher": "JCTjournals",
+        "year": 2012
+      },
+      {
+        "authors": ["Md. Mijanur Rahman", "Tushar Kanti Saha", "Md. Al-Amin Bhuiyan"],
+        "title": "Implementation of RSA algorithm for Speech Data Encryption and Decryption",
+        "journal": "International Journal of Multidisciplinary Research and Advances in Engineering",
+        "volume": "4",
+        "issue": "3",
+        "pages": "337-351",
+        "publisher": "Ascent Publication, India",
+        "year": 2012
+      },
+      {
+        "authors": ["Tushar Kanti Saha", "Md. Mijanur Rahman", "Md. Farukuzzaman Khan"],
+        "title": "Peak Based Clustering of Continuous Bengali Speech for Medium Vocabulary Speech Recognition System",
+        "journal": "International Journal of Applied Research on Information Technology and Computing",
+        "volume": "2",
+        "issue": "3",
+        "pages": "30-40",
+        "publisher": "Indianjournals",
+        "year": 2011
+      }
+    ]
+  }
+}
+
+
+Dr. Subrata Kumar Das
+
+{
+  "name": "Dr. Subrata Kumar Das",
+  "presentDesignation": "Professor",
+  "department": "Computer Science and Engineering",
+  "contact": {
+    "PABX": "09032-56212-125",
+    "mobile": "+88 01721006007",
+    "email": ["sdas_ce@yahoo.com", "sdas_ce@jkkniu.edu.bd"]
+  },
+  "education": [
+    {
+      "degree": "M.Sc",
+      "year": 2005,
+      "field": "Computer Science and Engineering",
+      "institution": "Islamic University, Kushtia, Bangladesh"
+    },
+    {
+      "degree": "B.Sc",
+      "year": 2004,
+      "field": "Computer Science and Engineering",
+      "institution": "Islamic University, Kushtia, Bangladesh"
+    },
+    {
+      "degree": "HSC",
+      "year": 1999,
+      "field": "Science Group",
+      "institution": "Govt. Sundarban Adarsha College, Khulna-9000, Bangladesh"
+    },
+    {
+      "degree": "SSC",
+      "year": 1997,
+      "field": "Science Group",
+      "institution": "Gazirhat H. N. High School, Kalia, Narail, Bangladesh"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Lecturer",
+      "from": "29 March 2008",
+      "to": "28 June 2009",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Institute of Science, Trade and Technology, Dhaka-1215, Bangladesh"
+    },
+    {
+      "role": "Lecturer",
+      "from": "29 June 2009",
+      "to": "4 August 2012",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh"
+    },
+    {
+      "role": "Assistant Professor",
+      "from": "5 August 2012",
+      "to": "18 May 2015",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh"
+    },
+    {
+      "role": "Assistant Professor",
+      "from": "19 May 2015",
+      "to": "29 April 2018",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+    },
+    {
+      "role": "Associate Professor",
+      "from": "30 April 2018",
+      "to": "15 January 2025",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+    },
+    {
+      "role": "Professor",
+      "from": "16 January 2025",
+      "to": "present",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+    }
+  ],
+  "administrativeRoles": [
+    {
+      "role": "Chairman",
+      "from": "08 January 2014",
+      "to": "18 May 2015",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh"
+    },
+    {
+      "role": "Assistant Proctor",
+      "from": "19 January 2010",
+      "to": "18 January 2011",
+      "institution": "Jessore University of Science and Technology, Jessore Sadar, Jessore-7408, Bangladesh"
+    }
+  ],
+  "areasOfInterest": [
+    "Distributed Database",
+    "Patient Data Management",
+    "Data Science",
+    "Machine Learning",
+    "Security"
+  ],
+  "coursesConducted": [
+    "CSE 205: Digital Logic Design",
+    "CSE 223: Database Management System",
+    "CSE 305: Theory of Computation",
+    "CSE 323: Compiler Design",
+    "CSE 411: Data Science",
+    "CSE 421: Machine Learning",
+    "CSE 437: Parallel and Distributed Processing",
+    "CSE 5405: Simulation and Modeling"
+  ],
+  "training": [
+    {
+      "year": 2013,
+      "title": "Training Course on Creative Teaching Techniques",
+      "organizedBy": "World Bank and University Grant Commission, Bangladesh"
+    }
+  ],
+  "publications": {
+    "journalPapers": [
+      {
+        "authors": "S. K. Das and M. Z. Rahman",
+        "title": "A secured compression technique based on encoding for sharing electronic patient data in slow-speed networks",
+        "journal": "Heliyon, Elsevier",
+        "volume": 8,
+        "issue": 10,
+        "year": 2022
+      },
+      {
+        "authors": "S. K. Das and M. Z. Rahman",
+        "title": "A middleware architecture to integrate and share health data from heterogeneous and diverse data sources",
+        "journal": "Iran Journal of Computer Science, Springer",
+        "volume": 5,
+        "issue": 3,
+        "year": 2022
+      },
+      {
+        "authors": "S. Roy, S. K. Das and A. H. M. Kamal",
+        "title": "A Multi-path Based Embedding Scheme at Perfect Maze",
+        "journal": "Indian Journal of Computer Science",
+        "volume": 7,
+        "issue": 1,
+        "year": 2022
+      },
+      {
+        "authors": "S. K. Das and M. Z. Rahman",
+        "title": "A Study on Machine Learning Algorithms with Different Encoding Techniques for Identifying the Right One for Patients’ Big Data",
+        "journal": "Jahangirnagar University Journal of Science, Jahangirnagar University",
+        "volume": 42,
+        "issue": 1,
+        "year": 2020
+      },
+      {
+        "authors": "S. K. Das and M. Z. Rahman",
+        "title": "Distinct Features of Healthcare Systems and An Architecture to Manage Healthcare Distributed Databases",
+        "journal": "International Journal of Computer Applications, FCS",
+        "volume": 175,
+        "issue": 24,
+        "year": 2020
+      },
+      {
+        "authors": "M. R. Mia, S. Roy, S. K. Das, and M. A. Rahman",
+        "title": "Mango leaf disease recognition using neural network and support vector machine",
+        "journal": "Iran Journal of Computer Science, Springer",
+        "volume": 3,
+        "year": 2020
+      },
+      {
+        "authors": "S. Roy, S. K. Das and I. Mandal",
+        "title": "Hadoop Periodic Jobs Using Data Blocks to Achieve Efficiency",
+        "journal": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
+        "volume": 3,
+        "issue": 3,
+        "year": 2018
+      },
+      {
+        "authors": "S. M. Shithil and S. K. Das",
+        "title": "School for All in One Box (SAOB): Providing Education as a Service (EAAS) to the Bottom of the Pyramid (BOP) People",
+        "journal": "Asian Journal of Research in Computer Science",
+        "volume": 1,
+        "issue": 1,
+        "year": 2018
+      },
+      {
+        "authors": "S. K. Das, S. Roy, D. Sarker and M. M. Rahman",
+        "title": "Energy Efficient Failure Recovery with Concurrent Execution in Hadoop Cluster",
+        "journal": "International Journal of Applied Research on Information Technology and Computing",
+        "volume": 7,
+        "issue": 1,
+        "year": 2016
+      },
+      {
+        "authors": "S. K. Das, M. A. Hossain, M. A. Sardar, R. K. Biswas, P. D. Nath",
+        "title": "Performance Analysis of Client Side Encryption Tools",
+        "journal": "International Journal of Advanced Computer Research",
+        "volume": 4,
+        "issue": 3,
+        "issueNumber": 16,
+        "year": 2014
+      },
+      {
+        "authors": "R. R. Ema, A. Akram, M. A. Hossain and S. K. Das",
+        "title": "Performance Analysis of DSDV, AODV and AOMDV Routing Protocols based on Fixed and Mobility Network Model in Wireless Sensor Network",
+        "journal": "Global Journal of Computer Science and Technology: E Network, Web & Security",
+        "volume": 14,
+        "issue": 6,
+        "year": 2014
+      },
+      {
+        "authors": "M. K. Islam and S. K. Das",
+        "title": "Determining Project Success Criteria by Perspective in Sub-Contracting Situation",
+        "journal": "Indian Journal of Advances in Computer & Information Engineering",
+        "volume": 1,
+        "issue": 1,
+        "year": 2013
+      },
+      {
+        "authors": "S. K. Das, P. C. Barman, M. A. Nashiry and B. C. Singh",
+        "title": "A New Termination Detection Protocol for Use in Diffusing Computation in Mobile ad Hoc Networks",
+        "journal": "APRN Journal of Science and Technology",
+        "volume": 2,
+        "issue": 2,
+        "year": 2012
+      },
+      {
+        "authors": "S. K. Das, A. U. Ambia, M. K. Islam and M. A. Hossain",
+        "title": "A New Termination Detection Algorithm for Distributed System to Reduce the Computational Delay",
+        "journal": "IJCSES",
+        "volume": 6,
+        "issue": 2,
+        "year": 2012
+      },
+      {
+        "authors": "M. A. Hossain, M. K. Islam, S. K. Das, and M. A. Nashiry",
+        "title": "Cryptanalyzing of message digest algorithms MD4 and MD5",
+        "journal": "International Journal on Cryptography and Information Security",
+        "volume": 2,
+        "issue": 1,
+        "year": 2012
+      },
+      {
+        "authors": "M. A. Nashiry, S. S. Sumi, S. K. Das and M. K. Islam",
+        "title": "TCP Performance over Mobile IP Wired-cum-Wireless Networks",
+        "journal": "Global Journal of Computer Science and Technology",
+        "volume": 12,
+        "issue": 9,
+        "pages": "53-59",
+        "year": 2012
+      },
+      {
+        "authors": "M. A. Nashiry, S. S. Sumi, S. K. Das and M. A. Hossain",
+        "title": "UDP over various routing protocols for mobile ad hoc networks",
+        "journal": "Journal of Innovation & Development Strategy",
+        "volume": 6,
+        "issue": 1,
+        "year": 2012
+      }
+    ],
+    "conferencePapers": [
+      {
+        "title": "A Study on Machine Learning Algorithms with Different Encoding Techniques for Identifying the Right One for Patients’ Big Data",
+        "conference": "2nd International Conference on Technology, Business and Justice towards Smart Bangladesh Systems and Security (ICTBJ 2023)",
+        "location": "JKKNIU, Mymensingh, Bangladesh",
+        "date": "June 05-06, 2023",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "A Watermarking Approach to Communicate Patient Data Securely from Distributed Sources",
+        "conference": "9th International Conference on Networking, Systems and Security (9th NSysS 2022)",
+        "location": "BUET, ACM, Cox’s Bazar, Bangladesh",
+        "date": "December 20-22, 2022",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "A New Watermarking Approach for Ensuring Patient Data Authentication Over a Low Quality Communication Environment",
+        "conference": "24th International Conference on Computer and Information Technology (ICCIT)",
+        "location": "Dhaka, Bangladesh",
+        "date": "December 18-20, 2021",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "Middleware to Integrate Patient Data from Heterogeneous Distributed Databases",
+        "conference": "International Conference on Engineering and Computer Science 2019 (ICESC’2019)",
+        "location": "Kuala Lumpur, Malaysia",
+        "date": "August 2019",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "Data Integration Architecture to Collect, Store and Retrieve Health Data from Distributed Sources",
+        "conference": "The 5th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2018)",
+        "location": "Dhaka, Bangladesh",
+        "date": "March 28-30, 2018",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "A Data Integration Architecture to Collect and Share Healthcare Data from Distributed Sources",
+        "conference": "3rd International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2016)",
+        "location": "Dhaka, Bangladesh",
+        "date": "May 2016",
+        "authors": ["Subrata Kumar Das", "Mohammad Zahidur Rahman"]
+      },
+      {
+        "title": "A Performance Evaluation of Cluster Hadoop Using Different Hadoop Components",
+        "conference": "IEEE International Conference on Computer and Communication Engineering (ICCCE), Kuala Lumpur, Malaysia",
+        "date": "May 2015",
+        "authors": ["Subrata Kumar Das"]
+      },
+      {
+        "title": "Using Mobile Apps to Provide Education as a Service to the Bottom of Pyramid People",
+        "conference": "The International Conference on Technology, Education and Development 2014 (INTED 2014), Valencia, Spain",
+        "date": "March 2014",
+        "authors": ["Subrata Kumar Das"]
+      },
+      {
+        "title": "A Study on Client Side Encryption Tool and Its Performance Analysis",
+        "conference": "The 10th International Conference on Computer Science and Information Technology (ICCSIT), Singapore",
+        "date": "August 2013",
+        "authors": ["Subrata Kumar Das"]
+      }
+    ]
+  },
+  "patents": [
+    {
+      "title": "A system and method for secured compression of patient data for sharing in slow speed networks",
+      "patentOffice": "Bangladesh Patent Office",
+      "applicationNumber": "BRI-18886-2023",
+      "date": "2023"
+    }
+  ]
+}
+
+
+Indrani Mandal
+{
+  "name": "Indrani Mandal",
+  "presentDesignation": "Associate Professor",
+  "department": "Computer Science and Engineering",
+  "sharedResources": "See Course Materials",
+  "publications": [
+    "Automated Readability Determination using Shallow & Syntactic Feature"
+  ],
+  "areaOfInterest": "",
+  "biography": "",
+  "email": "indranicsedu@yahoo.com",
+  "personalWebsiteBlog": ""
+}
+
+Pronab Kumar Mondal
+{
+  "name": "Pronab Kumar Mondal",
+  "presentDesignation": "Associate Professor",
+  "department": "Computer Science and Engineering",
+  "sharedResources": "See Course Materials",
+  "publications": [
+    {
+      "title": "A Novel Approach for Designing Online Testable Reversible Circuits",
+      "journal": "International Journal of Engineering Research and Development",
+      "volume": "5",
+      "issue": "2",
+      "date": "December 2012",
+      "pages": "39-44"
+    },
+    {
+      "title": "Segmentation of White Blood Cells Using Fuzzy C Means Segmentation Algorithm",
+      "journal": "IOSR-JCE",
+      "volume": "16",
+      "issue": "3",
+      "version": "IX",
+      "date": "May-Jun 2014",
+      "pages": "01-05"
+    }
+  ],
+  "areaOfInterest": "",
+  "biography": "",
+  "email": "bappycseru@gmail.com",
+  "personalWebsiteBlog": ""
+}
+
+Dr. Habiba Sultana
+{
+  "name": "Dr. Habiba Sultana",
+  "presentDesignation": "Associate Professor",
+  "department": "Computer Science and Engineering",
+  "sharedResources": "See Course Materials",
+  "areaOfInterest": [
+    "Digital Signal Processing",
+    "Digital Image Processing"
+  ],
+  "biography": {
+    "name": "Habiba Sultana",
+    "designation": "Assistant Professor",
+    "contact": {
+      "mobile": "01712623872",
+      "email": "srity.cse@gmail.com"
+    },
+    "researchInterest": [
+      "Digital Signal Processing",
+      "Digital Image Processing"
+    ],
+    "education": [
+      {
+        "degree": "M.S",
+        "year": 2012,
+        "field": "computer science & engineering",
+        "university": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+      },
+      {
+        "degree": "B.Sc. (Engg.)",
+        "year": 2010,
+        "field": "computer science & engineering",
+        "university": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+      },
+      {
+        "degree": "HSC",
+        "year": 2006,
+        "group": "Science Group",
+        "institution": "Trishal Mohila Degree College, Trishal, Mymensingh, Bangladesh"
+      },
+      {
+        "degree": "SSC",
+        "year": 2004,
+        "group": "Science Group",
+        "institution": "Islami Academy Trishal, Mymensingh, Bangladesh"
+      }
+    ],
+    "experience": {
+      "position": "Lecturer",
+      "duration": "10 January 2016 - present",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2220, Bangladesh"
+    },
+    "coursesConducted": [
+      "CSE 103: Discrete Mathematics",
+      "CSE 127: Numerical Methods",
+      "CSE 205: Digital Logic Design",
+      "CSE 309: Data communication",
+      "CSE 401: Software Engineering"
+    ],
+    "publications": [
+      {
+        "year": 2016,
+        "authors": "Habiba Sultana, AHM Kamal, M.M. Islam",
+        "title": "Enhancing the Robustness of Visual Degradation Based HAM Reversible Data Hiding",
+        "journal": "Journal of Computer Science",
+        "volume": 12,
+        "issue": 2,
+        "pages": "88-97"
+      }
+    ]
+  },
+  "email": "srity.cse@gmail.com",
+  "personalWebsiteBlog": ""
+}
+
+Rubya Shaharin
+{
+  "name": "Rubya Shaharin",
+  "presentDesignation": "Assistant Professor",
+  "department": "Computer Science and Engineering",
+  "sharedResources": "See Course Materials",
+  "areaOfInterest": [],
+  "biography": "",
+  "publications": [
+    {
+      "title": "Time Delay Neural Network for Bengali Speech Recognition",
+      "authors": "Rubya Shaharin, Uzzal Kumar Prodhan, Dr. Md. Mijanur Rahman",
+      "journal": "International Journal of Advanced Research in Computer Science & Technology (IJARCST)",
+      "volume": 3,
+      "issue": 4,
+      "date": "Oct to Dec 2015"
+    },
+    {
+      "title": "Performance Study of TDNN Training Algorithm for Speech Recognition",
+      "authors": "Rubya Shaharin, Uzzal Kumar Prodhan, Md. Mijanur Rahman",
+      "journal": "International Journal of Advanced Research in Computer Science & Technology (IJARCST)",
+      "volume": 2,
+      "issue": 4,
+      "date": "Oct to Dec 2014"
+    }
+  ],
+  "email": "sunshine.rr1@gmail.com",
+  "personalWebsiteBlog": ""
+}
+
+Dr. Mahbubun Nahar
+{
+  "name": "Dr. Mahbubun Nahar",
+  "presentDesignation": "Assistant Professor",
+  "department": "Computer Science and Engineering",
+  "sharedResources": "See Course Materials",
+  "areaOfInterest": [
+    "Steganography",
+    "DNA steganography",
+    "Cyber Security",
+    "Information Security",
+    "Image processing",
+    "Computer Vision",
+    "Machine Learning"
+  ],
+  "biography": "",
+  "publications": {
+    "journalArticles": [
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "DNA Steganography to Enhance Security in Banking Sector",
+        "journal": "Security and Privacy",
+        "year": 2025,
+        "volume": 8,
+        "issue": 4,
+        "articleId": "e70060",
+        "impactFactor": 2.1,
+        "indexing": "Q3",
+        "publisher": "Wiley"
+      },
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "DNA Steganography: Embedding the Secret Messages Using Glass Stack Method and Detecting Errors Made by Different Attacks",
+        "journal": "International Journal of Computers and Applications",
+        "year": 2024,
+        "volume": 46,
+        "issue": 7,
+        "pages": "508-525",
+        "indexing": "Q2",
+        "publisher": "Taylor & Francis Group"
+      },
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "Protecting health data in the cloud through steganography: A table-driven, blind method using neural networks and bit-shuffling algorithm",
+        "journal": "Journal of Network and Computer Applications",
+        "year": 2023,
+        "volume": 217,
+        "articleId": "103689",
+        "impactFactor": 8.7,
+        "indexing": "Q1",
+        "publisher": "Elsevier"
+      },
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "Novel Algorithm for Multi-Time Data Implantation in a Special Cyber-Manufacturing Architecture",
+        "journal": "Algorithms",
+        "year": 2022,
+        "volume": 15,
+        "issue": 10,
+        "articleId": "335",
+        "impactFactor": 2.3,
+        "indexing": "Q2",
+        "publisher": "MDPI"
+      },
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "Improvement of Single Seeded Region Growing Algorithm on Image Segmentation",
+        "journal": "Global Journal of Computer Science and Technology",
+        "year": 2018,
+        "pages": "15-22",
+        "volume": 18,
+        "issue": null
+      },
+      {
+        "authors": "Mahbubun Nahar",
+        "title": "Comparison Study and Result Analysis of Image Segmentation Approaches",
+        "journal": "International Journal of Applied Research on Information Technology and Computing",
+        "year": 2016,
+        "volume": 6,
+        "issue": 3,
+        "month": "December"
+      },
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "An Improved Approach for Digital Image Edge Detection",
+        "journal": "International Journal of Recent Development in Engineering and Technology",
+        "year": 2014,
+        "volume": 2,
+        "issue": 3,
+        "month": "March"
+      }
+    ],
+    "conferenceArticles": [
+      {
+        "authors": "Mahbubun Nahar, et al.",
+        "title": "An efficient use of Toffoli quantum gate for boosting the embedding capacity in DNA sequence",
+        "conference": "9th IEEE Asia-Pacific Conference on Computer Science and Data Engineering",
+        "location": "Gold Coast, Australia",
+        "year": 2022
+      }
+    ]
+  },
+  "email": "mahbubacse@jkkniu.edu.bd",
+  "personalWebsiteBlog": ""
+}
+
+Kazi Mahmudul Hassan
+{
+  "name": "Kazi Mahmudul Hassan",
+  "present_designation": "Assistant Professor (On Study Leave)",
+  "department": "Computer Science and Engineering",
+  "contact": {
+    "mobile": "+8801676019438",
+    "email": ["kmhassan@jkkniu.edu.bd", "munnakazi92@gmail.com"]
+  },
+  "area_of_interest": [
+    "Brain Computer Interfacing",
+    "Biomedical Signal Processing",
+    "Speech Processing",
+    "Audio Signal Processing",
+    "Bioinformatics",
+    "Machine Learning"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc.",
+      "year": 2014,
+      "field": "Computer Science & Engineering",
+      "institution": "University of Rajshahi, Bangladesh"
+    },
+    {
+      "degree": "B.Sc.",
+      "year": 2013,
+      "field": "Computer Science & Engineering",
+      "institution": "University of Rajshahi, Bangladesh"
+    },
+    {
+      "degree": "HSC",
+      "year": 2009,
+      "group": "Science",
+      "institution": "Govt. Science College, Tejgaon, Dhaka"
+    },
+    {
+      "degree": "SSC",
+      "year": 2007,
+      "group": "Science",
+      "institution": "Govt. Science College Attached High School, Tejgaon, Dhaka"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Assistant Professor",
+      "duration": "04 April 2019 - Present",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2224, Bangladesh"
+    },
+    {
+      "position": "Lecturer",
+      "duration": "24 October 2016 - 03 April 2019",
+      "institution": "Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh-2224, Bangladesh"
+    },
+    {
+      "position": "Lecturer",
+      "duration": "13 January 2016 - 23 October 2016",
+      "institution": "Varendra University, Rajshahi, Bangladesh"
+    }
+  ],
+  "awards": [
+    "Information Technology Engineers Examination (ITEE) Level-2 Certification - (Exam-April 2014)"
+  ],
+  "courses_conducted": [
+    "CSE 321: Computer Networks",
+    "CSE 403: Computer Graphics",
+    "CSE 407: Communication Engineering",
+    "CSE 127: Numerical Methods",
+    "CSE 303: Operating System"
+  ],
+  "trainings": [
+    {
+      "title": "National Mobile Application Development Program",
+      "organizer": "ICT Division, Rajshahi, Bangladesh",
+      "date": "1-5 February, 2014"
+    }
+  ],
+  "participation": [
+    {
+      "year": 2016,
+      "events": [
+        "International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2), University of Rajshahi"
+      ]
+    },
+    {
+      "year": 2015,
+      "events": [
+        "Inter-Academia Asia Conference, Shizuoka University, Japan",
+        "NASA Space Apps Challenge Hackathon, Chattagram, Bangladesh",
+        "Mobile App Development BootCamp in Rajshahi (guest lecturer)",
+        "National Hackathon, Dhaka (Runners Up - Team 'Matrix')"
+      ]
+    },
+    {
+      "year": 2014,
+      "events": [
+        "Second APSIPA Intl. Workshop on Biomedical Signal Processing (BioSiPS), University of Rajshahi",
+        "BUET CodeHub-2014, Dhaka",
+        "National Mobile App Development Program, ICT Division"
+      ]
+    },
+    {
+      "year": 2013,
+      "events": [
+        "Seminar on Emerging Researches in Computer Application, University of Rajshahi"
+      ]
+    },
+    {
+      "year": 2011,
+      "events": [
+        "Programming Contest in Dept. of CSE, University of Rajshahi (3rd Position)",
+        "ACM ICPC Regional Contest, Dhaka"
+      ]
+    }
+  ],
+  "publications": {
+    "journal_articles": [
+      {
+        "year": 2017,
+        "title": "A Method for Voiced/Unvoiced Classification of Noisy Speech by Analyzing Time-Domain Features of Spectrogram Image",
+        "authors": "Kazi Mahmudul Hassan, Ekramul Hamid, Khademul Islam Molla",
+        "journal": "Science Journal of Circuits, Systems and Signal Processing",
+        "volume": "6",
+        "issue": "2",
+        "pages": "6-12"
+      },
+      {
+        "year": 2016,
+        "title": "An Improvement in Representation of Audio Signal in Time-Frequency Plane using EMD-2TEMD Based Approach",
+        "authors": "Kazi Mahmudul Hassan, Dr. Ekramul Hamid, Takayoshi Nakai",
+        "journal": "Rajshahi University Journal of Science and Engineering",
+        "volume": "44",
+        "pages": "141-150"
+      }
+    ],
+    "conference_articles": [
+      {
+        "year": 2015,
+        "title": "Time-Frequency Representation of Audio Signal using 2T-EMD based Hilbert Spectrum",
+        "authors": "Kazi Mahmudul Hassan, Dr. Ekramul Hamid",
+        "conference": "Inter-Academia Asia Conference 2015",
+        "location": "Shizuoka University, Shizuoka, Japan",
+        "date": "30 Nov-2 Dec, 2015"
+      }
+    ]
+  },
+  "email": "munnakazi92@gmail.com",
+  "personal_website": null
+}
+
+
+Prof. Dr. Md. Mijanur Rahman
+{
+  "personal_information": {
+    "name": "Prof. Dr. Md. Mijanur Rahman",
+    "designation": "Professor",
+    "department": "Computer Science and Engineering",
+    "university": "Jatiya Kabi Kazi Nazrul Islam University",
+    "email": "mijan@jkkniu.edu.bdh",
+    "website": "https://jkkniu.edu.bd/teachers_personal_page/?t=301",
+    "shared_resources": "See Course Materials",
+    "areas_of_interest": [
+      "AI and Machine Learning",
+      "Digital Speech and Image processing",
+      "Neural Networks",
+      "IoT and Biometric Technology"
+    ]
+  },
+  "biography": {
+    "education": [
+      {
+        "degree": "B.Sc. (Hons)",
+        "field": "Computer Science and Engineering",
+        "institution": "Islamic University, Kushtia",
+        "result": "First-class first"
+      },
+      {
+        "degree": "M.Sc.",
+        "field": "Computer Science and Engineering",
+        "institution": "Islamic University, Kushtia",
+        "result": "First-class first"
+      },
+      {
+        "degree": "Ph.D.",
+        "field": "Computer Science and Engineering",
+        "institution": "Jahangirnagar University",
+        "year": "2014",
+        "supervisor": "Professor Dr. Md. Al-Amin Bhuiyan"
+      },
+      {
+        "degree": "Post-Doctoral Fellow",
+        "institution": "UGC",
+        "year": "2022"
+      }
+    ],
+    "employment_history": [
+      {
+        "position": "Professor",
+        "institution": "Jatiya Kabi Kazi Nazrul Islam University",
+        "department": "Computer Science and Engineering",
+        "period": "April 2008 - Present",
+        "details": "Served as Lecturer, Assistant Professor, and Associate Professor prior"
+      },
+      {
+        "position": "Instructor (Tech) Computer",
+        "institution": "Govt. Polytechnic Institute",
+        "period": "December 2005 - April 2008"
+      },
+      {
+        "position": "Head of Computer Department",
+        "institution": "Jhenaidah Polytechnic Institute",
+        "period": "2006-2007"
+      },
+      {
+        "position": "Technical Manager",
+        "institution": "Preparation of Voter List and NID Card Project",
+        "period": "2007-2008"
+      }
+    ],
+    "professional_memberships": [
+      {
+        "organization": "IEEE",
+        "section": "Bangladesh",
+        "since": 2020
+      }
+    ]
+  },
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Performance analysis of a parameterized minutiae-based approach for securing fingerprint templates",
+        "authors": ["Md Mijanur Rahman", "Tanjarul Islam Mishu", "Md Al Amin Bhuiyan"],
+        "journal": "Journal of Information Security and Applications",
+        "volume": "67(103209)",
+        "year": 2022,
+        "publisher": "Elsevier",
+        "doi": "https://doi.org/10.1016/j.jisa.2022.103209",
+        "metrics": ["SCOPUS", "Q1", "CS:7.6", "IF: 4.96"]
+      },
+      {
+        "title": "The evolving roles and impacts of 5G enabled technologies in healthcare: The world epidemic COVID-19 issues",
+        "authors": ["M.M. Rahman", "F. Khatun", "S.I. Sami et al."],
+        "journal": "Array",
+        "year": 2022,
+        "publisher": "Elsevier",
+        "doi": "https://doi.org/10.1016/j.array.2022.100178",
+        "metrics": ["SCOPUS"]
+      },
+      {
+        "title": "A comprehensive study of artificial intelligence and machine learning approaches in confronting the coronavirus (COVID-19) pandemic",
+        "authors": ["Md Mijanur Rahman", "Fatema Khatun", "Sadia Islam Sami", "Ashik Uzzaman", "Md Al Amin Bhuiyan", "Tiong Sieh Kiong"],
+        "journal": "International Journal of Health Services",
+        "volume": "51(4)",
+        "year": 2021,
+        "pages": "446-461",
+        "doi": "10.1177/00207314211017469",
+        "metrics": ["WoS IF: 2.181", "SCIE & SCOPUS", "Q2"]
+      },
+      {
+        "title": "Prospective methodologies in hybrid renewable energy systems for energy prediction using artificial neural networks",
+        "authors": ["Md Mijanur Rahman", "Mohammad Shakeri", "Sieh Kiong Tiong et al."],
+        "journal": "Sustainability",
+        "volume": "13(4)",
+        "year": 2021,
+        "publisher": "MDPI",
+        "doi": "10.3390/su13042393",
+        "metrics": ["WoS IF: 3.889 & SCOPUS", "Q1"]
+      },
+      {
+        "title": "Network-Based Genetic Profiling Reveals Cellular Pathway Differences Between Follicular Thyroid Carcinoma and Follicular Thyroid Adenoma",
+        "authors": ["Hossain, M.A.", "Asa, T.A.", "Rahman, M.M.", "Uddin, S.", "Moustafa, A.A.", "Quinn, J.M.W.", "Moni, M.A."],
+        "journal": "International Journal of Environmental Research and Public Health",
+        "volume": "17(4)",
+        "year": 2020,
+        "pages": "1373",
+        "doi": "10.3390/ijerph17041373",
+        "metrics": ["WoS IF: 4.799 & SCOPUS", "Q1"]
+      },
+      {
+        "title": "A Comparative Study and Performance Analysis of ATM Card Fraud Detection Techniques",
+        "authors": ["Rahman, M.M.", "Saha, A.R."],
+        "journal": "Journal of Information Security",
+        "volume": "10",
+        "year": 2019,
+        "pages": "188-197"
+      },
+      {
+        "title": "Extracting Text Information from Digital Images",
+        "authors": ["Md. Mijanur Rahman", "Mahnuma Rahman Rinty", "Fouzia Risdin"],
+        "journal": "International Journal of Scientific & Engineering Research",
+        "volume": "10(6)",
+        "year": 2019,
+        "pages": "1350-1356"
+      },
+      {
+        "title": "Improvement of Single Seeded Region Growing Algorithm on Image Segmentation",
+        "authors": ["Mahbubun Nahar", "Md. Sujan Ali", "Md. Mijanur Rahman"],
+        "journal": "Global Journal of Computer Science and Technology",
+        "volume": "18(1)",
+        "year": 2018,
+        "pages": "14-22"
+      },
+      {
+        "title": "Implementing a Search Engine for Bangladeshi E-Commerce Product",
+        "authors": ["Md. Mijanur Rahman", "Razia Sultana Rupa", "Hasan Mahmud Tuhin"],
+        "journal": "Global Journal of Computer Science and Technology",
+        "volume": "18(1)",
+        "year": 2018,
+        "pages": "29-34"
+      },
+      {
+        "title": "Vulnerabilities of Fingerprint Authentication Systems and Their Securities",
+        "authors": ["Tanjarul Islam Mishu", "Md. Mijanur Rahman"],
+        "journal": "International Journal of Computer Science and Information Security",
+        "volume": "16(3)",
+        "year": 2018,
+        "pages": "99-104",
+        "metrics": ["IF: 0.702", "SCI"]
+      }
+      // 33 additional journal articles available in full dataset
+    ],
+    "conference_proceedings": [
+      {
+        "title": "Developing a Real-Time Touchless Human-Computer Interaction using Hand Gesture Recognition",
+        "authors": ["Md. Mijanur Rahman", "Ashik Uzzaman", "Md. Aktaruzzaman"],
+        "conference": "IEEE CS BDC Summer Symposium",
+        "year": 2023,
+        "publisher": "IEEE Computer Society Bangladesh Chapter"
+      },
+      {
+        "title": "Prospective Methodology of Hand Gesture Image Processing for Human-Computer Interaction Systems",
+        "authors": ["Md. Mijanur Rahman", "Ashik Uzzaman", "Md. Aktaruzzaman"],
+        "conference": "Nazrul University 2nd International Conference on Technology, Business, and Justice towards Smart Bangladesh",
+        "year": 2023
+      },
+      {
+        "title": "Dynamic Thresholding with Short-Time Signal Features in Continuous Bangla Speech Segmentation",
+        "authors": ["Md. Mijanur Rahman", "Mahnuma Rahman Rinty"],
+        "conference": "International Conference on Paradigms of Computing, Communication and Data Sciences",
+        "year": 2023,
+        "publisher": "Springer",
+        "doi": "https://doi.org/10.1007/978-981-19-8742-7_17"
+      },
+      {
+        "title": "Implementing Deep Neural Network Based Encoder-Decoder Framework for Image Captioning",
+        "authors": ["Md. Mijanur Rahman", "Ashik Uzzaman", "Sadia Islam Sami"],
+        "conference": "IEEE SPICSCON",
+        "year": 2022,
+        "publisher": "IEEE",
+        "doi": "10.1109/SPICSCON54707.2021.9885414",
+        "metrics": ["SCOPUS", "WoS", "IET"]
+      },
+      {
+        "title": "FCJ2020: Generating Fingerprint Templates with Image Processing and Verification",
+        "authors": ["Md. Mijanur Rahman", "Tanjarul Islam Mishu"],
+        "conference": "5th International Conference on Computing Sciences",
+        "year": 2021,
+        "publisher": "IEEE",
+        "doi": "10.1109/ICCS54944.2021.00068",
+        "metrics": ["SCOPUS", "WoS", "IET"]
+      }
+      // 20 additional conference proceedings available in full dataset
+    ],
+    "book_chapters": [
+      {
+        "title": "Challenges and Prospective of AI and 5G-Enabled Technologies in Emerging Applications during the Pandemic",
+        "authors": ["Md. Mijanur Rahman", "Fatema Khatun"],
+        "book": "Industry 4.0 - Perspectives and Applications",
+        "publisher": "IntechOpen",
+        "year": 2023,
+        "doi": "10.5772/intechopen.109450"
+      },
+      {
+        "title": "Text Information Extraction from Digital Image Documents Using Optical Character Recognition",
+        "authors": ["Md. Mijanur Rahman", "Mahnuma Rahman Rinty"],
+        "book": "Computational Intelligence in Image and Video Processing",
+        "publisher": "CRC, Taylor & Francis",
+        "year": 2023,
+        "doi": "10.1201/9781003218111"
+      },
+      {
+        "title": "Study on Introducing Biometric Fingerprint Authentication in Automated Student Attendance System",
+        "authors": ["Rahman, M. M."],
+        "book": "New Visions in Science and Technology Vol. 4",
+        "year": 2021,
+        "pages": "121-131",
+        "doi": "10.9734/bpi/nvst/v4/4580F"
+      }
+    ],
+    "books": [
+      {
+        "title": "Pandemic vs Technology: AI and 5G Powered Emerging Technologies and Applications",
+        "publisher": "Notion Press",
+        "year": 2023,
+        "isbn": "9798888496268",
+        "url": "https://notionpress.com/read/pandemic-vs-technology"
+      },
+      {
+        "title": "Continuous Bangla Speech Processing: Segmentation, Classification and Recognition",
+        "publisher": "bpi publication",
+        "year": 2022,
+        "isbn_print": "978-93-5547-173-4",
+        "isbn_ebook": "978-93-5547-181-9",
+        "doi": "10.9734/bpi/mono/978-93-5547-173-4"
+      }
+    ]
+  },
+  "research_projects": [
+    {
+      "title": "Study on advanced dynamic thresholding with short-term signal features in continuous Bangla speech segmentation",
+      "period": "2022-2023"
+    },
+    {
+      "title": "A comprehensive study on the evolving roles and impacts of 5G enabled technologies in healthcare: World epidemic COVID-19 issues",
+      "period": "2021-2022"
+    },
+    {
+      "title": "Secure Template Generation Technique for Protecting Fingerprint Patterns from Security Attacks",
+      "period": "2019-2020"
+    },
+    {
+      "title": "OCR-Based Text Information Extraction from Digital Images",
+      "period": "2018-2019"
+    },
+    {
+      "title": "Biometric Student Registration and Verification System",
+      "period": "2017-2018"
+    },
+    {
+      "title": "Developing Student Attendance System Based on Fingerprint Recognition",
+      "period": "2015-2016"
+    },
+    {
+      "title": "Bangla Voice Command Driven System",
+      "period": "2011-2012"
+    }
+  ]
+}
+
+Dr. Md. Selim Al Mamun
+{
+  "name": "Dr. Md. Selim Al Mamun",
+  "designation": "Professor",
+  "department": "Computer Science and Engineering",
+  "faculty": "Faculty of Science and Engineering",
+  "email": "mamun0013@gmail.com",
+  "phone": "01856255559",
+  "publications": [
+    {
+      "authors": [
+        "Dr. Md. Selim Al Mamun",
+        "Dr. Uzzal Kumar Prodhan",
+        "Pronab Kumar Mondal",
+        "Md. Abdur Rahim",
+        "Kazi Kamal Hossain"
+      ],
+      "title": "Segmentation of White Blood Cells using Fuzzy C Means Segmentation Algorithm",
+      "publisher": "IOSR Journal of Computer Engineering",
+      "type": "Publication",
+      "publication_date": "2014-06-30"
+    },
+    {
+      "authors": [
+        "Dr. Md. Selim Al Mamun",
+        "Dr. Uzzal Kumar Prodhan",
+        "Pronab Kumar Mondal"
+      ],
+      "title": "A Novel Approach for Designing Online Testable Reversible Circuits",
+      "publisher": "International Journal of Engineering Research and Development",
+      "type": "Publication",
+      "publication_date": "2012-12-30"
+    },
+    {
+      "authors": [
+        "Dr. Md. Selim Al Mamun",
+        "Dr. Uzzal Kumar Prodhan",
+        "Indrani Mandal"
+      ],
+      "title": "Quantum Cost Optimization for Reversible Carry Skip BCD Adder",
+      "publisher": "International Journal of Science and Technology (IJST)",
+      "type": "Publication",
+      "publication_date": "2012-10-30"
+    }
+  ]
+}
+
+

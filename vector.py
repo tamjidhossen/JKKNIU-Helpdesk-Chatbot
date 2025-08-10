@@ -1,4 +1,5 @@
 from langchain_ollama import OllamaEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -12,6 +13,10 @@ from config import (
 
 # Initialize embeddings and text splitter
 embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
+# embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+# # vector = embeddings.embed_query("Hello world")
+# # print(vector[:5])
+
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=CHUNK_SIZE,
     chunk_overlap=CHUNK_OVERLAP,

@@ -1,0 +1,107 @@
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Area of Interest:
+- Information and Cyber Security
+- Cloud Computing
+- Post-quantum Cryptography
+- Homomorphic Encryption
+- Privacy-preserving Techniques
+- Data Mining and Machine Learning
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Birth Information:
+Born on November 28, 1981 in Rajbari, Bangladesh
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Education:
+Ph.D. (2018): Computer Science and Engineering, Saitama University, Japan
+M.Sc. (2004): Computer Science and Engineering, Islamic University, Kushtia, Bangladesh
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Current Position:
+Associate Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University, Trishal, Mymensingh, Bangladesh
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Research Interests:
+- ICT
+- Cryptography
+- Information Security
+- Cloud Computing
+- Data Mining
+- Machine Learning
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Publications Count:
+International Journals: 15
+Conference Papers: 10
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Scholarships:
+MEXT Scholarship from Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan for Ph.D.
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Book Chapter:
+Tushar Kanti Saha, A.B.M. Shawkat Ali. "Web Application Security Attacks and Countermeasures" in Case Studies in Secure Computing - Achievements and Trends. Taylor and Francis Group, CRC Press, Pages 343-371, 2014. DOI: 10.1201/b17352, ISBN: 9781138034136
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2021):
+Tushar Kanti Saha, Takeshi Koshiba. "Efficient Private Conjunctive Query Protocol Over Encrypted Data" Cryptography, Volume 5, Issue 2, Pages 2-29, MDPI, 2021. DOI: 10.3390/cryptography5010002. Cite Score: 3.1, Scopus: Yes, Quartile: Q2
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2021):
+Abdul Muyeed, Tushar Kanti Saha, Rubya Shaharin, Uzzal Kumar Prodhan. "The Prevalence and Severity Comparison of COVID-19 Disease in SAARC Affiliated Countries: Pattern Analysis during the First Wave in 2020" Journal of Health & Biological Sciences, Volume 9, Issue 1, Pages 1-7, Instituto para o Desenvolvimento da Educacao, Brazil, 2021. Indexed: DOAJ
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2020):
+Uzzal Kumar Prodhan, Tushar Kanti Saha, Rubya Shaharin, Toufik Ahmed Emon, Mohammad Zahidur Rahman. "Implementation of Low Cost Remote Primary Healthcare Services through Telemedicine: Bangladesh Perspectives" International Journal of Advanced Computer Science and Applications (IJACSA), Volume 11, Issue 11, SAI, 2020. DOI: 10.14569/IJACSA.2020.0111118, Indexed: Scopus
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2020):
+Abdul Muyeed, Md Nure Alam Siddiqi, Tushar Kanti Saha, Md Abdul Goni. "Infection and Death Patterns of COVID-19 Disease in Bangladesh" Journal of Health & Biological Sciences, Volume 8, Issue 1, Pages 1-7, Instituto para o Desenvolvimento da Educacao, Brazil, 2020. Indexed: DOAJ
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2020):
+Tushar Kanti Saha, Deevashwer Rathee, Takeshi Koshiba. "Efficient Protocols for Private Wildcards Pattern Matching" Journal of Information Security and Applications, Volume 55, Pages 102609, Springer, 2020. DOI: 10.1016/j.jisa.2020.102609, Impact Factor: 2.327, Quartile: Q2
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2019):
+Tushar Kanti Saha, Mayank Rathee, Takeshi Koshiba. "Efficient private database queries using ring-LWE somewhat homomorphic encryption" Journal of Information Security and Application, Volume 49, Pages 102406, Springer, 2019. DOI: 10.1016/j.jisa.2019.102406, Impact Factor: 2.327, Quartile: Q2
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2018):
+Tushar Kanti Saha, Takeshi Koshiba. "Outsourcing private equality test to the cloud" Journal of Information Security and Application, Volume 43, Pages 83-98, Springer, 2018. DOI: 10.1016/j.jisa.2018.09.002, Impact Factor: 2.327, Quartile: Q2
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2016):
+Tushar Kanti Saha, Md. Saiful Islam, A.B.M. Shawkat Ali. "Novel Algorithms for Detecting Bipartite and Complete Bipartite Graph" International Journal of Applied Research on Information Technology and Computing, Volume 7, Issue 2, Pages 71-79, Indianjournals, 2016. DOI: 10.5958/0975-8089.2016.00007.5
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2016):
+Tushar Kanti Saha, A.B.M. Shawkat Ali. "D2i2D: A novel secure approach for cloud storage with cost minimization" Journal of Software, Volume 11, Issue 8, Pages 787-802, International Academy Publishing, 2016. DOI: 10.17706/jsw.11.8.787-802
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2015):
+Tushar Kanti Saha, Md. Saiful Islam. "SIAM - A Proposed Model to Improve the Performance of Software Professionals" Journal of Computing Technologies, Volume 4, Issue 2, Pages 143-147, JCTjournals, 2015
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2015):
+Md. Saiful Islam, Tushar Kanti Saha. "A Novel Approach for Redemption of Trapezoidal Rule" Journal of Computing Technologies, Volume 4, Issue 2, Pages 137-142, JCTjournals, 2015
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2013):
+Tushar Kanti Saha, A.B.M. Shawkat Ali. "Domain Specific Custom Search for Quicker Information Retrieval" International Journal of Information Retrieval Research, Volume 3, Issue 3, Pages 26-39, IGI-Global, 2013. DOI: 10.4018/ijirr.2013070102
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2013):
+Tushar Kanti Saha, Ahsan-Ul-Ambia. "Code Generation Tools for Automated Server-side HTML form Validation" International Journal of Computer Science and Management Research (IJCSMR), Volume 2, Issue 1, Pages 22-25, IJCSMR, 2013
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2012):
+Tushar Kanti Saha, Ahsan-Ul-Ambia. "Mining the Web in Bengali Language: Opportunities and Future" Journal of Computing Technologies, Volume 1, Issue 8, Pages 22-25, JCTjournals, 2012
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2012):
+Md. Mijanur Rahman, Tushar Kanti Saha, Md. Al-Amin Bhuiyan. "Implementation of RSA algorithm for Speech Data Encryption and Decryption" International Journal of Multidisciplinary Research and Advances in Engineering, Volume 4, Issue 3, Pages 337-351, Ascent Publication, India, 2012
+
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Publications (2011):
+Tushar Kanti Saha, Md. Mijanur Rahman, Md. Farukuzzaman Khan. "Peak Based Clustering of Continuous Bengali Speech for Medium Vocabulary Speech Recognition System" International Journal of Applied Research on Information Technology and Computing, Volume 2, Issue 3, Pages 30-40, Indianjournals, 2011

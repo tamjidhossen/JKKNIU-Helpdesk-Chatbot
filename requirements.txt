@@ -1,4 +1,5 @@
 langchain
-langchain-ollama
+langchain_google_genai
+# langchain-ollama
 langchain-chroma
 python-dotenv
