@@ -22,11 +22,11 @@ VECTOR_DB_PATH = "./chroma_langchain_db"
 COLLECTION_NAME = "university_helpdesk"
 
 # Text splitting configuration
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 50
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 200
 
 # Retrieval configuration
-RETRIEVAL_K = 5
+RETRIEVAL_K = 10
 
 # Data paths
 DATA_DIR = "Data"

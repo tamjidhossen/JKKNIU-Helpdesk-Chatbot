@@ -1,5 +1,5 @@
 Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
-Shared Resources: See Course Materials
+Shared Resources: 
 
 Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
 Publication:
@@ -8,14 +8,6 @@ Authors: Rubya Shaharin, Uzzal Kumar Prodhan, Dr. Md. Mijanur Rahman. Title: "Ti
 Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
 Publication:
 Authors: Rubya Shaharin, Uzzal Kumar Prodhan, Md. Mijanur Rahman. Title: "Performance Study of TDNN Training Algorithm for Speech Recognition". Journal: International Journal of Advanced Research in Computer Science & Technology (IJARCST), Volume: 2, Issue: 4, Date: Oct to Dec 2014.
-
-Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
-Publication:
-Authors: DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. Title: "Time Delay Neural Network for Bangali Speech Recognition". Publisher: International Journal of Advanced Research in Computer Science & Technology, Type: Publication, Date: 30 Dec 2015.
-
-Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
-Publication:
-Authors: DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. Title: "Performance Study of TDNN Training Algorithm for Speech Recognition". Publisher: International Journal of Advanced Research in Computer Science & Technology (IJARCST 2014), Type: Publication, Date: 30 Dec 2014.
 
 Rubya Shaharin - Assistant Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
 Publication:

@@ -88,6 +88,9 @@ Journal Articles (Publications 27-23):
      Authors: Tushar Kanti Saha, Abdul Muyeed, Rubya Shaharin, Uzzal Kumar Prodhan  
      Journal: Journal of Health & Biological Sciences  
      Date: May 9, 2021  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [24] "A Noble Cost Effective Distributed Electronic Health System for Patient Data Handling: Bangladesh Perspectives"  
      Authors: Uzzal Kumar Prodhan, Md Sadiq Iqbal, Md Nasim Akter, Khusbun Nahar Anita, Md. Forhad Alam, Al Amin Hossain, Md. Mazharul Islam  
      Journal: International Journal of Computer Science and Information Security  
@@ -111,6 +114,9 @@ Journal Articles (Publications 22-18):
      Authors: Md. Sadiq Iqbal, Md. Nasim Akter, Md. Imran Hossain, Shaikh Imran Hossain, Md. Aminur Reza Siam, Uzzal Kumar Prodhan  
      Journal: International Journal of Computer Science and Information Security  
      Volume: 17, No. 2, February 2019  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [19] "Design and Implementation of an advanced telemedicine model for the rural people of Bangladesh"  
      Authors: Uzzal Kumar Prodhan, Mohammad Zahidur Rahman, Israt Jahan  
      Journal: Technology and Health Care Journal  
@@ -130,6 +136,9 @@ Journal Articles (Publications 17-13):
      Authors: Toufik Ahmed Emon, Uzzal Kumar Prodhan, Mohammad Zahidur Rahman, Israt Jahan  
      Journal: International Journal of Advanced Computer Science and Application  
      Volume: 9, No. 1, 2018  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [15] "A survey on the assessment of the present states and opportunities of telemedicine in Bangladesh"  
      Authors: Uzzal Kumar Prodhan, Mohammad Zahidur Rahman, Israt Jahan  
      Journal: International Journal of Computer Science and Information Security  
@@ -153,6 +162,9 @@ Journal Articles (Publications 12-08):
      Authors: Md. Selim Al Mamun, Indrani Mandal, Uzzal Kumar Prodhan  
      Journal: International Journal of Science and Technology (IJST)  
      Volume: 1 No. 10, October 2012, Pages: 499-504  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [10] "A Novel Approach for Designing Online Testable Reversible Circuits"  
      Authors: Md. Selim Al Mamun, Pronab Kumar Mondal, Uzzal Kumar Prodhan  
      Journal: International Journal of Engineering Research and Development (IJESD)  
@@ -180,6 +192,9 @@ Journal Articles (Publications 07-03):
      Authors: Probob Kumar Mondal, Uzzal Kumar Prodhan, Md. Selim Al Mamun, Md. Abdur Rahim, Kazi Kamal Hossain  
      Journal: IOSR Journal of Computer Engineering  
      Volume: 16, Issue 3  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [04] "Implementation of Back-Propagation Neural Network for Isolated Bangla Speech Recognition"  
      Authors: Md. Ali Hossain, Md. Mijanur Rahman, Uzzal Kumar Prodhan, Md. Farukuzzaman Khan  
      Journal: International Journal of Information Sciences and Techniques (IJIST)  
@@ -212,6 +227,9 @@ Conference Proceedings (Publications 08-05):
      Conference: International Conference on Recent Advances in Mathematical and Physical Sciences (ICRAMPS)  
      Venue: Jahangirnagar University  
      Date: January 27-29, 2018  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [06] "Development of a portable telemedicine tool for remote diagnosis of telemedicine application"  
      Authors: Uzzal Kumar Prodhan, Mohammad Zahidur Rahman, Israt Jahan, Ahsin Abid, Mohtasim Bellah  
      Conference: IEEE International Conference in Computing, Computer and Automation (ICCCA 2017)  
@@ -234,6 +252,9 @@ Conference Proceedings (Publications 04-01):
      Conference: First International Conference on Advanced Information and Communication Technology 2016 (ICAICT 2016)  
      Venue: Chittagong Independent University, Chittagong, Bangladesh  
      Year: 2016  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Journal Articles
 [02] "Telemedicine in South Asia for Rural People: Current Scenario and Future Recommendations"  
      Authors: Uzzal Kumar Prodhan, Mohammad Zahidur Rahman, Israt Jahan  
      Conference: 1st International Conference on Computer & Information Engineering (ICCIE 2015)  
@@ -384,6 +405,9 @@ Conference Experiences and Presentations:
 • Delivered talk as Dean of Faculty of Science and Engineering at 2nd International Conference on Technology, Business and Justice towards Smart Bangladesh (ICBJT 2023), JKKNIU (June 5, 2023)  
 • Session Chair at ICBJT 2023 Keynote Session on Science and Machine Learning, JKKNIU (June 5, 2023)  
 • Resource Person at International Conference on Environment and Sustainable Development 2022, North-Eastern Hill University, TURA Campus, Meghalaya, India (2022)  
+
+Dr. Uzzal Kumar Prodhan - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Conference Experiences and Presentations:
 • Session Chair and Co-chair at International Conference on Environment and Sustainable Development 2022, North-Eastern Hill University, TURA Campus, Meghalaya, India (2022)  
 • Presented paper at IEEE International Conference in Computing, Computer and Automation (ICCCA 2017), Galgotias University, Greater Noida, Uttar Pradesh, India (2017)  
 • Presented paper at IEEE International Conference in Computing, Computer and Automation (ICCCA-2016), Galgotias University, Greater Noida, Uttar Pradesh, India (2016)  

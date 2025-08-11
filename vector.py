@@ -5,6 +5,7 @@ from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 import json
+import time
 from config import (
     EMBEDDING_MODEL, VECTOR_DB_PATH, COLLECTION_NAME,
     CHUNK_SIZE, CHUNK_OVERLAP, RETRIEVAL_K,
@@ -12,10 +13,10 @@ from config import (
 )
 
 # Initialize embeddings and text splitter
-embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
-# embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
-# # vector = embeddings.embed_query("Hello world")
-# # print(vector[:5])
+# embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
+embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+# vector = embeddings.embed_query("Hello world")
+# print(vector[:5])
 
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=CHUNK_SIZE,
@@ -25,86 +26,6 @@ text_splitter = RecursiveCharacterTextSplitter(
 db_location = VECTOR_DB_PATH
 add_documents = not os.path.exists(db_location)
 
-if add_documents:
-    documents = []
-    
-    # Load and chunk Q&A data
-    with open(QA_FILE, "r", encoding="utf-8") as f:
-        qa_content = f.read()
-    
-    # Split Q&A content into chunks
-    qa_chunks = text_splitter.split_text(qa_content)
-    
-    for i, chunk in enumerate(qa_chunks):
-        if chunk.strip():
-            document = Document(
-                page_content=chunk.strip(),
-                metadata={"source": "Q&A", "chunk": i}
-            )
-            documents.append(document)
-    
-    # Load and process structured data
-    with open(STRUCTURE_FILE, "r", encoding="utf-8") as f:
-        structured_data = json.load(f)
-    
-    # Process university info
-    uni_info = structured_data["university"]
-    uni_text = f"University: {uni_info['name']}\nLocation: {uni_info['location']}\nFaculties: {uni_info['faculties']}\nDepartments: {uni_info['departments']}\nStudents: {uni_info['students']}"
-    
-    # Add residential halls info
-    halls = uni_info["residential_halls"]
-    halls_text = "Residential Halls:\n" + "\n".join([f"- {hall['name']} ({hall['gender']})" for hall in halls])
-    uni_text += f"\n{halls_text}"
-    
-    print("Print Uni_text: ")
-    print(uni_text)
-
-    # Chunk university info if it's long
-    uni_chunks = text_splitter.split_text(uni_text)
-    for i, chunk in enumerate(uni_chunks):
-        document = Document(
-            page_content=chunk,
-            metadata={"source": "structured_data", "type": "university_info", "chunk": i}
-        )
-        documents.append(document)
-    
-    print("Uni_text chunked")
-    print(uni_chunks)
-
-    # Process faculty info (chunk each faculty member's info)
-    cse_dept = structured_data["departments"][0]
-    for j, teacher in enumerate(cse_dept["teachers"]):
-        # Handle phone field properly (could be string, list, or None)
-        phone = teacher.get('phone', 'N/A')
-        if isinstance(phone, list):
-            phone = ', '.join(phone)
-        elif phone is None:
-            phone = 'N/A'
-    
-    teacher_text = f"Name: {teacher['name']}\nDesignation: {teacher['designation']}\nDepartment: Computer Science and Engineering\nEmail: {teacher['email']}\nPhone: {phone}\nResearch Areas: {', '.join(teacher.get('research_areas', []))}\nCourses: {', '.join(teacher.get('courses_taught', []))}"
-    
-    # Usually faculty info is short, but chunk if needed
-    teacher_chunks = text_splitter.split_text(teacher_text)
-    for i, chunk in enumerate(teacher_chunks):
-        document = Document(
-            page_content=chunk,
-            metadata={"source": "structured_data", "type": "faculty", "faculty_id": j, "chunk": i}
-        )
-        documents.append(document)
-
-    # Process authority info (chunk each authority member's info)
-    for j, authority in enumerate(structured_data["authority"]):
-        auth_text = f"Name: {authority['name']}\nDesignation: {authority['designation']}\nEmail: {authority['email']}\nOffice: {authority.get('office', 'N/A')}"
-        
-        # Chunk authority info if needed
-        auth_chunks = text_splitter.split_text(auth_text)
-        for i, chunk in enumerate(auth_chunks):
-            document = Document(
-                page_content=chunk,
-                metadata={"source": "structured_data", "type": "authority", "authority_id": j, "chunk": i}
-            )
-            documents.append(document)
-
 # Create vector store
 vector_store = Chroma(
     collection_name=COLLECTION_NAME,
@@ -113,7 +34,36 @@ vector_store = Chroma(
 )
 
 if add_documents:
-    vector_store.add_documents(documents=documents)
-    print(f"Added {len(documents)} chunks to the vector store")
+    documents = []
+    
+    total_chunks = 0
+    for num in range(15):
+        # Load and chunk Teachers data
+        with open(f"Data/CSE_Teachers/t{num + 1}.txt", "r", encoding="utf-8") as f:
+            teacher_content = f.read()
+        
+        # Split Teachers content into chunks
+        teacher_chunks = text_splitter.split_text(teacher_content)
+        
+        for i, chunk in enumerate(teacher_chunks):
+            if chunk.strip():
+                document = Document(
+                    page_content=chunk.strip(),
+                    metadata={"source": f"t{num + 1}.txt", "chunk": i}
+                )
+                documents.append(document)
+        
+        doc_len = len(documents)
+        if doc_len >= 50: 
+            total_chunks += doc_len
+            print(f"Adding {doc_len} chunks to vectore store")
+            vector_store.add_documents(documents=documents)
+            documents = []
+            time.sleep(60) # gemini embedding has 30,000 TPM
 
+    if documents:
+        vector_store.add_documents(documents=documents)
+
+    print(f"Total chunks added: {total_chunks}")
+    
 retriever = vector_store.as_retriever(search_kwargs={"k": RETRIEVAL_K})
