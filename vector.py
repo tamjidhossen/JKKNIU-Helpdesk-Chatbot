@@ -59,7 +59,7 @@ if add_documents:
             print(f"Adding {doc_len} chunks to vectore store")
             vector_store.add_documents(documents=documents)
             documents = []
-            time.sleep(60) # gemini embedding has 30,000 TPM
+            # time.sleep(60) # gemini embedding has 30,000 TPM
 
     if documents:
         vector_store.add_documents(documents=documents)
