@@ -8,10 +8,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 import time
 from vector import retriever
-from config import LLM_MODEL, CHATBOT_TEMPLATE
+from config import LLM_MODEL, CHATBOT_TEMPLATE, GEMINI_MODEL
 
 # model = OllamaLLM(model=LLM_MODEL)
-model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
+model = ChatGoogleGenerativeAI(model=GEMINI_MODEL)
 
 template = CHATBOT_TEMPLATE
 

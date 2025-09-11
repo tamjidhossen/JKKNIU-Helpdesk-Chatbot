@@ -16,6 +16,8 @@ else:
 # Model configurations
 EMBEDDING_MODEL = "nomic-embed-text"
 LLM_MODEL = "gemma3"
+GEMINI_MODEL = "gemini-2.5-flash"
+GOOGLE_EMBEDDING_MODEL = "models/gemini-embedding-001"
 
 # Vector store configuration
 VECTOR_DB_PATH = "./chroma_langchain_db"

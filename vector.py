@@ -9,12 +9,12 @@ import time
 from config import (
     EMBEDDING_MODEL, VECTOR_DB_PATH, COLLECTION_NAME,
     CHUNK_SIZE, CHUNK_OVERLAP, RETRIEVAL_K,
-    QA_FILE, STRUCTURE_FILE
+    QA_FILE, STRUCTURE_FILE, GOOGLE_EMBEDDING_MODEL
 )
 
 # Initialize embeddings and text splitter
-# embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
-embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
+embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
+# embeddings = GoogleGenerativeAIEmbeddings(model=GOOGLE_EMBEDDING_MODEL)
 # vector = embeddings.embed_query("Hello world")
 # print(vector[:5])
 
