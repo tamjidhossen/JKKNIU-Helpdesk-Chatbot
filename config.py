@@ -28,7 +28,7 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 
 # Retrieval configuration
-RETRIEVAL_K = 10
+RETRIEVAL_K = 15
 
 # Data paths
 DATA_DIR = "Data"
