@@ -3,3 +3,5 @@ langchain_google_genai
 # langchain-ollama
 langchain-chroma
 python-dotenv
+rich
+markdown
