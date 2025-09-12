@@ -100,7 +100,7 @@ def main():
         question = get_user_input()
         
         if question.lower() in ['quit', 'exit', 'q']:
-            console.print("Goodbye!")
+            console.print("[yellow]Goodbye! 👋[/yellow]")
             break
         
         if not question.strip():
