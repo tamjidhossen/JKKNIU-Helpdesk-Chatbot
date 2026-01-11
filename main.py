@@ -15,12 +15,14 @@ from rich.rule import Rule
 load_dotenv()
 
 from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
-from config import CHATBOT_TEMPLATE, GEMINI_MODEL
+from config import CHATBOT_TEMPLATE, GEMINI_MODEL, LLM_MODEL
 
 console = Console()
 model = ChatGoogleGenerativeAI(model=GEMINI_MODEL)
+# model = ChatOllama(model=LLM_MODEL)
 template = CHATBOT_TEMPLATE
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
