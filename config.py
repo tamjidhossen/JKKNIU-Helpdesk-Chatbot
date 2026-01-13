@@ -15,8 +15,8 @@ else:
 
 # Model configurations
 EMBEDDING_MODEL = "nomic-embed-text"
-LLM_MODEL = "gemma3"
-GEMINI_MODEL = "gemini-2.5-flash"
+LLM_MODEL = "deepseek-r1:1.5b"
+GEMINI_MODEL = "gemma-3-27b-it"
 GOOGLE_EMBEDDING_MODEL = "models/gemini-embedding-001"
 
 # Vector store configuration

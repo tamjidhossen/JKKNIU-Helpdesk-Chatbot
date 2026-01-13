@@ -37,9 +37,15 @@ if add_documents:
     documents = []
     
     total_chunks = 0
-    for num in range(15):
+    
+    # Dynamically find all teacher files
+    import glob
+    teacher_files = sorted(glob.glob("Data/CSE_Teachers/t*.txt"))
+    
+    for file_path in teacher_files:
+        filename = os.path.basename(file_path)
         # Load and chunk Teachers data
-        with open(f"Data/CSE_Teachers/t{num + 1}.txt", "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             teacher_content = f.read()
         
         # Split Teachers content into chunks
@@ -49,7 +55,7 @@ if add_documents:
             if chunk.strip():
                 document = Document(
                     page_content=chunk.strip(),
-                    metadata={"source": f"t{num + 1}.txt", "chunk": i}
+                    metadata={"source": filename, "chunk": i}
                 )
                 documents.append(document)
         
