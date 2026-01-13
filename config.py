@@ -30,6 +30,14 @@ CHUNK_OVERLAP = 200
 # Retrieval configuration
 RETRIEVAL_K = 15
 
+# Feature Flags (Milestone 0)
+USE_QUERY_REWRITE = True    # Use LLM to rewrite informal queries
+USE_HYBRID_RETRIEVAL = True  # Use BM25 + Vector search
+USE_RERANKER = True         # Use Cross-Encoder for reranking
+USE_MMR = False              # Use Maximal Marginal Relevance
+USE_SCORE_THRESHOLD = False  # Filter by similarity score
+DEBUG_EVIDENCE = True        # Print used sources to console
+
 # Data paths
 DATA_DIR = "Data"
 QA_FILE = os.path.join(DATA_DIR, "Q&A.txt")
@@ -42,13 +50,14 @@ UNIVERSITY_NAME = "Jatiya Kabi Kazi Nazrul Islam University"
 CHATBOT_TEMPLATE = """
 You are a helpful university helpdesk chatbot for {university_name}.
 
-Answer the question based only on the following context: {{context}}
+Context:
+{{context}}
 
 Question: {{question}}
 
 Instructions:
-- Provide accurate and helpful information based on the context
-- If the context doesn't contain enough information to answer the question, say "I don't have enough information to answer that question. Please contact the university directly."
-- Be friendly and professional
-- Include relevant contact information when appropriate
+1. Answer the question **ONLY** based on the provided context above. Do not use outside knowledge.
+2. If the context does not contain the answer, say "I don't have enough information to answer that question based on the available documents." and ask a clarifying question if possible.
+3. Be friendly, professional, and concise. Avoid long generic intros like "Hello! Here is the list...".
+4. Do not mention "context" or "retrieved documents" in your answer to the user. Just answer the question directly.
 """.format(university_name=UNIVERSITY_NAME)

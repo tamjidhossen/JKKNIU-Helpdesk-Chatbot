@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "category": "Aggregated/List",
+        "question": "Which professors have research interests in Machine Learning or Data Mining?",
+        "expected_answer_keywords": [
+            "Tushar Kanti Saha",
+            "Sujan Ali",
+            "Rubya Shaharin"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Aggregated/List",
+        "question": "List the teachers who completed their B.Sc. from Islamic University, Kushtia.",
+        "expected_answer_keywords": ["Sujan Ali", "Jannatul Ferdous"]
+    },
+    {
+        "id": 3,
+        "category": "Curriculum Detail",
+        "question": "What are the prerequisites for the CSE 433 Robotics Technology course?",
+        "expected_answer_keywords": ["CSE 205", "CSE 227"]
+    },
+    {
+        "id": 4,
+        "category": "Curriculum Detail",
+        "question": "Is there a course on 'Nazrul Studies' in the CSE curriculum? If so, in which semester?",
+        "expected_answer_keywords": [
+            "GED 179",
+            "First Year Second Semester",
+            "1st Year 2nd Semester"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Comparison",
+        "question": "Which department has more seats: CSE or English?",
+        "expected_answer_keywords": ["English", "55", "CSE", "40"]
+    },
+    {
+        "id": 6,
+        "category": "Admission/Rules",
+        "question": "Can I get admission to CSE if I got a 'B' grade in Physics in HSC but didn't take Mathematics?",
+        "expected_answer_keywords": ["No", "must have studied Mathematics"]
+    },
+    {
+        "id": 7,
+        "category": "Admission/Rules",
+        "question": "What are the specific subject mark requirements in the GST test for CSE admission?",
+        "expected_answer_keywords": ["07/25", "Physics", "Math"]
+    },
+    {
+        "id": 8,
+        "category": "Specific Fact",
+        "question": "Who is currently serving as the Head of the Department of CSE?",
+        "expected_answer_keywords": ["Sujan Ali"]
+    },
+    {
+        "id": 9,
+        "category": "Specific Fact",
+        "question": "What is the email address of the Deputy Director of CSE?",
+        "expected_answer_keywords": ["humanbeing206@gmail.com"]
+    },
+    {
+        "id": 10,
+        "category": "Routine/Time",
+        "question": "Does the CSE-15 batch have any class on Thursday?",
+        "expected_answer_keywords": ["CSE-400(B)", "Project", "Thesis"]
+    },
+    {
+        "id": 11,
+        "category": "Hallucination Trap",
+        "question": "Who is the professor of Quantum Computing at JKKNIU CSE?",
+        "expected_answer_keywords": [
+            "Tushar Kanti Saha",
+            "Post-quantum Cryptography"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Hallucination Trap",
+        "question": "How many swimming pools does the university have?",
+        "expected_answer_keywords": [
+            "information not available",
+            "I don't know"
+        ]
+    },
+    {
+        "id": 13,
+        "category": "Complex/Vague",
+        "question": "Tell me about the thesis requirements for 4th year students.",
+        "expected_answer_keywords": [
+            "CSE 400(A)",
+            "CSE 400(B)",
+            "1.5 credits",
+            "3.0 credits",
+            "defense",
+            "presentation"
+        ]
+    },
+    {
+        "id": 14,
+        "category": "Complex/Vague",
+        "question": "Are there any faculty members who specialize in biomedical engineering or healthcare?",
+        "expected_answer_keywords": [
+            "Jannatul Ferdous",
+            "A. H. M. Kamal",
+            "Healthcare Services"
+        ]
+    },
+    {
+        "id": 15,
+        "category": "Negative Constraint",
+        "question": "I am a humanity student. Can I apply for CSE?",
+        "expected_answer_keywords": ["No", "Science unit only"]
+    },
+    {
+        "id": 16,
+        "category": "Complex/Aggregation",
+        "question": "Which teacher has the highest number of papers published in cse jkkniu?",
+        "expected_answer_keywords": []
+    },
+    {
+        "id": 17,
+        "category": "Complex/Aggregation",
+        "question": "Are there any teachers in jkkniu who were previously students of jkkniu?",
+        "expected_answer_keywords": ["Rubya Shaharin", "Mahnuma Rinty", "Habiba Sultana", "Mahabuba"]
+    }
+]

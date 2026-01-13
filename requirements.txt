@@ -6,3 +6,6 @@ python-dotenv
 rich
 markdown
 langchain-text-splitters
+rank_bm25
+sentence-transformers
+langchain-community
