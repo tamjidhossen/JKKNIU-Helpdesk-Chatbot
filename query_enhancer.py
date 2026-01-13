@@ -16,7 +16,9 @@ Usage:
 
 import os
 import re
-from typing import List, Tuple, Optional
+import pickle
+import networkx as nx
+from typing import List, Tuple, Optional, Dict, Any
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -28,7 +30,7 @@ from langchain_core.documents import Document
 from rank_bm25 import BM25Okapi
 from config import (
     EMBEDDING_MODEL, VECTOR_DB_PATH, COLLECTION_NAME,
-    GEMINI_MODEL, RETRIEVAL_K, UNIVERSITY_NAME
+    GEMINI_MODEL, RETRIEVAL_K, UNIVERSITY_NAME, GRAPH_PATH
 )
 from api_keys import get_next_api_key
 
@@ -277,6 +279,134 @@ class HybridRetriever:
         return fused_results[:k]
 
 
+class GraphRetriever:
+    """Retrieves context from the knowledge graph."""
+    
+    def __init__(self, graph_path: str = GRAPH_PATH):
+        self.graph_path = graph_path
+        self.graph = self._load_graph()
+    
+    def _load_graph(self) -> nx.DiGraph:
+        """Load the knowledge graph from disk."""
+        if not os.path.exists(self.graph_path):
+            print(f"Warning: Graph not found at {self.graph_path}")
+            return nx.DiGraph()
+        try:
+            with open(self.graph_path, "rb") as f:
+                return pickle.load(f)
+        except Exception as e:
+            print(f"Failed to load graph: {e}")
+            return nx.DiGraph()
+
+    def get_context(self, query: str, query_type: str) -> str:
+        """Generate context from graph based on query and type."""
+        if not self.graph or self.graph.number_of_nodes() == 0:
+            return ""
+            
+        context_parts = []
+        query_lower = query.lower()
+        
+        # 1. Look for specific entities mentioned in query
+        mentioned_nodes = []
+        # Normalize query for matching
+        q_norm = query_lower.replace(".", "").replace("dr ", "")
+        
+        for node, data in self.graph.nodes(data=True):
+            # Try matching both node name and node ID
+            name = data.get("name", "").lower()
+            name_clean = name.replace(".", "").replace("dr ", "")
+            if name_clean and (name_clean in q_norm or q_norm in name_clean):
+                mentioned_nodes.append((node, data))
+        
+        # 2. Add aggregation info for aggregation queries
+        aggregation_keywords = ["publication", "published", "paper", "article"]
+        if query_type == "aggregation" and any(k in query_lower for k in aggregation_keywords):
+            # Find teachers and their publications
+            teachers = []
+            for node, data in self.graph.nodes(data=True):
+                if data.get("entity_type") in ["Teacher", "Professor"]:
+                    pub_count = data.get("publications_count")
+                    # Check for publication relationships
+                    edges = self.graph.out_edges(node, data=True)
+                    rel_pub_count = len([e for e in edges if "pub" in e[2].get("relation_type", "").lower()])
+                    
+                    try:
+                        p_val = int(pub_count) if pub_count is not None else 0
+                        # Use the larger of the two (extracted property or relationship count)
+                        final_pub_count = max(p_val, rel_pub_count)
+                    except:
+                        final_pub_count = rel_pub_count
+                    
+                    if final_pub_count > 0 or data.get("entity_type") == "Teacher":
+                        teachers.append((data.get("name"), final_pub_count))
+            
+            if teachers:
+                # Deduplicate teachers (same name different case)
+                unique_teachers = {}
+                for name, count in teachers:
+                    canon = name.lower().replace(".", "").strip()
+                    if canon not in unique_teachers or count > unique_teachers[canon][1]:
+                        unique_teachers[canon] = (name, count)
+                
+                sorted_teachers = sorted(unique_teachers.values(), key=lambda x: x[1], reverse=True)
+                summary = "[GRAPH INFO] Faculty Publication Statistics:\n"
+                for name, count in sorted_teachers[:15]: # Show top 15
+                    if count > 0:
+                        summary += f"- {name}: {count} publications\n"
+                    else:
+                        summary += f"- {name}: (Exact count not in graph)\n"
+                context_parts.append(summary)
+        
+        alumni_keywords = ["alumni", "graduated", "studied", "student"]
+        if query_type == "aggregation" and any(k in query_lower for k in alumni_keywords):
+            alumni = []
+            for node, data in self.graph.nodes(data=True):
+                # Check all outgoing edges for student-like relationships
+                edges = self.graph.out_edges(node, data=True)
+                for _, target, edge_data in edges:
+                    rel = edge_data.get("relation_type", "").lower()
+                    # Catch synonyms: graduated_from, studied_at, student_at, etc.
+                    if any(r in rel for r in ["grad", "stud", "alum"]):
+                        target_data = self.graph.nodes[target]
+                        target_name = target_data.get("name", "").lower()
+                        if "jkkniu" in target_name or "jatiya kabi" in target_name:
+                            alumni.append(data.get("name"))
+            
+            if alumni:
+                alumni = list(set(alumni)) # Deduplicate
+                summary = f"[GRAPH INFO] JKKNIU Alumni in Faculty ({len(alumni)} found): " + ", ".join(alumni)
+                context_parts.append(summary)
+
+        # 3. Add direct relationship info for mentioned entities
+        # Deduplicate mentioned nodes to avoid redundant summaries
+        unique_mentioned = {}
+        for node, data in mentioned_nodes:
+            canon = data.get("name", "").lower().replace(".", "").strip()
+            if canon not in unique_mentioned:
+                unique_mentioned[canon] = (node, data)
+
+        for _, (node, data) in unique_mentioned.items():
+            name = data.get("name")
+            role = data.get("designation") or data.get("entity_type")
+            node_info = f"[GRAPH INFO] Entity: {name} ({role})\n"
+            
+            # Add relationships
+            out_edges = self.graph.out_edges(node, data=True)
+            rels = []
+            for _, target, edge_data in out_edges:
+                target_data = self.graph.nodes[target]
+                rel_type = edge_data.get("relation_type", "related to")
+                target_name = target_data.get("name")
+                rels.append(f"- {rel_type} {target_name}")
+            
+            if rels:
+                node_info += "\n".join(rels) + "\n"
+            
+            context_parts.append(node_info)
+
+        return "\n\n".join(context_parts)
+
+
 class EnhancedRetriever:
     """Main enhanced retriever combining all techniques."""
     
@@ -297,6 +427,7 @@ class EnhancedRetriever:
         self.multi_query_generator = MultiQueryGenerator() if use_multi_query else None
         self.keyword_generator = KeywordGenerator() if use_keyword_expansion else None
         self.hybrid_retriever = HybridRetriever(self.vector_store, self.embeddings) if use_hybrid else None
+        self.graph_retriever = GraphRetriever()
     
     def retrieve(self, query: str, k: Optional[int] = None) -> List[Document]:
         """Retrieve documents with enhanced techniques."""
@@ -351,7 +482,12 @@ class EnhancedRetriever:
                     seen_content.add(content_hash)
                     all_docs.append(doc)
         
-        return all_docs[:retrieval_k]
+        # Add Graph-based context if available
+        graph_context = self.graph_retriever.get_context(query, query_type)
+        if graph_context:
+            all_docs.insert(0, Document(page_content=graph_context, metadata={"source": "knowledge_graph"}))
+        
+        return all_docs[:retrieval_k + (1 if graph_context else 0)]
     
     def invoke(self, query: str) -> List[Document]:
         """LangChain-compatible invoke method."""

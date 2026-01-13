@@ -34,6 +34,7 @@ RETRIEVAL_K = 20
 DATA_DIR = "Data"
 QA_FILE = os.path.join(DATA_DIR, "Q&A.txt")
 STRUCTURE_FILE = os.path.join(DATA_DIR, "structure_data.json")
+GRAPH_PATH = os.path.join(DATA_DIR, "knowledge_graph.gpickle")
 
 # University information
 UNIVERSITY_NAME = "Jatiya Kabi Kazi Nazrul Islam University"
