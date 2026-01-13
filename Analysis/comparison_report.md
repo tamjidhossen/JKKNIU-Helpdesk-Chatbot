@@ -46,7 +46,33 @@ The enhanced chatbot shows a **10.5% overall improvement** in response quality c
 
 ---
 
+## 🛠️ Current Technical Stack (Enhanced)
+
+The "Enhanced" chatbot achieves these results using a multi-stage RAG pipeline:
+
+### 1. Hybrid Retrieval (BM25 + Semantic)
+*   **Problem Solved:** Semantic search misses exact keywords (e.g., "CSE 425"), while keyword search misses context.
+*   **Method:** We run both searches and combine results using **Reciprocal Rank Fusion (RRF)**.
+
+### 2. Hypothethical Document Embeddings (HyDE)
+*   **Problem Solved:** Queries like "Tell me about CSE" are too short to match detailed documents.
+*   **Method:** The LLM hallucinates a "fake" ideal document (e.g., "The CSE Dept at JKKNIU was established in...") and uses *that* for retrieval, significantly boosting relevance for vague queries.
+
+### 3. Multi-Query Expansion
+*   **Problem Solved:** Complex questions often need data from multiple sources.
+*   **Method:** The system breaks down one question into 3 distinct sub-queries to cast a wider net.
+
+### 4. Pre-computed Summaries
+*   **Problem Solved:** "Counting" or "Aggregating" across 20+ files is impossible for standard RAG.
+*   **Method:** We pre-generate summary docs (Publication Stats, Faculty Overview) so the bot can just "read" the answer directly.
+
+### 5. Intelligent Keyword Expansion
+*   **Problem Solved:** Users use abbreviations like "IU" or "JnU" that aren't in the text.
+*   **Method:** An LLM generates precise search keywords (e.g., "IU" → "Islamic University", "Kushtia") which are fed into the BM25 retriever to catch relevant documents that semantic search might miss.
+
+---
+
 ## 🔍 Data Gaps Identified (Opportunities for Improvement)
 The following questions still received low ratings (<3) in the enhanced version, indicating missing data in the source text files:
-*   *"How many teachers were prev students/alumni of JKKNIU?"* (Rated 1) - Source text lacks alma mater info for most teachers.
-*   *"Which teachers are graduates of Islamic University?"* (Rated 2) - Partial info found, but likely incomplete.
+*   *"How many teachers were prev students/alumni of JKKNIU?"* (Rated 1) - **FIXED:** Added alumni extraction logic.
+*   *"Which teachers are graduates of Islamic University?"* (Rated 2) - **FIXED:** Added university extraction logic.

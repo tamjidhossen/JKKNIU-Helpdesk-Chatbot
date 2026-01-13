@@ -152,6 +152,37 @@ Output only the sub-questions, one per line, without numbering or explanation:""
             return [question]
 
 
+class KeywordGenerator:
+    """Generates search keywords to improve BM25 retrieval."""
+    
+    KEYWORD_PROMPT = """Generates a list of 3-5 specific search keywords or phrases for the following question.
+    Focus on synonyms, entity names, and variations found in academic/university contexts.
+    
+    Question: {question}
+    
+    Output only the keywords separated by commas, nothing else:"""
+
+    def __init__(self):
+        pass  # Model created per-call with rotating API key
+    
+    def _get_model(self):
+        api_key = get_next_api_key()
+        return ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
+    
+    def generate(self, question: str) -> str:
+        """Generate keywords string for the question."""
+        try:
+            model = self._get_model()
+            prompt = self.KEYWORD_PROMPT.format(question=question)
+            response = model.invoke(prompt)
+            # Return cleaned text with keywords space-separated for BM25
+            keywords = response.content.replace(',', ' ').strip()
+            return f"{question} {keywords}" # Augment original question
+        except Exception as e:
+            print(f"Keyword generation failed: {e}")
+            return question
+
+
 class HybridRetriever:
     """Combines semantic and keyword (BM25) search with RRF fusion."""
     
@@ -228,10 +259,19 @@ class HybridRetriever:
         sorted_docs = sorted(doc_scores.values(), key=lambda x: x["score"], reverse=True)
         return [item["doc"] for item in sorted_docs]
     
-    def retrieve(self, query: str, k: int) -> List[Document]:
-        """Retrieve documents using hybrid search."""
+    def retrieve(self, query: str, k: int, bm25_query: Optional[str] = None) -> List[Document]:
+        """Retrieve documents using hybrid search.
+        
+        Args:
+            query: Query for semantic search
+            k: Number of documents to retrieve
+            bm25_query: Optional different query for keyword search (e.g. expansion)
+        """
         semantic_results = self.semantic_search(query, k=k)
-        keyword_results = self.keyword_search(query, k=k)
+        
+        # Use specific BM25 query if provided, otherwise use original
+        kw_query = bm25_query if bm25_query else query
+        keyword_results = self.keyword_search(kw_query, k=k)
         
         fused_results = self.reciprocal_rank_fusion(semantic_results, keyword_results)
         return fused_results[:k]
@@ -240,7 +280,7 @@ class HybridRetriever:
 class EnhancedRetriever:
     """Main enhanced retriever combining all techniques."""
     
-    def __init__(self, use_hyde: bool = True, use_multi_query: bool = True, use_hybrid: bool = True):
+    def __init__(self, use_hyde: bool = True, use_multi_query: bool = True, use_hybrid: bool = True, use_keyword_expansion: bool = True):
         self.embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
         self.vector_store = Chroma(
             collection_name=COLLECTION_NAME,
@@ -251,9 +291,11 @@ class EnhancedRetriever:
         self.use_hyde = use_hyde
         self.use_multi_query = use_multi_query
         self.use_hybrid = use_hybrid
+        self.use_keyword_expansion = use_keyword_expansion
         
         self.hyde_generator = HyDEGenerator() if use_hyde else None
         self.multi_query_generator = MultiQueryGenerator() if use_multi_query else None
+        self.keyword_generator = KeywordGenerator() if use_keyword_expansion else None
         self.hybrid_retriever = HybridRetriever(self.vector_store, self.embeddings) if use_hybrid else None
     
     def retrieve(self, query: str, k: Optional[int] = None) -> List[Document]:
@@ -269,6 +311,10 @@ class EnhancedRetriever:
         use_hyde_for_query = self.use_hyde and query_type in ["vague", "reasoning"]
         use_multi_query_for_query = self.use_multi_query and query_type == "aggregation"
         
+        # Keyword expansion is useful for most queries except maybe very simple ones
+        # But let's prioritize it for factual/aggregation where keywords matter
+        use_kw_expansion = self.use_keyword_expansion and self.use_hybrid and query_type in ["factual", "aggregation"]
+        
         queries_to_run = [query]
         
         # Generate sub-queries for aggregation
@@ -277,14 +323,24 @@ class EnhancedRetriever:
         
         for q in queries_to_run:
             search_query = q
+            bm25_search_query = q
             
-            # Apply HyDE for vague/reasoning queries
+            # Apply HyDE for vague/reasoning queries (affects semantic)
             if use_hyde_for_query and self.hyde_generator and q == query:
                 search_query = self.hyde_generator.generate(q)
             
+            # Apply Keyword Expansion (affects BM25)
+            if use_kw_expansion and self.keyword_generator and q == query:
+                bm25_search_query = self.keyword_generator.generate(q)
+            
             # Retrieve with hybrid or plain semantic
             if self.use_hybrid and self.hybrid_retriever:
-                docs = self.hybrid_retriever.retrieve(search_query, k=retrieval_k)
+                # Pass potentially different queries for semantic vs keyword
+                docs = self.hybrid_retriever.retrieve(
+                    query=search_query, 
+                    k=retrieval_k,
+                    bm25_query=bm25_search_query
+                )
             else:
                 docs = self.vector_store.similarity_search(search_query, k=retrieval_k)
             
@@ -306,13 +362,15 @@ class EnhancedRetriever:
 def get_enhanced_retriever(
     use_hyde: bool = True,
     use_multi_query: bool = True,
-    use_hybrid: bool = True
+    use_hybrid: bool = True,
+    use_keyword_expansion: bool = True
 ) -> EnhancedRetriever:
     """Factory function to create an enhanced retriever."""
     return EnhancedRetriever(
         use_hyde=use_hyde,
         use_multi_query=use_multi_query,
-        use_hybrid=use_hybrid
+        use_hybrid=use_hybrid,
+        use_keyword_expansion=use_keyword_expansion
     )
 
 
@@ -320,13 +378,11 @@ if __name__ == "__main__":
     # Test the enhanced retriever
     print("Testing Enhanced Retriever...\n")
     
-    retriever = EnhancedRetriever()
+    retriever = EnhancedRetriever(use_keyword_expansion=True)
     
     test_queries = [
+        ("Who studied at IU?", "factual"), # Should trigger kw expansion -> Islamic University
         ("Which CSE teacher has the most publications?", "aggregation"),
-        ("Can a humanities student join CSE?", "reasoning"),
-        ("What is CSE 425?", "factual"),
-        ("Tell me about admission", "vague"),
     ]
     
     for query, expected_type in test_queries:

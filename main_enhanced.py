@@ -50,7 +50,8 @@ class EnhancedChatbot:
             self.retriever = EnhancedRetriever(
                 use_hyde=True,
                 use_multi_query=True,
-                use_hybrid=True
+                use_hybrid=True,
+                use_keyword_expansion=True
             )
             self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE)
         else:
@@ -116,7 +117,7 @@ def display_header(enhanced: bool = True):
     mode = "[bold green]ENHANCED[/bold green]" if enhanced else "[bold yellow]ORIGINAL[/bold yellow]"
     console.print(f"[bold cyan]JKKNIU Helpdesk Chatbot[/bold cyan] ({mode})")
     if enhanced:
-        console.print("[dim]Using: HyDE + Multi-Query + Hybrid Search + Chain-of-Thought[/dim]")
+        console.print("[dim]Using: HyDE + Multi-Query + Hybrid Search + Keyword Expansion + Chain-of-Thought[/dim]")
     console.print()
 
 
