@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-13T11:59:42.741980",
+    "total_questions": 31,
+    "dry_run": false,
+    "model": "gemma-3-27b-it",
+    "total_input_tokens_approx": 110588,
+    "total_output_tokens_approx": 9018
+  },
+  "results": [
+    {
+      "question": "Who is the head of the CSE department?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:51:06.904766",
+      "response": "Hi there! 👋\n\nYou're asking who the head of the CSE department is, right? \n\nCurrently, **Professor Dr. Md. Sujan Ali (also known as Sheikh Sujan Ali)** is the Professor & Head of the Department of Computer Science and Engineering here at JKKNIU. \n\nI found this information in a few places within our records. You can reach him directly if you need to:\n\n*   **Email:** Not explicitly provided in the documents, but you might find it through the university directory.\n*   **Department:** Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University\n\nIf you need further assistance or want to confirm this information, I recommend checking the official JKKNIU website ([jkkniu.edu.bd](jkkniu.edu.bd)) or contacting the department directly. \n\nIs there anything else I can help you with today? 😊\n",
+      "elapsed_time": 12.607622385025024,
+      "error": null,
+      "input_tokens_approx": 3499,
+      "output_tokens_approx": 201
+    },
+    {
+      "question": "Give me the mail of Dr. A. H. M. Kamal?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:51:23.516100",
+      "response": "Hi there! 👋\n\nYou're asking for Dr. A. H. M. Kamal's email address, right? \n\nCertainly! He has two email addresses listed:\n\n*   **kamal@jkkniu.edu.bd**\n*   **ahmкctg@yahoo.com**\n\nHe's a Professor in the Department of Computer Science and Engineering here at JKKNIU. You can also reach him by phone at +88 017-32226-402 or through the department's PABX at 09032-56212-364. \n\nIs there anything else I can help you with today? Perhaps you'd like to know about his research interests or the courses he teaches? 😊\n",
+      "elapsed_time": 14.635005474090576,
+      "error": null,
+      "input_tokens_approx": 2945,
+      "output_tokens_approx": 127
+    },
+    {
+      "question": "How many credits are required for CSE B.Sc. degree?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:51:42.155083",
+      "response": "Hi there! 👋\n\nYou're asking about the total credit hours needed for a B.Sc. in Computer Science and Engineering at JKKNIU, right? \n\nThe good news is, it's a total of **165 credits**! \n\nAccording to the curriculum overview, to successfully complete the degree you need to earn those 165 credits. The breakdown is roughly:\n\n*   71.81% of those credits will be core CSE courses (that's about 118.5 credits)\n*   9.10% in Mathematics\n*   9.10% in General Education\n*   8.18% in Electrical and Electronic Engineering\n*   1.81% in Physics\n\nYou can find more details about the curriculum on the JKKNIU website or by contacting the CSE department directly if you'd like a more in-depth look.\n\nIf you have any other questions, feel free to ask! 😊\n",
+      "elapsed_time": 9.71388053894043,
+      "error": null,
+      "input_tokens_approx": 3473,
+      "output_tokens_approx": 184
+    },
+    {
+      "question": "What is CSE 425 course about?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:51:55.873099",
+      "response": "Hi there! 👋\n\nYou're asking about CSE 425, right? It's **Machine Learning**. \n\nAccording to the course syllabus, CSE 425 is a 3-credit course offered in the Fourth Year Second Semester. It's paired with a 1.5-credit lab course, CSE 426 (Machine Learning Lab).\n\nIt looks like it's a pretty specialized course offered towards the end of the CSE program here at JKKNIU!\n\nIf you'd like to know more about the specific topics covered in the course, or have any other questions about the CSE curriculum, feel free to ask. You can also find more information on the official JKKNIU website: [jkkniu.edu.bd](jkkniu.edu.bd). \n\nHope this helps! 😊\n",
+      "elapsed_time": 13.608060836791992,
+      "error": null,
+      "input_tokens_approx": 3407,
+      "output_tokens_approx": 158
+    },
+    {
+      "question": "How many seats are available in CSE for 25-26 admission?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:52:13.485212",
+      "response": "Hi there! 👋\n\nYou're asking about the number of seats available in the Computer Science and Engineering (CSE) department for the 2025-2026 academic session, right?\n\nGreat question! According to the information I have, the CSE department offers **40 seats** for the 2025-2026 academic session – and these seats are specifically for students in the Science unit. \n\nTo be eligible for admission to CSE, you'll need to have studied Mathematics in your HSC and secure a minimum of 07/25 in both Physics and Math in the GST admission test.\n\nYou can find more details about the admission process on the GST admission portal at [gstadmission.ac.bd](gstadmission.ac.bd) or on the official JKKNIU website at [jkkniu.edu.bd](jkkniu.edu.bd). \n\nIf you have any other questions, feel free to ask! 😊\n",
+      "elapsed_time": 11.070924282073975,
+      "error": null,
+      "input_tokens_approx": 3890,
+      "output_tokens_approx": 196
+    },
+    {
+      "question": "What is the minimum GPA required to pass CSE at JKKNIU?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:52:28.560102",
+      "response": "Hi there! 👋\n\nYou're asking about the minimum GPA needed to *pass* CSE at JKKNIU, but it sounds like you might also be interested in the requirements to *continue* in the program. Let me break down what I found for you:\n\n**To simply pass a course within the CSE program:** You need to achieve a grade of D (2.00) or higher. Anything below 40% results in an 'F' (0.00, Fail).\n\n**To be promoted to the next year of the CSE program:** You'll need to maintain a certain CGPA:\n\n*   **1st to 2nd year:** 2.00 CGPA\n*   **2nd to 3rd year:** 2.25 CGPA\n*   **3rd to 4th year:** 2.50 CGPA\n\n**To graduate with a Bachelor of Engineering degree in CSE:** You need a minimum CGPA of 2.5 *and* complete at least 160 credits.\n\n**And if you excel:** A CGPA of 3.80 or above upon graduation earns you a degree with Distinction (as long as you haven't received any 'F' grades during the program)! Also, a GPA of 3.80 or above in two regular semesters of an academic year gets you on the Dean's List.\n\nYou can find more details about the grading system and credit distribution in the CSE academic curriculum [here](Data/New_Data/CSE_Academic_Curriculum.txt).\n\nFor the most up-to-date and official information, I always recommend checking the JKKNIU website: [jkkniu.edu.bd](jkkniu.edu.bd) or contacting the department directly.\n\nIs there anything else I can help you with today? Perhaps you'd like to know about specific course requirements or the admission process? 😊\n",
+      "elapsed_time": 17.173435926437378,
+      "error": null,
+      "input_tokens_approx": 3529,
+      "output_tokens_approx": 361
+    },
+    {
+      "question": "What residential halls are available at JKKNIU?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:52:49.737492",
+      "response": "Hi there! 👋\n\nYou're asking about the residential halls available at Jatiya Kabi Kazi Nazrul Islam University, right? \n\nGreat question! JKKNIU offers four residential halls: **Agnibeena, Doloncapa, Bidrohi, and Shiulimala.**\n\nThese halls are named after iconic works or themes related to the National Poet, Kazi Nazrul Islam – pretty cool, huh? They serve as the primary living spaces for students coming from all over the country. \n\nIf you'd like to know more about campus life in general, or have any other questions, feel free to ask! 😊\n",
+      "elapsed_time": 6.161609649658203,
+      "error": null,
+      "input_tokens_approx": 3381,
+      "output_tokens_approx": 134
+    },
+    {
+      "question": "Who is the current and prev vc?",
+      "category": "factual",
+      "timestamp": "2026-01-13T11:52:59.903296",
+      "response": "Hi there! 👋\n\nYou're asking about the current and previous Vice-Chancellors (VCs) of JKKNIU, right? \n\nAccording to our records:\n\n*   **Current VC:** Md Jahangir Alam (since September 19, 2024)\n*   **Previous VC:** Soumitra Sekhar Dey (December 15, 2021 – August 14, 2024)\n\nHere's a full list of VCs since the university's inception, if you're interested:\n\n1.  M. Shamsur Rahman (June 7, 2006 – April 19, 2009)\n2.  Syed Gias Uddin (April 22, 2009 – April 21, 2013)\n3.  Khondakar Ashraf Hossain (April 22, 2013 – June 2013)\n4.  Mohit Ul Alam (August 14, 2013 – August 13, 2017)\n5.  A.H.M Mustafizur Rahman (November 13, 2017 – November 13, 2021)\n6.  Soumitra Sekhar Dey (December 15, 2021 – August 14, 2024)\n7.  Md Jahangir Alam (September 19, 2024 – Present)\n\nIs there anything else I can help you with today? Perhaps you'd like to know more about a specific VC's tenure?\n\n\n\n",
+      "elapsed_time": 12.697353839874268,
+      "error": null,
+      "input_tokens_approx": 3363,
+      "output_tokens_approx": 218
+    },
+    {
+      "question": "Which CSE teacher has published the most research papers?",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:53:16.604166",
+      "response": "Hi there! That's a great question! It looks like **Dr. Tushar Kanti Saha** has the most publications listed in the documents I have access to. \n\nHere's what I found:\n\n*   **Dr. Tushar Kanti Saha** has publications listed from 2011, 2012 (multiple), 2013 (multiple), 2015, 2016 (multiple), 2018 (multiple), and 2022 (multiple). The documents mention a total of 15 International Journal publications and 10 Conference Papers for him.\n*   Other professors like Dr. Habiba Sultana, Dr. Md. Saiful Islam, and Dr. Subrata Kumar Das also have publications listed, but the number of publications for them isn't as extensive as Dr. Saha's in these documents.\n\nIt's worth noting that this is based on the information available in these specific documents. There might be other publications by faculty members that aren't included here.\n\nIf you'd like a complete and official list, I recommend checking the JKKNIU CSE department website or contacting the department directly. You can reach them through:\n\n*   **Deputy Director, Mahmudul Hasan:** humanbeing206@gmail.com or 01717206446\n*   **Principal Demonstrator (Hardware), Mustak Ahammad:** u2mustak@gmail.com or 01710263060\n\nI hope this helps! Let me know if you have any other questions.",
+      "elapsed_time": 16.272385597229004,
+      "error": null,
+      "input_tokens_approx": 3631,
+      "output_tokens_approx": 307
+    },
+    {
+      "question": "How many professors are there in the CSE department?",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:53:36.880096",
+      "response": "Hi there! 👋\n\nYou're asking about the number of professors in the CSE department, right? \n\nBased on the information I have, the CSE department has approximately 15 faculty members in total – and that *includes* Professors, Associate Professors, and Assistant Professors. Specifically, some of the Professors are Dr. A. H. M. Kamal, Dr. Md. Mijanur Rahman, and Dr. Md. Sujan Ali (who is also the Head of the Department!).\n\nIt's a bit tricky to give you an *exact* number of just \"Professors\" as the documents also mention Associate Professors and Assistant Professors are part of the faculty. \n\nIf you need a precise count of Professors specifically, I'd recommend reaching out to the department directly. You can contact the department officer, Mahmudul Hasan, at humanbeing206@gmail.com or 01717206446 for more detailed information.\n\nHope this helps! Let me know if you have any other questions. 😊\n",
+      "elapsed_time": 9.6776762008667,
+      "error": null,
+      "input_tokens_approx": 3714,
+      "output_tokens_approx": 224
+    },
+    {
+      "question": "List all the teachers in CSE department with their designations.",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:53:50.561177",
+      "response": "Hi there! 👋\n\nYou're asking for a list of teachers in the CSE department along with their designations, right? Here's what I've found from the available information:\n\n*   **Dr. Subrata Kumar Das** - Professor\n*   **Dr. Md. Sujan Ali (Sheikh Sujan Ali)** - Professor & Head of the Department\n\nI also found information about some staff members, but they aren't listed as teachers:\n\n*   **Mahmudul Hasan** - Deputy Director\n*   **Mustak Ahammad** - Principal Demonstrator (Hardware)\n\nThe documents mention there are 15 faculty members in total, including Professors, Associate Professors, Assistant Professors, and Lecturers. However, I don't have a complete list of *all* the teachers and their specific designations beyond these two professors. \n\nFor a complete and up-to-date list, I recommend checking the official JKKNIU website ([jkkniu.edu.bd](jkkniu.edu.bd)) or contacting the department directly. You might also find contact information for the department head, Dr. Md. Sujan Ali, to inquire further.\n\nIs there anything else I can help you with today? 😊",
+      "elapsed_time": 9.61610198020935,
+      "error": null,
+      "input_tokens_approx": 3557,
+      "output_tokens_approx": 264
+    },
+    {
+      "question": "How many teachers were prev students/alumni of JKKNIU?",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:54:04.181403",
+      "response": "Hi there! That's a really interesting question! You're asking how many teachers at JKKNIU were *also* former students – alumni – of the university, right?\n\nUnfortunately, the documents I have access to don't give a specific number for that. However, we *do* know that JKKNIU values its alumni and has successful graduates returning to contribute as faculty! \n\nHere's what I found:\n\n*   The university profile mentions **Fazle Hasan Shishir** (film producer) and **Animes Roy** (folk singer) as successful alumni. While it doesn't state they are *currently* teachers, it highlights the university's connection to its graduates.\n*   The profile also specifically names several prominent faculty members: **Jatin Sarkar, Khondakar Ashraf Hossain, Mohit Ul Alam, and Soumitra Sekhar Dey**. It's quite possible some of these individuals were also students at JKKNIU at some point, though this isn't explicitly stated.\n\nSo, while I can't give you a precise number, it's clear JKKNIU has a cycle of students becoming faculty, which is fantastic!\n\nFor a more definitive answer, I'd recommend reaching out to the university directly. You could try contacting the university librarian, **Dr. Md. Azizur Rahman** (for general inquiries) or perhaps the academic registrar's office.\n\nHere's some helpful contact information:\n\n*   **JKKNIU Website:** [jkkniu.edu.bd](jkkniu.edu.bd)\n*   **Dr. Md. Azizur Rahman (Librarian):** You can find contact details on the university website.\n\n\n\nIs there anything else I can help you with today? Perhaps you'd like to know more about specific departments or admission requirements?",
+      "elapsed_time": 11.34180736541748,
+      "error": null,
+      "input_tokens_approx": 3683,
+      "output_tokens_approx": 401
+    },
+    {
+      "question": "How many total publications does the CSE department have?",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:54:19.527165",
+      "response": "Hi there! That's a great question! Unfortunately, the documents I have access to don't give a *total* number of publications for the CSE department. \n\nHowever, I do know that JKKNIU is recognized for its publications in Computer Science, according to EduRank (see document 12eaa371-e095-49a1-8869-9d92261c027b). Also, Professor Dr. A. H. M. Kamal has received a National Award for his contributions to Telecom and ICT, which suggests significant research output from at least some faculty members (document 66d2d42a-b21f-4e9a-b5b8-504c8ee9537c & 090af00b-52be-4798-822d-f71c6f8c162a).\n\nTo get a precise number of publications, I recommend checking the JKKNIU website ([jkkniu.edu.bd](jkkniu.edu.bd)) or contacting the department directly. You could also reach out to the university librarian, Dr. Md. Azizur Rahman, for assistance with research resources (document fca73d17-4af9-43f1-aeff-608193f047c4).\n\nIs there anything else I can help you with today? Perhaps you'd be interested in learning about the research areas the department focuses on?\n",
+      "elapsed_time": 10.986375331878662,
+      "error": null,
+      "input_tokens_approx": 3711,
+      "output_tokens_approx": 261
+    },
+    {
+      "question": "Which teachers are graduates of Islamic University?",
+      "category": "aggregation",
+      "timestamp": "2026-01-13T11:54:34.517378",
+      "response": "Hi there! 👋\n\nYou're asking which teachers at JKKNIU are graduates of Islamic University, right? \n\nBased on the information I have, here's what I found:\n\n*   **Prof. Dr. Md. Mijanur Rahman** from the Department of Computer Science and Engineering completed both his B.Sc. and M.Sc. in Computer Science and Engineering at Islamic University.\n*   **Dr. Uzzal Kumar Prodhan**, also from the Department of Computer Science and Engineering, also earned his B.Sc. and M.Sc. from Islamic University.\n*   **Professor Dr. Md. Sujan Ali** completed his M.Sc. in Electrical and Electronic Engineering from Islamic University.\n\nSo, at least these three teachers are graduates of Islamic University! \n\nIs there anything else I can help you with today? Perhaps you'd like to know more about any of these professors, or maybe you're interested in other faculty members? 😊\n\n\n\n",
+      "elapsed_time": 11.435638666152954,
+      "error": null,
+      "input_tokens_approx": 3719,
+      "output_tokens_approx": 214
+    },
+    {
+      "question": "Can a humanities student from HSC get admission to CSE?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:54:49.957247",
+      "response": "Hi there! That's a great question!\n\nBased on the information I have, it looks like **it depends**. The CSE department specifically states that candidates *must* have studied Mathematics in HSC. \n\nHere's what I found in the admission details for CSE: \"Candidates must have studied Mathematics in HSC and secured min 07/25 in both Physics and Math in the GST admission test.\"\n\nSo, if you *have* studied Mathematics in your HSC program, you meet that initial requirement. However, you'll also need to make sure you score at least 7/25 in both Physics and Math on the GST admission test.\n\nIf you didn't study Mathematics in HSC, unfortunately, it appears you wouldn't meet the basic requirements for admission to the CSE department.\n\nTo get a definitive answer tailored to your specific situation, I'd recommend checking the official GST admission portal at [gstadmission.ac.bd](gstadmission.ac.bd) or contacting JKKNIU directly. You can also reach out to the university librarian Dr. Md. Azizur Rahman for assistance – his contact information is available in the documents I have access to.\n\nIs there anything else I can help you with today?\n\n\n\n",
+      "elapsed_time": 8.17889928817749,
+      "error": null,
+      "input_tokens_approx": 3477,
+      "output_tokens_approx": 285
+    },
+    {
+      "question": "If I have GPA below 2.0 after first year, what happens?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:55:02.140230",
+      "response": "Hi there! It sounds like you're concerned about what happens if your GPA falls below 2.0 after your first year at JKKNIU. \n\nAccording to the academic regulations for the CSE program, if you don't meet the required yearly GPA for promotion – which is 2.00 to move from the 1st to 2nd year – *even after retaking courses*, you will unfortunately be dropped from the program. \n\nIt's a pretty strict rule, but it's in place to ensure students are keeping up with the coursework. You *can* improve your grades by retaking exams with the next batch, but there are limits – a maximum of two courses (6 credit hours) per year and a total of 8 courses throughout the program.\n\nI recommend checking in with your academic advisor as soon as possible if you're worried about your GPA. They can help you create a plan to get back on track! You can also contact the CSE department directly for more information.\n\nHere's some contact information that might be helpful:\n\n*   **JKKNIU Website:** [https://www.jkkniu.edu.bd/](https://www.jkkniu.edu.bd/)\n*   **CSE Department:** You can usually find contact details for specific departments on the JKKNIU website under the \"Departments\" section.\n\nGood luck, and don't hesitate to reach out if you have any other questions!\n\n\n\n",
+      "elapsed_time": 12.48080587387085,
+      "error": null,
+      "input_tokens_approx": 3950,
+      "output_tokens_approx": 314
+    },
+    {
+      "question": "Can I improve a course grade if I got B+?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:55:18.625104",
+      "response": "Hi there! 👋\n\nYes, you can improve a course grade even if you received a B+! According to the CSE academic regulations, students who get a B (3.00) or below are permitted to retake the exam with the next immediate batch to try and improve their grade. Since a B+ is higher than a B, you technically meet the criteria to improve your grade if you wish.\n\nHowever, there are a couple of things to keep in mind:\n\n*   **Maximum Retakes:** You can improve a maximum of two courses per year (6 credit hours) and no more than 8 courses total throughout your entire program.\n*   **GPA Requirement:** If you fail to meet the required yearly GPA for promotion even *after* retaking a course, you may be dropped from the program.\n\nYou can find more details about these regulations in the CSE Academic Curriculum document. \n\nFor official confirmation and to understand how this applies to your specific situation, I recommend reaching out to the CSE department directly. You might also want to check the university's academic calendar for retake exam schedules.\n\nGood luck! 😊\n",
+      "elapsed_time": 10.43396782875061,
+      "error": null,
+      "input_tokens_approx": 3626,
+      "output_tokens_approx": 265
+    },
+    {
+      "question": "Is CSE suitable for someone interested in machine learning?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:55:33.063114",
+      "response": "Hi there! That's a great question! 😊\n\nYes, absolutely! CSE (Computer Science and Engineering) at JKKNIU is *very* suitable for someone interested in Machine Learning. \n\nHere's why:\n\n*   **Dedicated Courses:** The curriculum includes specific Machine Learning courses like **CSE 425 Machine Learning** and **CSE 426 Machine Learning Lab** in the Fourth Year Second Semester.\n*   **Prerequisites:** Several courses build a strong foundation for ML, including **MATH 171** (which is a prerequisite for Computer Graphics) and other math courses that are foundational to the field. **CSE 411 Data Science** is also offered, which is closely related to Machine Learning.\n*   **Faculty Expertise:** Dr. Subrata Kumar Das, a professor in the CSE department, actually *conducts* courses in Machine Learning (**CSE 421: Machine Learning**)!\n*   **Overall Curriculum:** The B.Sc. (Engg.) curriculum in CSE is quite comprehensive, with a total of 165 credits covering a wide range of relevant topics.\n\nYou can find more details about the CSE curriculum [here](Data/New_Data/CSE_Academic_Curriculum.txt) if you're interested in a deeper dive.\n\nIf you'd like to learn more about the program or have any other questions, you can also contact the department directly. Here's some helpful contact information:\n\n*   **Deputy Director (CSE):** Mahmudul Hasan - humanbeing206@gmail.com or 01717206446\n*   **JKKNIU Website:** [jkkniu.edu.bd](jkkniu.edu.bd)\n\nGood luck with your academic journey! Let me know if there's anything else I can help you with. ✨\n",
+      "elapsed_time": 16.68180537223816,
+      "error": null,
+      "input_tokens_approx": 3481,
+      "output_tokens_approx": 383
+    },
+    {
+      "question": "What happens if my attendance is below 60%?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:55:53.749171",
+      "response": "Hi there! Good question.\n\nIf your attendance falls below 60%, you won't receive any credit for the 10% of your grade that's allocated to class attendance. Essentially, your continuous assessment will be marked down.\n\nAccording to the academic curriculum information, class attendance marks are tiered: you get the full 10% for 90% attendance or above, and it decreases as your attendance drops, hitting 0% if you're below 60%. \n\nThis applies to both Theory and Lab courses, as attendance is a component of the continuous assessment for both.\n\nYou can find more details about the marking system in the CSE Academic Curriculum document. If you'd like me to look up anything else related to grading or attendance, just let me know!\n\nFor official clarification or specific concerns about your attendance, it's always best to reach out to your department directly. You can also contact the university librarian, Dr. Md. Azizur Rahman, at azizcl@jkkniu.edu.bd or +88 01712252511 if you have general inquiries.\n\n\n\n",
+      "elapsed_time": 17.664510488510132,
+      "error": null,
+      "input_tokens_approx": 4011,
+      "output_tokens_approx": 251
+    },
+    {
+      "question": "Can I transfer credits from another university to your CSE?",
+      "category": "reasoning",
+      "timestamp": "2026-01-13T11:56:15.417081",
+      "response": "Hi there! 👋\n\nYou're asking about transferring credits to the Computer Science and Engineering (CSE) department here at JKKNIU, right? \n\nUnfortunately, there isn't a lot of publicly available information specifically about credit transfer policies. However, generally, credit transfers at JKKNIU require a formal petition to the Academic Council. \n\nI'd recommend contacting the Registrar's office directly to get the most accurate and up-to-date information on the process and requirements. They'll be able to tell you exactly what you need to do and what documentation is required.\n\nYou can find more general information about the CSE department and its programs on the JKKNIU website: [jkkniu.edu.bd](jkkniu.edu.bd).\n\nIs there anything else I can help you with today? Perhaps you'd like to know about the admission requirements for CSE, or the courses offered? Just let me know! 😊\n",
+      "elapsed_time": 7.72039532661438,
+      "error": null,
+      "input_tokens_approx": 3414,
+      "output_tokens_approx": 220
+    },
+    {
+      "question": "Tell me about CSE",
+      "category": "vague",
+      "timestamp": "2026-01-13T11:56:27.141346",
+      "response": "Hi there! You want to know about the CSE (Computer Science and Engineering) department at JKKNIU, right? Absolutely! Here's a breakdown of what I can tell you:\n\n**Overview:**\n\n*   **Establishment:** The department was established on June 3, 2007.\n*   **Degrees Offered:** They offer a range of degrees – B.Sc. Engg., M.Sc., M.Sc. Engg., M.Phil., and Ph.D.\n*   **Current Enrollment:** There are currently around 300 students enrolled, supported by 15 faculty members and 7 administrative staff.\n*   **Running Batches:** There are five active BSc (Engg.) student cohorts currently studying.\n\n**Curriculum:**\n\n*   **Credit Hours:** The B.Sc. (Engg.) program requires a total of 165 credit hours over eight semesters.\n*   **Course Breakdown:** The curriculum is heavily focused on core CSE courses (about 72%), with the rest covering Mathematics, General Education, Electrical & Electronic Engineering, and Physics.\n*   **Syllabus:** I can give you details on the syllabus for specific semesters if you'd like! For example, I have information about the courses in the 1st, 2nd, 3rd, and 4th years.\n*   **Project/Thesis:** There's a significant project component, with thesis work in the 4th year.\n\n**Admissions:**\n\n*   **Seats:** For the 2025-2026 session, there are 40 seats available in the Science unit.\n*   **Requirements:** You *must* have studied Mathematics in HSC and scored at least 7/25 in both Physics and Math on the GST admission test.\n\n**Notable Info:**\n\n*   **Alumni:** Ferdaus Anam Jibon is a notable alumnus, currently an Associate Professor at IUBAT.\n*   **Recognition:** Professor Dr. A. H. M. Kamal has received a National Award for his contributions to Telecom and ICT.\n*   **Clubs:** There are three student clubs: Mid-day Programming Club, JKKNIU Cyber Security Club, and Confident Minds Club.\n\n**Resources & Contacts:**\n\n*   **Department Website:** [jkkniu.edu.bd](jkkniu.edu.bd)\n*   **Admission Portal:** [gstadmission.ac.bd](gstadmission.ac.bd)\n*   **Department Officers:**\n    *   Mahmudul Hasan (Deputy Director): humanbeing206@gmail.com / 01717206446\n    *   Mustak Ahammad (Principal Demonstrator - Hardware): u2mustak@gmail.com / 01710263060\n    *   Mohammad Aminul Hauqe (Personal Officer): hauqe1983@gmail.com / 8801632100100\n\n\n\nIs there anything *specific* about CSE you'd like to know more about? Perhaps you're interested in the curriculum for a particular year, the admission process in more detail, or the research areas of the faculty? Let me know, and I'll do my best to help! You can also contact the university librarian Dr. Md. Azizur Rahman for help with library resources.",
+      "elapsed_time": 20.39547824859619,
+      "error": null,
+      "input_tokens_approx": 3316,
+      "output_tokens_approx": 653
+    },
+    {
+      "question": "How do I get in?",
+      "category": "vague",
+      "timestamp": "2026-01-13T11:56:51.541150",
+      "response": "Hi there! So you're wondering how to get into JKKNIU? Great question! 😊\n\nEssentially, admission to JKKNIU is handled through the GST-integrated public university entrance test. You'll need to apply online through the GST admission portal at [gstadmission.ac.bd](http://gstadmission.ac.bd/). \n\nWhen you apply, you'll need to upload scanned copies of your SSC and HSC transcripts, a passport-size photo, and proof of payment for the application fee.\n\nHere's a bit more detail that might be helpful:\n\n*   **Admission Test:** Yes, there *is* an admission test required for all units. You might be able to find past questions through senior student groups on Facebook or preparatory coaching centers.\n*   **Deadlines:** Application deadlines change each year, so keep an eye on the official admission circular on the GST portal.\n*   **Results:** Admission test results will be posted online and on notice boards at the university.\n*   **Specific Departments:** Requirements can vary by department. For example, for CSE in the 2025-2026 session, you need to have studied Mathematics in HSC and score at least 07/25 in both Physics and Math on the GST admission test.\n\nI recommend regularly checking both the GST admission portal ([gstadmission.ac.bd](http://gstadmission.ac.bd/)) and the JKKNIU official website ([jkkniu.edu.bd](http://jkkniu.edu.bd/)) for the most up-to-date information.\n\nIf you have questions about a specific department, let me know and I can try to find more details! You can also reach out to the university librarian, Dr. Md. Azizur Rahman, for assistance:\n\n*   **Email:** azizknu74@gmail.com or azizcl@jkkniu.edu.bd\n*   **Phone:** +88 01712252511 or PABX: 09032-56212-215\n\n\n\nGood luck with your application! Let me know if you have any other questions. ✨",
+      "elapsed_time": 17.963720560073853,
+      "error": null,
+      "input_tokens_approx": 3901,
+      "output_tokens_approx": 443
+    },
+    {
+      "question": "Who should I contact?",
+      "category": "vague",
+      "timestamp": "2026-01-13T11:57:13.509296",
+      "response": "Hi there! 👋 It sounds like you're looking for contact information for someone at JKKNIU. To best help you, could you tell me *who* you're trying to reach? \n\nI have quite a bit of contact information here, so depending on what you need, I can point you in the right direction. For example:\n\n*   **CSE Department:**\n    *   **Mahmudul Hasan (Deputy Director):** humanbeing206@gmail.com or 01717206446\n    *   **Mustak Ahammad (Principal Demonstrator - Hardware):** u2mustak@gmail.com or 01710263060\n*   **Library:** Dr. Md. Azizur Rahman (Librarian In-Charge) - PABX: 09032-56212-215, Mobile: +88 01712252511, Email: azizknu74@gmail.com or azizcl@jkkniu.edu.bd\n*   **Faculty of Social Science:** Dr. Md. Bakhtiar Uddin (Dean) - bakhtiar@jkkniu.edu.bd, 01718904481\n*   **Various CSE Professors:** I have contact details for Dr. A. H. M. Kamal, Dr. Md. Sujan Ali, Dr. Mst Jannatul Ferdous, Dr. Md. Mijanur Rahman, Dr. Subrata Kumar Das, Dr. Md. Selim Al Mamun, Dr. Uzzal Kumar Prodhan, Rubya Shaharin, and Kazi Mahmudul Hassan.\n\nJust let me know what department or person you're trying to get in touch with, and I'll do my best to help! 😊\n\n\n\n",
+      "elapsed_time": 10.516242265701294,
+      "error": null,
+      "input_tokens_approx": 2571,
+      "output_tokens_approx": 284
+    },
+    {
+      "question": "What courses are there?",
+      "category": "vague",
+      "timestamp": "2026-01-13T11:57:28.029375",
+      "response": "Hi there! 👋 It looks like you're asking about the courses offered at JKKNIU, specifically within the Computer Science and Engineering (CSE) department. There are *a lot* of courses! Let me break it down for you.\n\nThe CSE department offers a B.Sc. in Engineering with a total of 165 credits across eight semesters. That includes 41 theory courses and 27 lab/project courses. \n\nHere's a glimpse of some of the courses, organized by year:\n\n*   **First Year:** Computer Fundamentals, Structured Programming Language, Digital Logic Design, Data Structures, and more.\n*   **Second Year:** Object Oriented Programming, Algorithms, Database Management System, Computer Architecture and Organization.\n*   **Third Year:** Microprocessors, Operating Systems, Theory of Computation, Data Communication.\n*   **Fourth Year:** Software Engineering, Artificial Intelligence, Machine Learning, Computer Graphics, and options like Digital Speech Processing, Robotics Technology, or Wireless Communication.\n\nI can go into more detail about specific semesters if you'd like! For example, I have a detailed list of courses for the Fourth Year Second Semester, including prerequisites.\n\nYou can also find a complete overview of the CSE curriculum [here](Data/New_Data/CSE_Academic_Curriculum.txt). \n\nIs there a particular year or area of study you're most interested in? Knowing that will help me give you a more focused answer. 😊\n\nIf you need more information, you can also check out the official JKKNIU website at [jkkniu.edu.bd](jkkniu.edu.bd) or contact the department directly.\n\n\n\n",
+      "elapsed_time": 15.824591875076294,
+      "error": null,
+      "input_tokens_approx": 3738,
+      "output_tokens_approx": 391
+    },
+    {
+      "question": "Help with admission",
+      "category": "vague",
+      "timestamp": "2026-01-13T11:57:47.857520",
+      "response": "Hi there! 👋  Looks like you need some help with admission to JKKNIU. I can definitely point you in the right direction!\n\nAdmission to JKKNIU is handled through the GST-integrated public university entrance test. You'll need to apply online through the GST admission portal at [gstadmission.ac.bd](http://gstadmission.ac.bd). \n\n**Here's what you'll generally need to upload during the application process:**\n\n*   Scanned copies of your SSC and HSC transcripts\n*   A passport-size photograph\n*   Proof of application fee payment\n\n**A few other important things to know:**\n\n*   **Exam Schedules & Info:** Keep an eye on both the GST admission portal *and* the JKKNIU official website ([jkkniu.edu.bd](http://jkkniu.edu.bd)) for official notices, exam schedules, admit cards, and seat plans.\n*   **Admission Test:** Yes, there *is* an admission test for all units. You might be able to find past questions through senior student groups on Facebook or preparatory coaching centers.\n*   **Deadlines:** Application deadlines change each year, so check the official admission circular on the GST portal for the most up-to-date information.\n*   **Results:** Admission test results will be posted online and on notice boards at the university.\n\n**Do you have a specific department in mind?** I can give you more tailored information if you let me know what you're interested in studying. For example, I have details on seats available for departments like CSE, Philosophy, and many others for the 2025-2026 academic session.\n\nAlso, if you have questions about specific requirements for a department (like minimum marks in certain subjects), just ask!\n\nFinally, for the most accurate and official information, I recommend checking the JKKNIU website or contacting the university directly. You can also reach out to the university librarian, Dr. Md. Azizur Rahman, for assistance with resources: [jkkniu.edu.bd](http://jkkniu.edu.bd).\n\n\n\n",
+      "elapsed_time": 18.10788631439209,
+      "error": null,
+      "input_tokens_approx": 3883,
+      "output_tokens_approx": 481
+    },
+    {
+      "question": "Compare admission requirements for CSE and English department",
+      "category": "comparison",
+      "timestamp": "2026-01-13T11:58:09.969316",
+      "response": "Hi there! 👋\n\nYou're asking about the admission requirements for the CSE (Computer Science and Engineering) and English departments at JKKNIU, right? Let's break that down for you.\n\n**Here's a comparison:**\n\n*   **CSE:** For the 2025-2026 session, you need to have studied Mathematics in your HSC (Higher Secondary Certificate) and score a minimum of 07/25 in both Physics and Math in the GST (Graduate Studies Test) admission test.\n*   **English:** For the 2025-2026 session, you need to have a grade \"A\" in English in your HSC. For B and C unit students, you'll also need to secure at least 50% marks in the English section of the GST admission test.\n\n**In a nutshell:** CSE focuses more on your performance in Math and Physics in the GST, while English prioritizes your HSC grade in English and a good score on the English section of the GST (for B and C unit applicants).\n\nYou can find more details on the official JKKNIU website: [jkkniu.edu.bd](jkkniu.edu.bd) or the admission portal: [gstadmission.ac.bd](gstadmission.ac.bd). \n\nIf you have any other questions or need further clarification, feel free to ask! You can also contact the university librarian Dr. Md. Azizur Rahman for assistance: [jkkniu.edu.bd](jkkniu.edu.bd). Good luck with your application! 😊\n",
+      "elapsed_time": 8.90453839302063,
+      "error": null,
+      "input_tokens_approx": 3877,
+      "output_tokens_approx": 316
+    },
+    {
+      "question": "What's the difference between CSE thesis and project?",
+      "category": "comparison",
+      "timestamp": "2026-01-13T11:58:22.877312",
+      "response": "Hi there! That's a good question – it's easy to get \"thesis\" and \"project\" mixed up!\n\nFrom what I can gather from the CSE curriculum documents, both a Thesis/Project and a Software Development Project are part of the coursework. It looks like the Thesis/Project (CSE 400(A) & (B)) is a more substantial piece of work, spanning two semesters in the 4th year and worth 3.0 credits each time, for a total of 6 credits. It seems to involve a supervisor providing continuous assessment (40%) and a final examination with a report, demonstration, and presentation (60%).\n\nThe Software Development Project (CSE 200) in the 2nd year, on the other hand, is a smaller project worth 1.5 credits and uses C++/Java. \n\nEssentially, the thesis/project appears to be a more in-depth, research-oriented undertaking, while the software development project is a more focused, practical application of coding skills.\n\nFor a complete understanding of the differences and expectations, I'd recommend reaching out to the CSE department directly. You can also contact the university librarian Dr. Md. Azizur Rahman for assistance with resources. His contact is available in the Q&A document.\n\nHere's the contact information I have:\n\n*   **Dr. Md. Azizur Rahman (Librarian):** [Available in Document id='fca73d17-4af9-43f1-aeff-608193f047c4']\n*   **JKKNIU Website:** jkkniu.edu.bd\n\n\n\nHope this helps! Let me know if you have any other questions.",
+      "elapsed_time": 14.519411087036133,
+      "error": null,
+      "input_tokens_approx": 3505,
+      "output_tokens_approx": 355
+    },
+    {
+      "question": "Which professor specializes in image processing or medical imaging?",
+      "category": "comparison",
+      "timestamp": "2026-01-13T11:58:41.400305",
+      "response": "Hi there! 👋\n\nYou're asking about professors who specialize in image processing or medical imaging – great question! Several professors in the Computer Science and Engineering department here at JKKNIU have expertise in those areas.\n\nHere's a breakdown of who you might want to look into:\n\n*   **Dr. A. H. M. Kamal:** Definitely a good starting point! His research interests specifically include **Medical Imaging** and **Information Fusion**. You can reach him at kamal@jkkniu.edu.bd or +88 017-32226-402.\n*   **Dr. Habiba Sultana:** She focuses on **Digital Image Processing**. You can contact her at srity.cse@gmail.com or 01712623872.\n*   **Dr. Uzzal Kumar Prodhan:** Has interests in **Biomedical Imaging and Visualization**, as well as secure healthcare systems which often involve image analysis.\n*   **Professor Dr. Mst Jannatul Ferdous:** Her research interests include **Digital Signal Processing (DSP)**, **EEG signals Processing**, and **Brain Computer Interfacing (BCI)** – all of which often involve image processing techniques. You can reach her at mjferdous\\_cse@jkkniu.edu.bd or +88 01710695925.\n*   **Professor Dr. Md. Sujan Ali:** Has published work related to image processing, including EEG signal processing and document image binarization.\n\nI hope this helps! If you're interested in a specific *type* of medical imaging or image processing, let me know, and I can try to narrow down the best professor for you to contact. 😊\n\n\n\n",
+      "elapsed_time": 13.098549842834473,
+      "error": null,
+      "input_tokens_approx": 3735,
+      "output_tokens_approx": 362
+    },
+    {
+      "question": "What are the prerequisites for the Machine Learning course?",
+      "category": "multi_hop",
+      "timestamp": "2026-01-13T11:58:58.502566",
+      "response": "Hi there! 👋\n\nYou're asking about the prerequisites for the Machine Learning course, right? \n\nAccording to the curriculum information I have, **there isn't a *direct* prerequisite listed for CSE 425 Machine Learning itself.** However, the course description mentions that **MATH 171** is a prerequisite for **CSE 427 Computer Graphics**, which is also offered in the same semester. \n\nIt's also worth noting that several elective courses have prerequisites like **MATH 273**, **CSE 205**, **CSE 227**, **CSE 301**, and **EEE 175**.\n\nTo be absolutely sure about any hidden prerequisites or recommended background knowledge, I'd recommend checking with the Department of Computer Science and Engineering directly. You can reach out to:\n\n*   **Dr. Md. Sujan Ali (Head of Department):** You can find more information about him in the documents I have access to.\n*   **Dr. Subrata Kumar Das:** He also teaches Machine Learning (CSE 421) and might have insights.\n\nYou can also find general contact information on the JKKNIU website: [https://jkkniu.edu.bd/](https://jkkniu.edu.bd/)\n\nHope this helps! Let me know if you have any other questions. 😊\n",
+      "elapsed_time": 12.398513317108154,
+      "error": null,
+      "input_tokens_approx": 3482,
+      "output_tokens_approx": 284
+    },
+    {
+      "question": "Which professor teaches Neural Signal Processing and what's their research area?",
+      "category": "multi_hop",
+      "timestamp": "2026-01-13T11:59:14.904766",
+      "response": "Hi there! 👋\n\nYou're asking which professor teaches Neural Signal Processing and what their research area is, right?\n\nAccording to our records, **Professor Dr. Md. Sujan Ali** (also known as Sheikh Sujan Ali) teaches **CSE 5406: Neural Signal Processing**. \n\nHis research interests seem to be heavily focused on signal processing, particularly related to brain-computer interfaces and EEG signals. He's published quite a bit on topics like EEG signal classification, artifact suppression, and time-frequency analysis of brain signals. \n\nHere's his contact information if you'd like to reach out:\n\n*   **Department:** Computer Science and Engineering\n*   **Position:** Professor & Head \n*   You can find more details about his publications in the provided documents.\n\nIs there anything else I can help you with today? Perhaps you'd like to know more about his publications, or the research interests of other professors in the CSE department? Just let me know! 😊\n",
+      "elapsed_time": 7.435264348983765,
+      "error": null,
+      "input_tokens_approx": 3774,
+      "output_tokens_approx": 240
+    },
+    {
+      "question": "If I want to study robotics, what optional course can I take and what's the prerequisite?",
+      "category": "multi_hop",
+      "timestamp": "2026-01-13T11:59:26.344039",
+      "response": "Hi there! So you're interested in robotics – that's awesome! 😊\n\nBased on the information I have, if you want to specialize in robotics, you can choose **CSE 433 Robotics Technology** as your optional course in the Fourth Year Second Semester. \n\nThe prerequisite for CSE 433 Robotics Technology is **CSE 205** and **CSE 227**. \n\nHere's a bit more detail: the elective portion of the Fourth Year Second Semester curriculum requires 4.5 credits, and Robotics Technology fits right in with its 3.0 credits plus a 1.5-credit lab (CSE 434 Lab).\n\nYou can find more details about the CSE curriculum on the university website or by contacting the department directly. Here's what I've found about the department:\n\n*   **Department:** Computer Science and Engineering\n*   **University:** Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)\n\nIf you have any other questions about courses, prerequisites, or anything else related to JKKNIU, feel free to ask! I'm here to help. ✨\n",
+      "elapsed_time": 16.389737367630005,
+      "error": null,
+      "input_tokens_approx": 3345,
+      "output_tokens_approx": 241
+    }
+  ]
+}

@@ -31,6 +31,7 @@ venv.bak/
 
 # Vector database (will be recreated locally)
 chroma_langchain_db/
+chroma_langchain_db_baseline/
 
 # IDE
 .vscode/
@@ -67,3 +68,5 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+.github

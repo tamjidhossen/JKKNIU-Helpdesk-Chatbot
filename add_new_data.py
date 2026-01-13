@@ -66,8 +66,58 @@ class NewDataProcessor:
         files = glob.glob(pattern)
         return files
     
+    def detect_entity_info(self, content: str) -> dict:
+        """Extract entity type and name from content, not filename."""
+        import re
+        
+        info = {
+            "entity_type": "general",
+            "entity_name": None,
+            "keywords": [],
+        }
+        
+        content_lower = content.lower()
+        first_line = content.split("\n")[0] if content else ""
+        
+        # Detect teacher data
+        if "professor" in content_lower or "lecturer" in content_lower:
+            info["entity_type"] = "teacher"
+            # Extract name from first line
+            name_match = re.search(r"^((?:Dr\.|Professor|Prof\.)\s+[\w\.\s]+?)(?:\s*-|\s*,)", first_line)
+            if name_match:
+                info["entity_name"] = name_match.group(1).strip()
+            if "publications" in content_lower:
+                info["keywords"].append("publications")
+            if "research" in content_lower:
+                info["keywords"].append("research")
+        
+        # Detect admission data
+        elif "admission" in content_lower and "seats" in content_lower:
+            info["entity_type"] = "admission"
+            dept_match = re.search(r"([A-Z][A-Za-z\s&]+)\s+(?:Admission|Department)", first_line)
+            if dept_match:
+                info["entity_name"] = dept_match.group(1).strip()
+            info["keywords"].extend(["admission", "seats", "requirements"])
+        
+        # Detect curriculum/course data
+        elif "curriculum" in content_lower or "syllabus" in content_lower or "semester" in content_lower:
+            info["entity_type"] = "curriculum"
+            info["keywords"].extend(["courses", "credits", "syllabus"])
+        
+        # Detect Q&A data
+        elif "?" in content and content_lower.count("?") > 3:
+            info["entity_type"] = "qa"
+            info["keywords"].append("faq")
+        
+        # Extract course codes as keywords
+        course_codes = re.findall(r"(?:CSE|EEE|MATH|PHY|GED)\s*\d+", content)
+        if course_codes:
+            info["keywords"].extend(list(set(course_codes[:5])))
+        
+        return info
+
     def process_file(self, file_path):
-        """Process a single file and return chunked documents."""
+        """Process a single file and return chunked documents with enhanced metadata."""
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
@@ -75,6 +125,9 @@ class NewDataProcessor:
             if not content.strip():
                 print(f"Warning: File {file_path} is empty, skipping.")
                 return []
+            
+            # Extract entity info from content (not filename!)
+            entity_info = self.detect_entity_info(content)
             
             # Split content into chunks
             chunks = self.text_splitter.split_text(content)
@@ -84,14 +137,24 @@ class NewDataProcessor:
             
             for i, chunk in enumerate(chunks):
                 if chunk.strip():
+                    # Enhanced metadata
+                    metadata = {
+                        "source": filename,
+                        "source_type": "new_data",
+                        "chunk": i,
+                        "file_path": file_path,
+                        "entity_type": entity_info["entity_type"],
+                    }
+                    
+                    if entity_info["entity_name"]:
+                        metadata["entity_name"] = entity_info["entity_name"]
+                    
+                    if entity_info["keywords"]:
+                        metadata["keywords"] = ",".join(entity_info["keywords"])
+                    
                     document = Document(
                         page_content=chunk.strip(),
-                        metadata={
-                            "source": filename,
-                            "source_type": "new_data",
-                            "chunk": i,
-                            "file_path": file_path
-                        }
+                        metadata=metadata
                     )
                     documents.append(document)
             

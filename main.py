@@ -19,13 +19,17 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 from config import CHATBOT_TEMPLATE, GEMINI_MODEL, LLM_MODEL
+from api_keys import get_next_api_key
 
 console = Console()
-model = ChatGoogleGenerativeAI(model=GEMINI_MODEL)
 # model = ChatOllama(model=LLM_MODEL)
 template = CHATBOT_TEMPLATE
 prompt = ChatPromptTemplate.from_template(template)
-chain = prompt | model
+
+def get_model():
+    """Get a new model with the next API key in rotation."""
+    api_key = get_next_api_key()
+    return ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
 
 def display_header():
     console.print("[bold cyan]JKKNIU Helpdesk Chatbot[/bold cyan]")
@@ -48,6 +52,8 @@ def process_question_with_spinner(question):
         try:
             start_time = time.time()
             context = retriever.invoke(question)
+            model = get_model()  # Get model with next API key
+            chain = prompt | model
             result = chain.invoke({"context": context, "question": question})
             response_data["result"] = result.content
             response_data["elapsed_time"] = time.time() - start_time
