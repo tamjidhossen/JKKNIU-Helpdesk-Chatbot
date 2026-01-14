@@ -1,0 +1,95 @@
+Dr. A. H. M. Kamal - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information:
+- PABX: 09032-56212-364
+- Mobile: +88 017-32226-402
+- Email: kamal@jkkniu.edu.bd, ahmkctg@yahoo.com
+
+Research Interests of Dr. A. H. M. Kamal:
+- Medical Imaging
+- ICT for Improving Healthcare Services
+- Information Security
+- Information Fusion
+- Steganography & Watermarking
+
+Education of Dr. A. H. M. Kamal:
+- PhD in CSE from BUET, Dhaka, Bangladesh (2017)
+- M.Sc in Information Technology from UPC, Barcelona, Spain (2008)
+- M.Sc in Information Technology from UCL, Belgium (2006)
+- B.Sc. (Engg.) in Computer Science and Engineering from SUST, Sylhet, Bangladesh (1998)
+- HSC from Dhaka Residential Model College, Bangladesh
+- SSC from Sandikona High School, Netrakona, Bangladesh
+
+Professional Experience of Dr. A. H. M. Kamal:
+- Professor (May 2018 to present) - Department of Computer Science and Engineering, JKKNIU
+- Associate Professor (March 2014 to May 2018) - Department of Computer Science and Engineering, JKKNIU
+- Assistant Professor (April 2008 to March 2014) - Department of Computer Science and Engineering, JKKNIU
+- Radio Room Supervisor (Dec 2007 to April 2008) - United Nation Department of Safety and Security (UNDSS)
+- Assistant Professor (Aug 2005 to Dec 2007) - University of Science and Technology Chittagong (USTC)
+- Lecturer (July 2001 to July 2005) - University of Science and Technology Chittagong (USTC)
+
+Achievements and Awards of Dr. A. H. M. Kamal:
+- National Award (2025) - ICT Division of Govt. of Bangladesh. Achieved for special contributions in the field of Telecom and ICT.
+- Doctoral Fellowship by ICT Division, Ministry of Post, Telecommunication and IT, Government of Bangladesh
+- Erasmus Mundus Scholarship for double M.Sc. programs from European Union
+- Scholarship at different academic years in B.Sc. Engg. program
+- Double Star (both in SSC and HSC)
+- Dhaka board scholarship on SSC result
+- Talent pool scholarship (In Class VIII)
+
+Courses Conducted by Dr. A. H. M. Kamal:
+- Stochastic Process, Advanced Network Security, Advanced Communication Network
+- Digital Signal Processing, Computer Graphics, Data Communication
+- Compiler Construction, Computer Networks, Theory of Computing, Algorithms
+- Digital Logic Designs, Object Oriented Programming in C++, Data Structure
+- Structured Programming, Computer Programming in C, Discrete Mathematics
+- Computer Fundamentals, Operating System, Artificial Intelligence
+
+Publications of Dr. A. H. M. Kamal (Journal & Conference):
+1. DR. A. H. M. KAMAL. "DNA Steganography to Enhance Security in Banking Sector", Security and Privacy, Vol 8, Issue 4, 2025.
+2. Islam, M. Z., Ishrak, M. A., DR. A. H. M. KAMAL. "Feature value quantization and reduction process for predicting heart attack possibility and the level of severity by a machine learning model", International Journal of Engineering and Computer Science, 13(07), 26257–26269, 2024.
+3. Nahar, M., DR. A. H. M. KAMAL. "DNA Steganography: Embedding the Secret Messages Using Glass Stack Method and Detecting Errors Made by Different Attacks", International Journal of Computers and Applications, 46(7), 508–525, 2024.
+4. Alhina Afrin Dolona, Nafiz Imtiaz Rafinb, Md. Golam Rabiul Alamb, M. Ali Akber Dewanc, DR. A. H. M. KAMAL. "A Method of Hybridizing and Cascading Several Learning Phases to Detect Brain Stroke in MRI and CT", International Journal of Computer Engineering and Sciences Research, 2024.
+5. DR. A. H. M. KAMAL , Jibon FA, Jamil Chowdhury AR, Miraz MH, et al. "Sequential graph convolutional network and DeepRNN based hybrid framework for epileptic seizure detection from EEG signal", DIGITAL HEALTH, Vol 10, 2024.
+6. DR. A. H. M. KAMAL , I. A. Anik, A. H. M. Kamal, M. A. Kabir, S. Uddin and M. A. Moni. "A Robust Deep-Learning Model to Detect Major Depressive Disorder Utilising EEG Signals", IEEE Transactions on Artificial Intelligence, 2023.
+7. DR. A. H. M. KAMAL , Habiba Sultana, A.H.M. Kamal, Tasnim Sakib Apon, Md. Golam Rabiul Alam. "Increasing embedding capacity of stego images by exploiting edge pixels in prediction error space", Cyber Security and Applications, Volume 2, 2024.
+8. Mahbubun Nahar, A.H.M. Kamal, Gahangir Hossain, DR. A. H. M. KAMAL. "Protecting health data in the cloud through steganography: A table-driven, blind method using neural networks and bit-shuffling algorithm", Journal of Network and Computer Applications, Volume 217, 2023.
+9. DR. A. H. M. KAMAL , Md. Golam Rabiul Alam, Md Rafiul Hassan, Tasnim Sakib Apon, Mohammad Mehedi Hassan. "Explainable indoor localization of BLE devices through RSSI using recursive continuous wavelet transformation and XGBoost classifier", Future Generation Computer Systems, Volume 141, 2023.
+10. DR. A. H. M. KAMAL , Sultana H, Kamal AHM, Hossain G, Kabir MA. "A Novel Hybrid Edge Detection and LBP Code-Based Robust Image Steganography Method", Future Internet, 15(3):108, 2022.
+11. M. Nahar, DR. A. H. M. KAMAL. "An Efficient Use of Toffoli Quantum Gate for Boosting the Embedding Capacity in DNA Sequence", 2022 IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE), 2022.
+12. H. Sultana, DR. A. H. M. KAMAL. "An Edge Detection Based Reversible Data Hiding Scheme", 2022 IEEE Delhi Section Conference (DELCON), 2022.
+13. DR. A. H. M. KAMAL , Abdullah M. K. "A Predictive Investment Scheme for Dhaka Stock Exchange", Digital Technologies Research and Applications; Vol. 1. No. 1, 2022.
+14. DR. A. H. M. KAMAL , Aktar, S., et al. "Machine Learning Approaches to Identify Patient Comorbidities and Symptoms That Increased Risk of Mortality in COVID-19", Diagnostics, 2021.
+15. DR. A. H. M. KAMAL , Aktar, S., et al. "Machine Learning Approach to Predicting COVID-19 Disease Severity Based on Clinical Blood Test Data", JMIR Medical Informatics, 2021.
+16. DR. A. H. M. KAMAL , Rahman M. H. "A Block Mean Insertion and Dual Stego Generation Based Embedding Strategy", Journal of Computer and Communications, 2021.
+17. Akter O., Moni M. A., Islam M. M., Quinn J. M. W., DR. A. H. M. KAMAL. "Lung cancer detection using enhanced segmentation accuracy", Journal of Applied Intelligence, 2020.
+18. DR. A. H. M. KAMAL , Islam M. M., Islam Z. "An embedding technique for smart card supported e-healthcare services", Iranian Journal of Computer Science, 2020.
+19. DR. A. H. M. KAMAL , Islam M. M. "A prediction error based histogram association and mapping technique for data embedment", Journal of Information Security and Applications, 2019.
+20. DR. A. H. M. KAMAL , Islam M. M. "A new histogram-shifting-imitated embedding scheme", Journal of Applied Computer Science and Technology, 2019.
+21. DR. A. H. M. KAMAL , Islam M. M. "An image distortion-based enhanced embedding scheme", Iranian Journal of Computer Science, 2018.
+22. DR. A. H. M. KAMAL. "Securing the Smart Card Authentications Process by Embedment Random Number of Data Bits into Each Pixel", International Journal of u- and e- Service, Science and Technology, 2017.
+23. DR. A. H. M. KAMAL , Islam M. M. "Enhancing embedding capacity and stego image quality by employing multi predictors", Journal of Information Security and Applications, 32: 59-74, 2017.
+24. DR. A. H. M. KAMAL , Islam M. M. "Enhancing the performance of the data embedment process through encoding errors", Journal of Electronics, 2016.
+25. DR. A. H. M. KAMAL , Islam M. M. "Boosting up the data hiding rate multi cycle embedment process", Journal of Visual Communication and Image Representation, 2016.
+26. DR. A. H. M. KAMAL , Habiba S., Kamal A. H. M. and Islam M. M. "Enhancing the robustness of visual degradation based HAM reversible data hiding", Journal of Computer Science, 2016.
+27. DR. A. H. M. KAMAL , Islam M. M. "Facilitating and securing offline e-medicine service through image steganography", Healthcare Technology Letters, 2014.
+28. DR. A. H. M. KAMAL. "Steganography: Securing Message in wireless network", Int. J. Computer and Technology, 2013.
+29. DR. A. H. M. KAMAL. "Retrieving Packets from Losing during Service Disruption Time, During Vertical Handover among UMTS and WLAN", Int. J. Advanced Networking and Applications, 2012.
+30. DR. A. H. M. KAMAL. "Cross application of Round Robin Scheduling and Shortest Job First Serve in CPU Scheduling to improve preemptive scheduling", Journal of Nazrul University, 2012.
+31. DR. A. H. M. KAMAL. "UB Operator precedence parsing algorithm", Computer Science & Engineering Research Journal, 2011.
+32. DR. A. H. M. KAMAL. "An Algorithm to trigger VHO based on the speed of roamer – who is just leaving the WLAN in a room", Int. Journal of Emerging Technologies in Science and Engineering, 2010.
+33. DR. A. H. M. KAMAL. "Use of ICTs in Gender Equalization", USTA 2009.
+34. DR. A. H. M. KAMAL. "ICT in Managing Disaster in Bangladesh", USTA 2009.
+35. DR. A. H. M. KAMAL , Parada M. "Blob translation based estimation technique to handle occlusion while using mean-shift in tracking", Research Journal of applied sciences, 2004.
+36. DR. A. H. M. KAMAL. "An easy, flexible and linear way for generating precedence functions", Multimedia Cyberscape journal (MMCJ), 2004.
+37. DR. A. H. M. KAMAL , Hossain G. "A new approach of image encryption", Asian Journal of Information Technology, 2004.
+38. DR. A. H. M. KAMAL , Khan Z. U. A., Islam M. K. "K-Index-Sort: Sorting Unique Integer in Linear Time", Asian Journal of Information Technology, 2004.
+39. DR. A. H. M. KAMAL , Islam M. K., Hossain M. G. "Insertion Sort with Binary Search", USTA 2003.
+40. DR. A. H. M. KAMAL , Islam M. M. "Uses of Local Binary Pattern Codes for Enriching the Embedding Performance", IEEE DELCON 2022.
+41. Sultana Habiba, DR. A. H. M. KAMAL. "An Edge Detection Based Reversible Data Hiding Scheme", IEEE DELCON 2022.
+42. Sultana Habiba, DR. A. H. M. KAMAL. "Image Steganography System based on Hybrid Edge Detector", ICCIT 2021.
+43. DR. A. H. M. KAMAL , Islam M. M. "Enhancing the embedding payload by handling the affair of association and mapping of block pixels through prediction errors histogram", NSysS, 2016.
+44. DR. A. H. M. KAMAL , Islam M. M. "Capacity improvement of reversible data hiding scheme through better prediction and double cycle embedding process", ANTS, 2015.
+45. DR. A. H. M. KAMAL , Islam M. K. "Construction of deterministic finite automata (DFA) from regular expression", CCCT, 2003.
+46. DR. A. H. M. KAMAL , Azim E., Islam M. K. "INSERTION SORT: THAT APPLY BINARY SEARCH AND KEEP TRACK", ICCIT, 2003.
+47. DR. A. H. M. KAMAL , Salam M. A. "Paging Binary Search Algorithm", ICCIT, 2003.

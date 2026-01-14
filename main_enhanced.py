@@ -34,8 +34,14 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from query_enhancer import EnhancedRetriever, QueryClassifier
 from vector import retriever as basic_retriever
-from config import CHATBOT_TEMPLATE, CHATBOT_TEMPLATE_ORIGINAL, GEMINI_MODEL
+from vector import sync_database
+from config import CHATBOT_TEMPLATE, CHATBOT_TEMPLATE_ORIGINAL, GEMINI_MODEL, AUTO_UPDATE_VECTOR_DB
 from api_keys import get_next_api_key
+
+# Auto-update vector database if configured
+if AUTO_UPDATE_VECTOR_DB:
+    print("[dim]Syncing vector database...[/dim]")
+    sync_database()
 
 console = Console()
 
@@ -91,7 +97,21 @@ class EnhancedChatbot:
             result["docs_retrieved"] = len(context_docs)
             
             # Format context
-            context = "\n\n".join([doc.page_content for doc in context_docs])
+            # Format context with source metadata
+            context_parts = []
+            for doc in context_docs:
+                source = doc.metadata.get('source', 'Unknown Source')
+                content = doc.page_content
+                # Hidden source tag for internal tracking, but prompt instruction says not to mention it
+                context_parts.append(f"[Source: {source}]\n{content}")
+            
+            context = "\n\n".join(context_parts)
+            
+            # Get current time for context
+            from datetime import datetime
+            now = datetime.now()
+            current_date = now.strftime("%Y-%m-%d")
+            current_time = now.strftime("%I:%M %p")
             
             # Get response with rotating API key
             model = self._get_model()
@@ -99,7 +119,9 @@ class EnhancedChatbot:
             response = chain.invoke({
                 "context": context, 
                 "question": question,
-                "history": history
+                "history": history,
+                "current_date": current_date,
+                "current_time": current_time
             })
             result["response"] = response.content
             result["elapsed_time"] = time.time() - start_time

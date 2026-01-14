@@ -1,0 +1,27 @@
+Dr. Mahbubun Nahar - Associate Professor and Assistant Proctor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information of Dr. Mahbubun Nahar:
+- Email: mahbuba.knu@gmail.com
+- Phone: 01770393499
+- Department: Computer Science and Engineering
+- Faculty: Faculty of Science and Engineering
+- Additional Role: Assistant Proctor, JKKNIU
+
+Publications of Dr. Mahbubun Nahar:
+1. DR. MAHBUBUN NAHAR. "DNA Steganography to Enhance Security in Banking Sector", Security and Privacy, Article, 2025.
+2. DR. MAHBUBUN NAHAR. "DNA Steganography: Embedding the Secret Messages Using Glass Stack Method and Detecting Errors Made by Different Attacks", International Journal of Computers and Applications, Article, 2024.
+3. DR. MAHBUBUN NAHAR. "Protecting health data in the cloud through steganography: A table-driven, blind method using neural networks and bit-shuffling algorithm", Journal of Network and Computer Applications, Article, 2023.
+4. DR. MAHBUBUN NAHAR. "Novel Algorithm for Multi-Time Data Implantation in a Special Cyber-Manufacturing Architecture", Article, 2022.
+5. DR. MAHBUBUN NAHAR. "An efficient use of Toffoli quantum gate for boosting the embedding capacity in DNA sequence", 9th IEEE Asia-Pacific Conference on Computer Science and Data Engineering, Conference, 2022.
+6. DR. MAHBUBUN NAHAR. "Improvement of Single Seeded Region Growing Algorithm on Image Segmentation", Global Journal of Computer Science and Technology, Article, 2018.
+7. DR. MAHBUBUN NAHAR. "Comparison Study and Result Analysis of Image Segmentation Approaches", International Journal of Applied Research on Information Technology and Computing, Article, December 2016.
+8. DR. MAHBUBUN NAHAR. "An Improved Approach for Digital Image Edge Detection", International Journal of Recent Development in Engineering and Technology, Article, March 2014.
+
+---
+### Summary of Dr. Mahbubun Nahar
+**Name:** Dr. Mahbubun Nahar
+**Designation:** Associate Professor and Assistant Proctor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** Not Available from current input (Known JKKNIU Alumni).
+**Core Expertise:** DNA Steganography, Cyber Security, Computer Vision.
+**Publication Count:** 8

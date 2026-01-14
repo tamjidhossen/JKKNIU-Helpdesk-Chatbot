@@ -1,0 +1,20 @@
+Indrani Mandal - Associate Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information of Indrani Mandal:
+- Email: indranicsedu@yahoo.com
+- Phone: 01865974235
+- Education: Not Available (Updated from user input mostly, but known to be Associate Professor)
+
+Publications of Indrani Mandal:
+1. Sujit Roy, Dr. SUBRATA KUMAR DAS, INDRANI MANDAL. "Hadoop Periodic Jobs Using Data Blocks to Achieve Efficiency", International Journal of Scientific Research in Computer Science, Engineering and Information Technology, March 2018.
+2. DR. MD. SELIM AL MAMUN, DR. UZZAL KUMAR PRODHAN, INDRANI MANDAL. "Quantum Cost Optimization for Reversible Carry Skip BCD Adder", International Journal of Science and Technology (IJST), 30 Oct 2012.
+3. Automated Readability Determination using Shallow & Syntactic Feature (Inferred from previous records)
+
+---
+### Summary of Indrani Mandal
+**Name:** Indrani Mandal
+**Designation:** Associate Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** Not Available from current input.
+**Core Expertise:** Hadoop Efficiency, Reversible Logic.
+**Publication Count:** 3+

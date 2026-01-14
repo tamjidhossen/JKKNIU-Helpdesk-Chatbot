@@ -1,0 +1,36 @@
+CSE Teachers Research Insights and Complex Relations
+
+This file maps the research landscape and collaborations within the CSE department at JKKNIU.
+
+1. Research Clusters (Collaborative Themes)
+- Digital Signal Processing (DSP) & Bio-Signals:
+  * Key Figures: Sujan Ali, Jannatul Ferdous, Habiba Sultana, Mijanur Rahman, Kazi Mahmudul Hassan.
+  * Focus: Neural Signal Processing, BCI, EEG analysis, Neuro-robotics.
+- Health Informatics & Telemedicine:
+  * Key Figures: Uzzal Kumar Prodhan, Subrata Kumar Das, Mijanur Rahman, Tushar Kanti Saha.
+  * Focus: Remote healthcare, Distributed patient database management, COVID-19 pattern analysis.
+- Cyber Security & Data Privacy:
+  * Key Figures: Tushar Kanti Saha, Subrata Kumar Das, Mahbubun Nahar, A. H. M. Kamal.
+  * Focus: Steganography (DNA & Image), Cryptography (Cloud security), Watermarking patient data.
+- AI, Machine Learning & Computer Vision:
+  * Key Figures: A. H. M. Kamal, Subrata Das, Mijanur Rahman, Mahnuma Rinty, Rubya Shaharin.
+  * Focus: OCR (Image text extraction), Hand gesture recognition, Machine learning for healthcare.
+
+2. Publication Excellence (High Impact)
+- Top Publication Count:
+  1. Dr. Md. Mijanur Rahman (74+ entries)
+  2. Dr. A. H. M. Kamal (47+ entries)
+  3. Dr. Uzzal Kumar Prodhan (35+ entries)
+  4. Dr. Md. Sujan Ali (31+ entries, plus 4 Literary Books)
+- Notable Achievements:
+  * Dr. A. H. M. Kamal: National Award (2025) for contributions to Telecom and ICT.
+  * Dr. Subrata Kumar Das: Patented a system for secured patient data compression (2023).
+  * Mahnuma Rahman Rinty: Prime Minister Gold Medal (2018).
+
+3. Complex Institutional Relations
+- Parallel Career Paths: Many senior professors (Sujan Ali, Jannatul Ferdous, Uzzal Prodhan) share an alma mater (Islamic University) and have progressed through JKKNIU since 2008-2010.
+- Shared Research Projects: Dr. Mijanur Rahman and Mahnuma Rinty have several joint publications on speech segmentation and OCR. Uzzal Prodhan and Tushar Saha collaborate frequently on telemedicine papers.
+- Inter-Departmental Links: Dr. Kamal serves as Dean for the entire Faculty of Science and Engineering, linking CSE with EEE, ESE, and Statistics.
+
+4. Teaching/Course Relations
+- Common Courses: DSP is taught by Kamal, Sujan Ali, and Jannatul Ferdous. Security courses are shared between Tushar Saha and Subrata Das. Programming basics/C++ are the foundation for almost all junior faculty teaching loads.

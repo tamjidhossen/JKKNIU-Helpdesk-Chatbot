@@ -24,16 +24,22 @@ VECTOR_DB_PATH = "./chroma_langchain_db"
 COLLECTION_NAME = "university_helpdesk"
 
 # Text splitting configuration
-CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 200
+CHUNK_SIZE = 2000
+CHUNK_OVERLAP = 400
 
 # Retrieval configuration
-RETRIEVAL_K = 20
+RETRIEVAL_K = 10
+RETRIEVAL_K_MIN = 5
+RETRIEVAL_K_MAX = 50
 
 # Data paths
+# Data paths
 DATA_DIR = "Data"
-QA_FILE = os.path.join(DATA_DIR, "Q&A.txt")
-STRUCTURE_FILE = os.path.join(DATA_DIR, "structure_data.json")
+QA_FILE = os.path.join(DATA_DIR, "General", "Q&A.txt")
+STRUCTURE_FILE = os.path.join(DATA_DIR, "General", "structure_data.json")
+
+# Auto-update vector database on startup
+AUTO_UPDATE_VECTOR_DB = True
 
 # University information
 UNIVERSITY_NAME = "Jatiya Kabi Kazi Nazrul Islam University"
@@ -56,6 +62,10 @@ Instructions:
 # Enhanced chatbot prompt template with chain-of-thought reasoning
 CHATBOT_TEMPLATE = """
 You are a helpful and conversational university helpdesk assistant for {university_name} (JKKNIU).
+
+**Current Context:**
+Date: {{current_date}}
+Time: {{current_time}}
 
 **Conversation History:**
 {{history}}
@@ -80,7 +90,12 @@ Think through this step by step:
 - If exact information isn't available, share what IS known and make logical inferences
 - Suggest contacting the university for official confirmation when appropriate (https://jkkniu.edu.bd/contact-us), don't point to any specific person for contact.
 - Keep responses clear and well-organized
-- **IMPORTANT**: The "Context Information" above is retrieved knowledge, NOT a past conversation. Only refer to "Conversation History" as things we have actually discussed. Do not say "like I mentioned earlier" unless it is in the specific "Conversation History" section.
+- **IMPORTANT**: The "Context Information" above is your INTERNAL KNOWLEDGE about the University.
+    - Do NOT say "Based on the context" or "According to the files".
+    - Speak as if you simply KNOW these facts about JKKNIU.
+    - Do NOT mention filenames or raw data sources to the user.
+    - Use natural phrasing like "Dr. X is a Professor..." rather than "The file says Dr. X is..."
+- The "Context Information" is retrieved knowledge, NOT a past conversation. Only refer to "Conversation History" as things we have actually discussed. Do not say "like I mentioned earlier" unless it is in the specific "Conversation History" section.
 
 **Your Response:**
 """.format(university_name=UNIVERSITY_NAME)

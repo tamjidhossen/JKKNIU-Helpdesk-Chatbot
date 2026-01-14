@@ -1,0 +1,79 @@
+Dr. Subrata Kumar Das - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information of Dr. Subrata Kumar Das:
+- Email: sdas_ce@jkkniu.edu.bd, sdas_ce@yahoo.com
+- Mobile: +88 01721006007
+- PABX: 09032-56212-125
+- Department: Computer Science and Engineering
+- Faculty: Faculty of Science and Engineering
+
+Education of Dr. Subrata Kumar Das:
+- Doctor of Philosophy (PhD) in Computer Science and Engineering from Jahangirnagar University, Dhaka, Bangladesh (2024)
+- Master of Science (MSc) in Computer Science and Engineering from Islamic University, Kushtia, Bangladesh (2005)
+- Bachelor of Science (BSc) in Computer Science and Engineering from Islamic University, Kushtia, Bangladesh (2004)
+- Higher Secondary Certificate (HSC) in Science from Govt. Sundarban Adarsha College, Khulna, Bangladesh (1999)
+- Secondary School Certificate (SSC) in Science from Gazirhat H. N. High School, Narail, Bangladesh (1997)
+
+Professional Experience of Dr. Subrata Kumar Das:
+- Professor (2025-01-16 to present) - Department of Computer Science and Engineering, JKKNIU
+- Associate Professor (2018-04-30 to 2025-01-15) - Department of Computer Science and Engineering, JKKNIU
+- Assistant Professor (2015-05-19 to 2018-04-29) - Department of Computer Science and Engineering, JKKNIU
+- Assistant Professor (2012-08-05 to 2015-05-18) - Department of Computer Science and Engineering, Jashore University of Science and Technology (JUST)
+- Lecturer (2009-06-29 to 2012-08-04) - Department of Computer Science and Engineering, JUST
+- Lecturer (2008-03-29 to 2009-06-28) - Department of Computer Science and Engineering, Institute of Science, Trade and Technology (ISTT)
+
+Administrative Roles of Dr. Subrata Kumar Das:
+- Chairman (2014-01-08 to 2015-05-18) - Department of Computer Science and Engineering, JUST
+- Director, Cyber Center (2011-03-01 to 2014-06-30) - JUST
+- Assistant Proctor (2010-01-19 to 2011-01-18) - JUST
+
+Research & Projects of Dr. Subrata Kumar Das:
+- Enhancing Digital Government & Economy (EDGE) Project (Coordinator, 2024-2025)
+- To Improve the Computer Vision for Surveillance from Visual Input (Director, 2023-2024)
+- Information Technology Engineers Examination (ITEE) Program (Coordinator, 2023)
+- Project on Professional Computer Applications for Developing Manpower (Director, 2013-2015)
+- Establishment of Computer Labs & Initiate ICT Training in District Level Educational Institutes Project (Coordinator, 2012-2013)
+
+Awards & Fellowships of Dr. Subrata Kumar Das:
+- Outstanding Student Fellowship (2020) - Jahangirnagar University
+- Fulbright ICT Fellowship (2018) - Ministry of ICT Division, Bangladesh
+- Outstanding Student Stipend (2002) - Islamic University
+
+Publications of Dr. Subrata Kumar Das (Journals & Conferences):
+1.  Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A study on machine learning algorithms with different encoding techniques for identifying the right one for patients’ Big Data", Jahangirnagar University Journal of Science, June 2024.
+2.  Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A secured compression technique based on encoding for sharing electronic patient data in slow-speed networks", Heliyon, Elsevier, October 2022.
+3.  Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A middleware architecture to integrate and share health data from heterogeneous and diverse data sources", Iran Journal of Computer Science, Springer, June 2022.
+4.  Sujit Roy, Dr. SUBRATA KUMAR DAS. "A Multi-path Based Embedding Scheme at Perfect Maze", Indian Journal of Computer Science, February 2022.
+5.  Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "Distinct features of healthcare systems and an architecture to manage healthcare distributed databases", International Journal of Computer Applications, FCS, October 2020.
+6.  Md. Rasel Mia, Sujit Roy, Dr. SUBRATA KUMAR DAS. "Mango leaf disease recognition using neural network and support vector machine", Iran Journal of Computer Science, Springer, April 2020.
+7.  Santa Maria Shithil, Dr. SUBRATA KUMAR DAS. "School for All in One Box (SAOB): Providing Education as a Service (EAAS) to the Bottom of the Pyramid (BOP) People", Asian Journal of Research in Computer Science, March 2018.
+8.  Sujit Roy, Dr. SUBRATA KUMAR DAS, INDRANI MANDAL. "Hadoop Periodic Jobs Using Data Blocks to Achieve Efficiency", International Journal of Scientific Research in Computer Science, Engineering and Information Technology, March 2018.
+9.  Dr. SUBRATA KUMAR DAS , Saumendu Roy, Debbroto Sarker, Md. Mijanur Rahman. "Energy Efficient Failure Recovery with Concurrent Execution in Hadoop Cluster", International Journal of Applied Research on Information Technology and Computing, April 2016.
+10. Romana Rahman Ema, Ashrafi Akram, Dr. SUBRATA KUMAR DAS. "Performance Analysis of DSDV, AODV and AOMDV Routing Protocols based on Fixed and Mobility Network Model in Wireless Sensor Network", Global Journal of Computer Science and Technology: E Network, Web & Security, December 2014.
+11. Dr. SUBRATA KUMAR DAS , Md. Alam Hossain, Md. Arifuzzaman Sardar. "Performance Analysis of Client Side Encryption Tools", International Journal of Advanced Computer Research, September 2014.
+12. Md. Kamrul Islam, Dr. SUBRATA KUMAR DAS. "Determining Project Success Criteria by Perspective in Sub-Contracting Situation", Indian Journal of Advances in Computer & Information Engineering, June 2013.
+13. Md. Kamrul Islam, Dr. SUBRATA KUMAR DAS. "Top 9 Squeezing Factors On Software Development Project Manager During Development of Project", Journal of Innovation & Development Strategy, December 2012.
+14. Md. Asif Nashiry, Shauli Sarmin sumi, Dr. SUBRATA KUMAR DAS. "UDP over various routing protocols for mobile ad hoc networks", Journal of Innovation & Development Strategy, April 2012.
+15. Dr. SUBRATA KUMAR DAS , Dr. Ahsan-Ul-Ambia, Md. Kamrul Islam. "A New Termination Detection Algorithm for Distributed System to Reduce the Computational Delay", IJCSES, April 2012.
+16. Md. Asif Nashiry, Shauli Sarmin sumi, Dr. SUBRATA KUMAR DAS. "TCP Performance over Mobile IP Wired-cum-Wireless Networks", Global Journal of Computer Science and Technology, April 2012.
+17. Md. Alam Hossain, Md. Kamrul Islam, Dr. SUBRATA KUMAR DAS. "Cryptanalyzing of message digest algorithms MD4 and MD5", International Journal on Cryptography and Information Security, March 2012.
+18. Dr. SUBRATA KUMAR DAS , Paresh Chandra Barman, Bikash Chandra Singh. "A New Termination Detection Protocol for Use in Diffusing Computation in Mobile ad Hoc Networks", APRN Journal of Science and Technology, March 2012.
+19. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A study on machine learning algorithms with different encoding techniques for identifying the right one for patients’ Big Data", In Proceedings of the 2nd International Conference on Technology, Business and Justice towards Smart Bangladesh (ICTBJ-2023), June 2023.
+20. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A watermarking approach to communicate patient data securely from distributed sources", In Proceedings of the 9th International Conference on Networking, Systems and Security, ACM, December 2022.
+21. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A new watermarking approach for ensuring patient data authentication over a low quality communication environment", In 2021 24th International Conference on Computer and Information Technology (ICCIT), IEEE, December 2021.
+22. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "Middleware to integrate patient data from heterogeneous distributed databases and its efficacy", In 2021 International Conference on Computational Science and Computational Intelligence (CSCI), IEEE, December 2021.
+23. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A compression technique for electronic health data through encoding", In 2021 International Conference on Electrical, Communication, and Computer Engineering (ICECCE), IEEE, June 2021.
+24. Dr. SUBRATA KUMAR DAS , Mohammad Zahidur Rahman. "A simplified architecture to integrate and interoperate heterogeneous and distributed healthcare data", In 2020 23rd International Conference on Computer and Information Technology (ICCIT), IEEE, December 2020.
+
+Patents of Dr. Subrata Kumar Das:
+1. "A system and method for secured compression of patient data for sharing in slow speed networks", Bangladesh Patent Office, Application Number: BRI-18886-2023, 2023.
+
+---
+### Summary of Dr. Subrata Kumar Das
+**Name:** Dr. Subrata Kumar Das
+**Designation:** Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** PhD (Jahangirnagar University), MSc & BSc (Islamic University).
+**Core Expertise:** Distributed Database, Patient Data Management, Security, Machine Learning.
+**Publication Count:** 24+ (Including Patent & Projects).
+**Experience:** Professor (JKKNIU), Former Chairman (JUST).

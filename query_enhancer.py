@@ -28,7 +28,7 @@ from langchain_core.documents import Document
 from rank_bm25 import BM25Okapi
 from config import (
     EMBEDDING_MODEL, VECTOR_DB_PATH, COLLECTION_NAME,
-    GEMINI_MODEL, RETRIEVAL_K, UNIVERSITY_NAME
+    GEMINI_MODEL, RETRIEVAL_K, RETRIEVAL_K_MIN, RETRIEVAL_K_MAX, UNIVERSITY_NAME
 )
 from api_keys import get_next_api_key
 
@@ -74,10 +74,10 @@ class QueryClassifier:
     def get_retrieval_k(cls, query_type: str) -> int:
         """Get optimal k value based on query type."""
         k_values = {
-            "aggregation": 30,  # Need more docs for aggregation
-            "factual": 10,      # Fewer docs needed
-            "reasoning": 15,    # Moderate amount
-            "vague": 20,        # More for context
+            "aggregation": RETRIEVAL_K_MAX if RETRIEVAL_K_MAX else 30,  # Max docs for aggregation
+            "factual": RETRIEVAL_K,      # Standard docs needed
+            "reasoning": RETRIEVAL_K + 5,    # Moderate amount
+            "vague": RETRIEVAL_K * 2,        # More for context
         }
         return k_values.get(query_type, RETRIEVAL_K)
 

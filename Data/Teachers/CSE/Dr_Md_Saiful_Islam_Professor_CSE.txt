@@ -1,0 +1,50 @@
+Professor Dr. Md. Saiful Islam - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information:
+- Email: saiful@jkkniu.edu.bd
+- Phone: 8801552637446
+- Social Profile Links: Not Available
+
+Research Interests: Not Available
+
+Education of Dr. Md. Saiful Islam:
+- Ph.D. in Mathematics from University of Rajshahi, Bangladesh (2019)
+- M.Phil. in Mathematics from University of Rajshahi, Bangladesh (2014)
+- M.Sc. in Pure Mathematics from University of Rajshahi, Bangladesh (2000)
+- B.Sc (hons) in Mathematics from University of Rajshahi, Bangladesh (1998)
+- H.S.C. in Science from Govt. K.C. College, Jhenaidah, Bangladesh (1994)
+- S.S.C. in Science from Uttar Narayonpur High School, Dakbangla Bazar, Jhenaidah, Bangladesh (1992)
+
+Experience of Dr. Md. Saiful Islam:
+- Professor (2020-04-03 to till now) - Dept. of CSE, JKKNIU
+- Associate Professor (2015-04-03 to 2020-04-02) - Dept. of CSE, JKKNIU
+- Assistant Professor (2011-04-03 to 2015-04-02) - Dept. of CSE, JKKNIU
+- Lecturer (2008-04-03 to 2011-04-02) - Dept. of CSE, JKKNIU
+- Lecturer (2006-08-01 to 2008-04-02) - Rajuk Uttara Model College, Dhaka
+- Lecturer (2002-04-01 to 2006-07-31) - Dhaka Shiksha Board Laboratory College, Dhaka
+
+Publications of Dr. Md. Saiful Islam:
+1. Md. Sahadat Hossain, Md. Saiful Islam, Mousumi Akter. "Level Separation of Fuzzy Pairwise Regular Bitopological Spaces" Journal of Mechanics of Continua And Mathematical Sciences, Volume 18, Issue 8, August 2023, Pages 1-13
+2. Md. Saiful Islam, Md. Sahadat Hossain, Md. Aman Mahbub. "On Intuitionistic Fuzzy r-Regular Spaces" International Journal of Fuzzy Mathematical Archive, Volume 19, Issue 2, December 2021, Pages 149-159
+3. M. S. Islam, R. Islam, M. S. Hossain. "On a Study on Intuitionistic Fuzzy r-Normal Spaces" Notes on Intuitionistic Fuzzy Sets, Volume 27, Issue 3, September 2021, Pages 69-82
+4. Md. Saiful Islam, Md. Sahadat Hossain, Md. Asaduzzaman. "Level Separation on Intuitionistic Fuzzy T2 Spaces" Journal of Mathematical and Computational Science, Volume 8, Issue 3, May-June 2018, Pages 353-372
+5. Md. Saiful Islam, Md. Sahadat Hossain, Md. Asaduzzaman. "Level Separation on Intuitionistic Fuzzy T1 Spaces" Journal of Bangladesh Academy of Science, Volume 42, Issue 1, January-June 2018, Pages 73-85
+6. DR. MD. SAIFUL ISLAM, Md. Sahadat Hossain and Md. Asaduzzaman. "Level Separation on Intuitionistic Fuzzy T0 Spaces" International Journal of Fuzzy Mathematical Archive, July-December 2017.
+7. Tushar Kanti Saha, Md. Saiful Islam, A.B.M. Shawkat Ali. "Novel Algorithm for Detecting Bipartite and Complete Bipartite Graph" International Journal of Applied Research on Information Technology and Computing, Volume 7, Issue 2, May-August 2016, Pages 71-79
+8. Tushar Kanti saha, DR. MD. SAIFUL ISLAM. "SIAM - A Proposed Model to Improve the Performance of Software Professionals" Journal of Computing Technologies, February 2015.
+9. DR. MD. SAIFUL ISLAM, Tushar Kanti saha. "A Novel Approach for Redemption of Trapezoidal Rule" Journal of Computing Technologies, February 2015.
+10. DR. MD. SAIFUL ISLAM, Dr. Md. Asaduzzaman and Dr. Md. Nazrul Islam Mondal. "Stability of an SVI Epidemic Model" IOSR Journal of Mathematics, May-June 2014.
+11. DR. MD. SAIFUL ISLAM, Dr. Md. Asaduzzaman and Dr. Md. Nazrul Islam Mondal. "Stability Analysis at DFE of an Epidemic Model in the Presence of a Preventive Vaccine" IOSR Journal of Mathematics, September-October 2012.
+12. DR. MD. SAIFUL ISLAM. "Bisectional Circle Method" Journal of Nazrul University, June-December 2012.
+13. DR. MD. SAIFUL ISLAM. "Bisectional Interpolation Method for Solving Algebraic and transcendental equation" Journal of Nazrul University, January-June 2012.
+14. DR. MD. SAIFUL ISLAM, Dr. AHM Kamal. "Ratio Method for Solving Any Equation of Single Variable" International Journal of Engineering and Technology, April-June 2009.
+
+
+### Summary of Dr. Md. Saiful Islam
+**Name:** DR. MD. SAIFUL ISLAM
+**Designation:** Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** PhD, M.Phil, MSc, BSc (All from University of Rajshahi in Mathematics)
+**Key Areas:** Pure Mathematics, Fuzzy Mathematics, Mathematical Modeling, Epidemic Models.
+**Teaching Focus:** All mathematics-related courses in CSE curriculum.
+**Experience:** Over 15 years at JKKNIU; previously taught at colleges in Dhaka.
