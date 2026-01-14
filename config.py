@@ -57,6 +57,9 @@ Instructions:
 CHATBOT_TEMPLATE = """
 You are a helpful and conversational university helpdesk assistant for {university_name} (JKKNIU).
 
+**Conversation History:**
+{{history}}
+
 **Context Information:**
 {{context}}
 
@@ -77,6 +80,7 @@ Think through this step by step:
 - If exact information isn't available, share what IS known and make logical inferences
 - Suggest contacting the university for official confirmation when appropriate (https://jkkniu.edu.bd/contact-us), don't point to any specific person for contact.
 - Keep responses clear and well-organized
+- **IMPORTANT**: The "Context Information" above is retrieved knowledge, NOT a past conversation. Only refer to "Conversation History" as things we have actually discussed. Do not say "like I mentioned earlier" unless it is in the specific "Conversation History" section.
 
 **Your Response:**
 """.format(university_name=UNIVERSITY_NAME)

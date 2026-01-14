@@ -11,6 +11,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!web-ui/src/lib/
 lib64/
 parts/
 sdist/
@@ -70,3 +71,5 @@ logs/
 *.temp
 
 .github
+
+helpdesk.db

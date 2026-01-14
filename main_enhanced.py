@@ -65,7 +65,7 @@ class EnhancedChatbot:
         api_key = get_next_api_key()
         return ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
     
-    def ask(self, question: str) -> dict:
+    def ask(self, question: str, history: str = "") -> dict:
         """Process a question and return the response with metadata."""
         result = {
             "question": question,
@@ -96,7 +96,11 @@ class EnhancedChatbot:
             # Get response with rotating API key
             model = self._get_model()
             chain = self.prompt | model
-            response = chain.invoke({"context": context, "question": question})
+            response = chain.invoke({
+                "context": context, 
+                "question": question,
+                "history": history
+            })
             result["response"] = response.content
             result["elapsed_time"] = time.time() - start_time
             
@@ -107,7 +111,16 @@ class EnhancedChatbot:
             })
             
         except Exception as e:
-            result["error"] = str(e)
+            error_str = str(e)
+            if "exhausted" in error_str.lower() or "429" in error_str:
+                result["response"] = "I'm receiving too many requests at the moment. Please wait a minute and try again."
+                result["query_type"] = "Error"
+            elif "blocked" in error_str.lower():
+                result["response"] = "I'm sorry, I cannot answer that question as it might violate my safety guidelines."
+                result["query_type"] = "Restricted"
+            else:
+                result["error"] = error_str
+                result["response"] = "I encountered an error processing your request. Please try again later."
         
         return result
 
