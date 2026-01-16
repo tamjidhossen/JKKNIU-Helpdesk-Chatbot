@@ -30,7 +30,7 @@ export const api = {
         if (response.status === 401) {
             // Check if we need to redirect or handle it in component
             localStorage.removeItem('token');
-            window.location.href = '/login';
+            // window.location.href = '/login'; // Don't redirect, just clear token
             throw new Error("Unauthorized");
         }
       const errorData = await response.json().catch(() => ({}));

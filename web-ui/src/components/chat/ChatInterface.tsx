@@ -10,9 +10,25 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { TextShimmerWave } from '@/components/motion-primitives/text-shimmer-wave';
 
+import { useAuth } from "../../context/AuthContext";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
 interface ChatInterfaceProps {
   activeId?: number;
   onConversationCreated: (id: number) => void;
+  onLoginRequest?: () => void;
 }
 
 const SUGGESTED_QUESTIONS = [
@@ -25,7 +41,9 @@ const SUGGESTED_QUESTIONS = [
 export const ChatInterface: React.FC<ChatInterfaceProps> = ({
   activeId,
   onConversationCreated,
+  onLoginRequest,
 }) => {
+  const { isAuthenticated } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [responseType, setResponseType] = useState("elaborative");
@@ -186,22 +204,9 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
           <div ref={scrollRef} className="h-32" />
         </div>
       </ScrollArea>
-
       <div className="px-4 pb-6 pt-2 bg-gradient-to-t from-background via-background to-transparent sticky bottom-0 z-10">
         <div className="max-w-3xl mx-auto space-y-4">
-          <div className="flex justify-between items-center px-1">
-             <div className="flex gap-2">
-                 <select 
-                    value={responseType} 
-                    onChange={(e) => setResponseType(e.target.value)}
-                    className="text-xs border rounded px-2 py-1 bg-background"
-                 >
-                     <option value="concise">Concise Response</option>
-                     <option value="elaborative">Elaborative Response</option>
-                 </select>
-             </div>
-          </div>
-
+          
           {error && (
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
               <Alert variant="destructive" className="rounded-xl border-destructive/20 bg-destructive/5 text-destructive">
@@ -215,21 +220,48 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/10 to-primary/20 rounded-[22px] blur opacity-0 group-focus-within:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative flex flex-col bg-background border rounded-[20px] shadow-lg transition-all duration-200 focus-within:ring-1 focus-within:ring-primary/20 focus-within:border-primary/30 overflow-hidden">
-              <Textarea
-                ref={textareaRef}
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !e.shiftKey) {
-                    e.preventDefault();
-                    handleSend();
-                  }
-                }}
-                placeholder="Ask anything..."
-                className="min-h-[60px] max-h-[200px] w-full resize-none bg-transparent border-0 focus-visible:ring-0 focus-visible:ring-offset-0 px-4 pt-4 pb-12 text-[15px] leading-relaxed"
-                disabled={isLoading}
-              />
+               <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <div className="w-full">
+                      <Textarea
+                        ref={textareaRef}
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" && !e.shiftKey) {
+                            e.preventDefault();
+                            handleSend();
+                          }
+                        }}
+                        placeholder={isAuthenticated ? "Ask anything..." : "Please login to chat..."}
+                        className={`min-h-[60px] max-h-[200px] w-full resize-none bg-transparent border-0 focus-visible:ring-0 focus-visible:ring-offset-0 px-4 pt-4 pb-12 text-[15px] leading-relaxed ${!isAuthenticated ? 'cursor-not-allowed opacity-50' : ''}`}
+                        disabled={isLoading || !isAuthenticated}
+                      />
+                    </div>
+                  </TooltipTrigger>
+                  {!isAuthenticated && (
+                    <TooltipContent>
+                      <p>Please <span className="underline cursor-pointer font-bold" onClick={onLoginRequest}>login</span> or <span className="underline cursor-pointer font-bold" onClick={onLoginRequest}>register</span> to chat</p>
+                    </TooltipContent>
+                  )}
+                </Tooltip>
+              </TooltipProvider>
+
               <div className="absolute bottom-3 right-3 flex items-center gap-2">
+                  <div className="flex items-center">
+                    <Select value={responseType} onValueChange={setResponseType}>
+                      <SelectTrigger className="w-[110px] h-7 text-[10px] sm:text-xs border-0 bg-transparent text-muted-foreground hover:text-foreground focus:ring-0 shadow-none px-1 gap-1">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="concise">Concise</SelectItem>
+                        <SelectItem value="elaborative">Elaborative</SelectItem>
+                        <SelectItem value="creative">Creative</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="h-4 w-px bg-border mx-1"></div>
                 <Button 
                   onClick={() => handleSend()} 
                   disabled={isLoading || !input.trim()}
@@ -239,8 +271,8 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
                   {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                 </Button>
               </div>
-              <div className="absolute bottom-3 left-4 text-[11px] text-muted-foreground/60 flex items-center gap-2">
-                 <span className="flex items-center gap-1"><kbd className="px-1 py-0.5 rounded bg-muted/50 border border-muted-foreground/20">Enter</kbd> to send</span>
+              <div className="absolute bottom-3 left-4 text-[11px] text-muted-foreground/60 flex items-center gap-2 pointer-events-none">
+                 <span className="flex items-center gap-1 hidden sm:flex"><kbd className="px-1 py-0.5 rounded bg-muted/50 border border-muted-foreground/20">Enter</kbd> to send</span>
               </div>
             </div>
           </div>

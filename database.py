@@ -6,7 +6,10 @@ class Conversation(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     title: str
     created_at: datetime = Field(default_factory=datetime.utcnow)
+    user_id: int = Field(foreign_key="user.id")
+    
     messages: List["Message"] = Relationship(back_populates="conversation")
+    user: "User" = Relationship(back_populates="conversations")
 
 class Message(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
@@ -25,10 +28,13 @@ class Message(SQLModel, table=True):
 class User(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     email: str = Field(unique=True, index=True)
+    full_name: str
     password_hash: str
     is_verified: bool = Field(default=False)
     verification_token: Optional[str] = None
     created_at: datetime = Field(default_factory=datetime.utcnow)
+    
+    conversations: List[Conversation] = Relationship(back_populates="user")
 
 sqlite_url = "sqlite:///./helpdesk.db"
 engine = create_engine(sqlite_url, echo=False)

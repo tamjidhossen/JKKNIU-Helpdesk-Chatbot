@@ -35,7 +35,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from query_enhancer import EnhancedRetriever, QueryClassifier
 from vector import retriever as basic_retriever
 from vector import sync_database
-from config import CHATBOT_TEMPLATE, CHATBOT_TEMPLATE_ORIGINAL, GEMINI_MODEL, AUTO_UPDATE_VECTOR_DB
+from config import (
+    CHATBOT_TEMPLATE_ELABORATIVE, 
+    CHATBOT_TEMPLATE_CONCISE, 
+    CHATBOT_TEMPLATE_CREATIVE,
+    CHATBOT_TEMPLATE_ORIGINAL, 
+    GEMINI_MODEL, 
+    AUTO_UPDATE_VECTOR_DB
+)
 from api_keys import get_next_api_key
 
 # Auto-update vector database if configured
@@ -59,7 +66,13 @@ class EnhancedChatbot:
                 use_hybrid=True,
                 use_keyword_expansion=True
             )
-            self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE)
+            # Default to elaborative, but will be overridden in ask() if needed
+            self.templates = {
+                "elaborative": ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ELABORATIVE),
+                "concise": ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_CONCISE),
+                "creative": ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_CREATIVE)
+            }
+            self.prompt = self.templates["elaborative"]
         else:
             self.retriever = basic_retriever
             self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ORIGINAL)
@@ -71,7 +84,7 @@ class EnhancedChatbot:
         api_key = get_next_api_key()
         return ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
     
-    def ask(self, question: str, history: str = "") -> dict:
+    def ask(self, question: str, history: str = "", response_type: str = "elaborative") -> dict:
         """Process a question and return the response with metadata."""
         result = {
             "question": question,
@@ -96,7 +109,6 @@ class EnhancedChatbot:
             
             result["docs_retrieved"] = len(context_docs)
             
-            # Format context
             # Format context with source metadata
             context_parts = []
             for doc in context_docs:
@@ -113,9 +125,20 @@ class EnhancedChatbot:
             current_date = now.strftime("%Y-%m-%d")
             current_time = now.strftime("%I:%M %p")
             
+            # Select appropriate template based on response_type
+            if self.use_enhanced:
+                # Normalize response_type
+                rt = response_type.lower()
+                if rt not in self.templates:
+                    rt = "elaborative"
+                
+                current_prompt = self.templates[rt]
+            else:
+                current_prompt = self.prompt
+            
             # Get response with rotating API key
             model = self._get_model()
-            chain = self.prompt | model
+            chain = current_prompt | model
             response = chain.invoke({
                 "context": context, 
                 "question": question,

@@ -8,7 +8,7 @@ from main_enhanced import EnhancedChatbot
 import uvicorn
 from contextlib import asynccontextmanager
 from database import User
-from auth_utils import get_password_hash, verify_password, create_access_token, send_verification_email
+from auth_utils import get_password_hash, verify_password, create_access_token, send_verification_email, send_password_reset_email
 from jose import JWTError, jwt
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 import os
@@ -69,6 +69,7 @@ class ChatRequest(BaseModel):
 class UserCreate(BaseModel):
     email: str
     password: str
+    full_name: str
 
 class Token(BaseModel):
     access_token: str
@@ -77,6 +78,7 @@ class Token(BaseModel):
 class UserSchema(BaseModel):
     id: int
     email: str
+    full_name: str
     is_verified: bool
 
 class MessageSchema(BaseModel):
@@ -92,6 +94,13 @@ class ConversationSchema(BaseModel):
     title: str
     created_at: str
 
+class ForgotPasswordRequest(BaseModel):
+    email: str
+
+class ResetPasswordRequest(BaseModel):
+    token: str
+    new_password: str
+
 @app.post("/auth/register", response_model=UserSchema)
 async def register(user_in: UserCreate, session: Session = Depends(get_session)):
     statement = select(User).where(User.email == user_in.email)
@@ -103,7 +112,8 @@ async def register(user_in: UserCreate, session: Session = Depends(get_session))
     verification_token = str(uuid.uuid4())
     
     new_user = User(
-        email=user_in.email, 
+        email=user_in.email,
+        full_name=user_in.full_name,
         password_hash=hashed_password,
         verification_token=verification_token,
         is_verified=False
@@ -139,13 +149,51 @@ async def verify_email(token: str, session: Session = Depends(get_session)):
         raise HTTPException(status_code=400, detail="Invalid token")
     
     if user.is_verified:
-        return {"message": "Email already verified"}
+        return {"message": "Email verified"}
     
     user.is_verified = True
     # user.verification_token = None # Keep token to allow "Already verified" message on re-clicks
     session.add(user)
     session.commit()
+    session.add(user)
+    session.commit()
     return {"message": "Email verified successfully"}
+
+@app.post("/auth/forgot-password")
+async def forgot_password(request: ForgotPasswordRequest, session: Session = Depends(get_session)):
+    statement = select(User).where(User.email == request.email)
+    user = session.exec(statement).first()
+    
+    # Always return success even if user not found to prevent enumeration
+    if user:
+        # Generate reset token (reuse verification_token field for simplicity in this MVP, or add new field)
+        # Ideally, add reset_token and reset_token_expires fields to User model.
+        # For now, we will use access token logic but shorter lived and specific purpose, OR just a random string
+        # Let's use a random string stored in verification_token for now as that field exists and is unused after verification
+        reset_token = str(uuid.uuid4())
+        user.verification_token = reset_token # REUSING FIELD
+        session.add(user)
+        session.commit()
+        
+        send_password_reset_email(user.email, reset_token)
+        
+    return {"message": "If an account exists with that email, a password reset link has been sent."}
+
+@app.post("/auth/reset-password")
+async def reset_password(request: ResetPasswordRequest, session: Session = Depends(get_session)):
+    statement = select(User).where(User.verification_token == request.token)
+    user = session.exec(statement).first()
+    
+    if not user:
+        raise HTTPException(status_code=400, detail="Invalid or expired reset token")
+        
+    hashed_password = get_password_hash(request.new_password)
+    user.password_hash = hashed_password
+    user.verification_token = None # Clear token
+    session.add(user)
+    session.commit()
+    
+    return {"message": "Password reset successfully. You can now login."}
 
 @app.get("/users/me", response_model=UserSchema)
 async def read_users_me(current_user: User = Depends(get_current_user)):
@@ -154,14 +202,18 @@ async def read_users_me(current_user: User = Depends(get_current_user)):
 @app.post("/chat")
 async def chat(request: ChatRequest, session: Session = Depends(get_session), current_user: User = Depends(get_current_user)):
     # 1. Get or create conversation
+    # 1. Get or create conversation
     if request.conversation_id:
         db_conversation = session.get(Conversation, request.conversation_id)
         if not db_conversation:
             raise HTTPException(status_code=404, detail="Conversation not found")
+        # Verify ownership
+        if db_conversation.user_id != current_user.id:
+            raise HTTPException(status_code=403, detail="Not authorized to access this conversation")
     else:
         # Create new conversation with title from the first message
         title = request.message[:50] + ("..." if len(request.message) > 50 else "")
-        db_conversation = Conversation(title=title)
+        db_conversation = Conversation(title=title, user_id=current_user.id)
         session.add(db_conversation)
         session.commit()
         session.refresh(db_conversation)
@@ -221,8 +273,8 @@ async def chat(request: ChatRequest, session: Session = Depends(get_session), cu
     }
 
 @app.get("/conversations", response_model=List[ConversationSchema])
-async def get_conversations(session: Session = Depends(get_session)):
-    statement = select(Conversation).order_by(Conversation.created_at.desc())
+async def get_conversations(session: Session = Depends(get_session), current_user: User = Depends(get_current_user)):
+    statement = select(Conversation).where(Conversation.user_id == current_user.id).order_by(Conversation.created_at.desc())
     results = session.exec(statement).all()
     return [{"id": c.id, "title": c.title, "created_at": c.created_at.isoformat()} for c in results]
 
@@ -233,10 +285,13 @@ async def get_messages(conversation_id: int, session: Session = Depends(get_sess
     return results
 
 @app.delete("/conversations/{conversation_id}")
-async def delete_conversation(conversation_id: int, session: Session = Depends(get_session)):
+async def delete_conversation(conversation_id: int, session: Session = Depends(get_session), current_user: User = Depends(get_current_user)):
     db_conversation = session.get(Conversation, conversation_id)
     if not db_conversation:
         raise HTTPException(status_code=404, detail="Conversation not found")
+    
+    if db_conversation.user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Not authorized to delete this conversation")
     
     # Messages will be deleted if cascaded, but SQLModel Relationship doesn't do cascade by default in DB level easily without extra config
     # For simplicity, delete messages manually
