@@ -22,6 +22,14 @@ class Message(SQLModel, table=True):
     
     conversation: Conversation = Relationship(back_populates="messages")
 
+class User(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    email: str = Field(unique=True, index=True)
+    password_hash: str
+    is_verified: bool = Field(default=False)
+    verification_token: Optional[str] = None
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+
 sqlite_url = "sqlite:///./helpdesk.db"
 engine = create_engine(sqlite_url, echo=False)
 

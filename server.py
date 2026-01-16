@@ -7,9 +7,41 @@ from database import engine, create_db_and_tables, get_session, Conversation, Me
 from main_enhanced import EnhancedChatbot
 import uvicorn
 from contextlib import asynccontextmanager
+from database import User
+from auth_utils import get_password_hash, verify_password, create_access_token, send_verification_email
+from jose import JWTError, jwt
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+import os
+import uuid
 
 # Initialize chatbot
 chatbot = EnhancedChatbot(use_enhanced=True)
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
+SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-this")
+ALGORITHM = "HS256"
+
+async def get_current_user(token: str = Depends(oauth2_scheme), session: Session = Depends(get_session)):
+    credentials_exception = HTTPException(
+        status_code=401,
+        detail="Could not validate credentials",
+        headers={"WWW-Authenticate": "Bearer"},
+    )
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        email: str = payload.get("sub")
+        if email is None:
+            raise credentials_exception
+    except JWTError:
+        raise credentials_exception
+    
+    statement = select(User).where(User.email == email)
+    user = session.exec(statement).first()
+    if user is None:
+        raise credentials_exception
+    if not user.is_verified:
+        raise HTTPException(status_code=400, detail="Email not verified")
+    return user
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -32,6 +64,20 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     message: str
     conversation_id: Optional[int] = None
+    response_type: Optional[str] = "elaborative"
+
+class UserCreate(BaseModel):
+    email: str
+    password: str
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+class UserSchema(BaseModel):
+    id: int
+    email: str
+    is_verified: bool
 
 class MessageSchema(BaseModel):
     id: int
@@ -46,8 +92,67 @@ class ConversationSchema(BaseModel):
     title: str
     created_at: str
 
+@app.post("/auth/register", response_model=UserSchema)
+async def register(user_in: UserCreate, session: Session = Depends(get_session)):
+    statement = select(User).where(User.email == user_in.email)
+    existing_user = session.exec(statement).first()
+    if existing_user:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    
+    hashed_password = get_password_hash(user_in.password)
+    verification_token = str(uuid.uuid4())
+    
+    new_user = User(
+        email=user_in.email, 
+        password_hash=hashed_password,
+        verification_token=verification_token,
+        is_verified=False
+    )
+    session.add(new_user)
+    session.commit()
+    session.refresh(new_user)
+    
+    # Send email
+    send_verification_email(new_user.email, verification_token)
+    
+    return new_user
+
+@app.post("/auth/login", response_model=Token)
+async def login(form_data: OAuth2PasswordRequestForm = Depends(), session: Session = Depends(get_session)):
+    statement = select(User).where(User.email == form_data.username)
+    user = session.exec(statement).first()
+    if not user or not verify_password(form_data.password, user.password_hash):
+        raise HTTPException(status_code=400, detail="Incorrect email or password")
+    
+    if not user.is_verified:
+        raise HTTPException(status_code=400, detail="Email not verified")
+    
+    access_token = create_access_token(data={"sub": user.email})
+    return {"access_token": access_token, "token_type": "bearer"}
+
+@app.get("/auth/verify/{token}")
+async def verify_email(token: str, session: Session = Depends(get_session)):
+    statement = select(User).where(User.verification_token == token)
+    user = session.exec(statement).first()
+    
+    if not user:
+        raise HTTPException(status_code=400, detail="Invalid token")
+    
+    if user.is_verified:
+        return {"message": "Email already verified"}
+    
+    user.is_verified = True
+    # user.verification_token = None # Keep token to allow "Already verified" message on re-clicks
+    session.add(user)
+    session.commit()
+    return {"message": "Email verified successfully"}
+
+@app.get("/users/me", response_model=UserSchema)
+async def read_users_me(current_user: User = Depends(get_current_user)):
+    return current_user
+
 @app.post("/chat")
-async def chat(request: ChatRequest, session: Session = Depends(get_session)):
+async def chat(request: ChatRequest, session: Session = Depends(get_session), current_user: User = Depends(get_current_user)):
     # 1. Get or create conversation
     if request.conversation_id:
         db_conversation = session.get(Conversation, request.conversation_id)
@@ -87,7 +192,7 @@ async def chat(request: ChatRequest, session: Session = Depends(get_session)):
         history_text += f"{role_label}: {msg.content}\n"
     
     # 3. Get AI response
-    result = chatbot.ask(request.message, history=history_text)
+    result = chatbot.ask(request.message, history=history_text, response_type=request.response_type)
     
     if result["error"]:
         raise HTTPException(status_code=500, detail=result["error"])

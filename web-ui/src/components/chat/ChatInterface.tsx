@@ -28,6 +28,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
 }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
+  const [responseType, setResponseType] = useState("elaborative");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -77,7 +78,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
     setIsLoading(true);
 
     try {
-      const data = await api.chat(textToSend, activeId);
+      const data = await api.chat(textToSend, activeId, responseType);
       
       if (!activeId) {
         onConversationCreated(data.conversation_id);
@@ -188,6 +189,19 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
 
       <div className="px-4 pb-6 pt-2 bg-gradient-to-t from-background via-background to-transparent sticky bottom-0 z-10">
         <div className="max-w-3xl mx-auto space-y-4">
+          <div className="flex justify-between items-center px-1">
+             <div className="flex gap-2">
+                 <select 
+                    value={responseType} 
+                    onChange={(e) => setResponseType(e.target.value)}
+                    className="text-xs border rounded px-2 py-1 bg-background"
+                 >
+                     <option value="concise">Concise Response</option>
+                     <option value="elaborative">Elaborative Response</option>
+                 </select>
+             </div>
+          </div>
+
           {error && (
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
               <Alert variant="destructive" className="rounded-xl border-destructive/20 bg-destructive/5 text-destructive">

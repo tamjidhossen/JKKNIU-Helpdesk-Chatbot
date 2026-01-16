@@ -1,4 +1,8 @@
 const API_URL = "http://localhost:8000";
+const getAuthHeaders = (): Record<string, string> => {
+    const token = localStorage.getItem('token');
+    return token ? { "Authorization": `Bearer ${token}` } : {};
+};
 
 export interface Message {
   id?: number;
@@ -16,13 +20,19 @@ export interface Conversation {
 }
 
 export const api = {
-  async chat(message: string, conversation_id?: number) {
+  async chat(message: string, conversation_id?: number, response_type: string = "elaborative") {
     const response = await fetch(`${API_URL}/chat`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message, conversation_id }),
+      headers: { "Content-Type": "application/json", ...getAuthHeaders() },
+      body: JSON.stringify({ message, conversation_id, response_type }),
     });
     if (!response.ok) {
+        if (response.status === 401) {
+            // Check if we need to redirect or handle it in component
+            localStorage.removeItem('token');
+            window.location.href = '/login';
+            throw new Error("Unauthorized");
+        }
       const errorData = await response.json().catch(() => ({}));
       throw new Error(errorData.detail || `Failed to send message: ${response.status}`);
     }
@@ -30,13 +40,20 @@ export const api = {
   },
 
   async getConversations(): Promise<Conversation[]> {
-    const response = await fetch(`${API_URL}/conversations`);
-    if (!response.ok) throw new Error("Failed to fetch conversations");
+    const response = await fetch(`${API_URL}/conversations`, {
+        headers: getAuthHeaders()
+    });
+    if (!response.ok) {
+        if (response.status === 401) return []; // Or throw to handle in UI
+        throw new Error("Failed to fetch conversations");
+    }
     return response.json();
   },
 
   async getMessages(conversationId: number): Promise<Message[]> {
-    const response = await fetch(`${API_URL}/conversations/${conversationId}/messages`);
+    const response = await fetch(`${API_URL}/conversations/${conversationId}/messages`, {
+        headers: getAuthHeaders()
+    });
     if (!response.ok) throw new Error("Failed to fetch messages");
     return response.json();
   },
@@ -44,6 +61,7 @@ export const api = {
   async deleteConversation(conversationId: number) {
     const response = await fetch(`${API_URL}/conversations/${conversationId}`, {
       method: "DELETE",
+      headers: getAuthHeaders()
     });
     if (!response.ok) throw new Error("Failed to delete conversation");
     return response.json();
