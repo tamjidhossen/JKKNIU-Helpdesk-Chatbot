@@ -18,6 +18,10 @@ import os
 import sys
 import json
 import time
+
+# Add parent directory to sys.path to find local modules
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import argparse
 from datetime import datetime
 from typing import List, Dict, Any
@@ -28,7 +32,7 @@ load_dotenv()
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
-from config import CHATBOT_TEMPLATE, GEMINI_MODEL
+from config import CHATBOT_TEMPLATE_ORIGINAL, GEMINI_MODEL
 from api_keys import get_next_api_key, get_total_keys
 
 # Rate limiting configuration (Gemini free tier)
@@ -99,7 +103,7 @@ def count_tokens_approx(text: str) -> int:
 class Evaluator:
     def __init__(self, dry_run: bool = False):
         self.dry_run = dry_run
-        self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE)
+        self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ORIGINAL)
         self.results = []
         self.request_count = 0
         self.total_input_tokens = 0

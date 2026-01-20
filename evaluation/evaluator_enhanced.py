@@ -20,6 +20,10 @@ import os
 import sys
 import json
 import time
+
+# Add parent directory to sys.path to find local modules
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import argparse
 from datetime import datetime
 from typing import List, Dict, Any
@@ -31,7 +35,7 @@ load_dotenv()
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from query_enhancer import EnhancedRetriever, QueryClassifier
-from config import CHATBOT_TEMPLATE, GEMINI_MODEL
+from config import CHATBOT_TEMPLATE_ELABORATIVE, GEMINI_MODEL
 from api_keys import get_next_api_key, get_total_keys
 
 # Rate limiting - with 8 keys, can be more aggressive
@@ -95,7 +99,7 @@ class EnhancedEvaluator:
     def __init__(self, dry_run: bool = False, parallel: int = 1):
         self.dry_run = dry_run
         self.parallel = min(parallel, get_total_keys())  # Cap at number of API keys
-        self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE)
+        self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ELABORATIVE)
         self.retriever = EnhancedRetriever(
             use_hyde=True,
             use_multi_query=True,

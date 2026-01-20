@@ -15,76 +15,86 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
 ## Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd helpdesk-chatbot
-   ```
+
+    ```bash
+    git clone <your-repo-url>
+    cd helpdesk-chatbot
+    ```
 
 2. **Create and activate virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 
 3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Install and setup Ollama models:**
-   ```bash
-   # Install Ollama from https://ollama.ai
-   ollama pull llama3.2          # Main language model
-   ollama pull nomic-embed-text  # Embedding model
-   ```
+
+    ```bash
+    # Install Ollama from https://ollama.ai
+    ollama pull llama3.2          # Main language model
+    ollama pull nomic-embed-text  # Embedding model
+    ```
 
 5. **Configure LangSmith (Optional):**
-   
-   LangSmith is a platform for monitoring, debugging, and improving LLM applications. You can either enable it for enhanced observability or disable it completely.
 
-   **Option A: Enable LangSmith**
-   
-   Create a `.env` file in the project root:
-   ```bash
-   LANGSMITH_TRACING=true
-   LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
-   LANGSMITH_API_KEY="your_api_key_here"
-   LANGSMITH_PROJECT="your_project_name"
-   ```
-   
-   To get your API key:
-   1. Sign up at [LangSmith](https://smith.langchain.com/)
-   2. Create a new project
-   3. Copy your API key from the settings
-   4. Replace `your_api_key_here` and `your_project_name` in the `.env` file
+    LangSmith is a platform for monitoring, debugging, and improving LLM applications. You can either enable it for enhanced observability or disable it completely.
 
-   **Option B: Disable LangSmith**
-   
-   Create a `.env` file with tracing disabled:
-   ```bash
-   LANGSMITH_TRACING=false
-   ```
-   
-   Or simply don't create a `.env` file - the application will work without LangSmith.
+    **Option A: Enable LangSmith**
+
+    Create a `.env` file in the project root:
+
+    ```bash
+    LANGSMITH_TRACING=true
+    LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+    LANGSMITH_API_KEY="your_api_key_here"
+    LANGSMITH_PROJECT="your_project_name"
+    ```
+
+    To get your API key:
+    1. Sign up at [LangSmith](https://smith.langchain.com/)
+    2. Create a new project
+    3. Copy your API key from the settings
+    4. Replace `your_api_key_here` and `your_project_name` in the `.env` file
+
+    **Option B: Disable LangSmith**
+
+    Create a `.env` file with tracing disabled:
+
+    ```bash
+    LANGSMITH_TRACING=false
+    ```
+
+    Or simply don't create a `.env` file - the application will work without LangSmith.
 
 6. **Initialize the vector database:**
-   ```bash
-   python vector.py
-   ```
-   This will process the data files and create the local vector database.
+
+    ```bash
+    python vector.py
+    ```
+
+    This will process the data files and create the local vector database.
 
 7. **Run the chatbot:**
-   ```bash
-   python main.py
-   ```
-
+    ```bash
+    python main_enhanced.py
+    ```
 
 ## Project Structure
 
 ```
-├── main.py                 # Main chatbot interface
+├── main_enhanced.py        # Main chatbot interface
 ├── vector.py              # Vector database setup and retrieval
-├── inspect_chunks.py      # Utility for inspecting stored chunks
+├── evaluation/            # Evaluation scripts and results
+│   ├── evaluator.py       # Baseline evaluation script
+│   ├── evaluator_enhanced.py # Enhanced evaluation script
+│   └── *.md, *.json       # Evaluation results
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables (LangSmith config)
 ├── Data/
@@ -96,13 +106,13 @@ A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazr
 
 ## Usage
 
-1. Start the chatbot with `python main.py`
+1. Start the chatbot with `python main_enhanced.py`
 2. Ask questions about:
-   - University departments and faculty
-   - Admission procedures
-   - Campus facilities
-   - Academic programs
-   - Contact information
+    - University departments and faculty
+    - Admission procedures
+    - Campus facilities
+    - Academic programs
+    - Contact information
 
 3. Type `q` to quit the application
 
@@ -131,26 +141,18 @@ The chatbot uses two main data sources:
 
 1. **Q&A.txt:** Frequently asked questions and answers
 2. **structure_data.json:** Structured university data including:
-   - University information
-   - Department details
-   - Faculty information
-   - Authority contacts
+    - University information
+    - Department details
+    - Faculty information
+    - Authority contacts
 
 ## Development
 
 ### Adding New Data
 
-1. Update `Data/Q&A.txt` with new FAQ entries
-2. Modify `Data/structure_data.json` for structured data
-3. Delete the `chroma_langchain_db/` folder
-4. Run `python vector.py` to rebuild the vector database
-
-### Inspecting Vector Store
-
-Use the inspection utility to see what's stored:
-```bash
-python inspect_chunks.py
-```
+1. Update `Data/` text files with new information
+2. The system automatically syncs new data on startup if `AUTO_UPDATE_VECTOR_DB` is True in `config.py`
+3. Alternatively, run `python vector.py` to manually rebuild the vector database
 
 ## Contributing
 
