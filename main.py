@@ -9,8 +9,7 @@ This is the improved version of the chatbot with:
 - Better handling of aggregation and reasoning queries
 
 Usage:
-    python main_enhanced.py              # Run enhanced chatbot
-    python main_enhanced.py --compare    # Run both original and enhanced for comparison
+    python main.py              # Run enhanced chatbot
 """
 
 from dotenv import load_dotenv
