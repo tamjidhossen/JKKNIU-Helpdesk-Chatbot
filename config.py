@@ -18,6 +18,7 @@ EMBEDDING_MODEL = "nomic-embed-text"
 LLM_MODEL = "deepseek-r1:1.5b"
 GEMINI_MODEL = "gemma-3-27b-it"
 GOOGLE_EMBEDDING_MODEL = "models/gemini-embedding-001"
+EVALUATION_MODEL = "gemini-2.5-flash"  # Model used for evaluating chatbot responses
 
 # Vector store configuration
 VECTOR_DB_PATH = "./chroma_langchain_db"
