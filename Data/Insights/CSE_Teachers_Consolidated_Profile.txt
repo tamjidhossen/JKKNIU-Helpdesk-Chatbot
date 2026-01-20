@@ -9,13 +9,12 @@ This file provides a consolidated overview of the 16 full-time faculty members i
 - Publication Count: 47+ (National & International)
 
 2. Dr. Md. Sujan Ali (Sheikh Sujan Ali)
-- Designation: Professor & Head of Department (HoD)
 - Education: PhD (University of Rajshahi), MSc & BSc (Islamic University, Kushtia)
 - Key Areas: DSP, Brain-Computer Interface (BCI), Pattern Recognition
 - Publication Count: 31+ (Scientific Articles & Literary Books)
 
 3. Dr. Md. Saiful Islam
-- Designation: Professor
+- Designation: Professor & Head of Department (HoD)
 - Education: PhD, M.Phil, MSc, BSc (University of Rajshahi)
 - Key Areas: Fuzzy Logic, Bi-topological Spaces, Epidemic Models
 - Publication Count: 14+

@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 from sqlmodel import Session, select
 from database import engine, create_db_and_tables, get_session, Conversation, Message
-from main_enhanced import EnhancedChatbot
+from main import EnhancedChatbot
 import uvicorn
 from contextlib import asynccontextmanager
 from database import User

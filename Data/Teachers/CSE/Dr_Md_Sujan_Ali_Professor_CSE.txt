@@ -1,4 +1,4 @@
-Professor Dr. Md. Sujan Ali (Sheikh Sujan Ali) - Professor & Head of the Department, Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Professor Dr. Md. Sujan Ali (Sheikh Sujan Ali) - Professor, Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
 
 Contact Information:
 - Email: sujan_cse@jkkniu.edu.bd
@@ -80,10 +80,10 @@ Teaching Courses by Dr. Md. Sujan Ali:
 ---
 ### Summary of Dr. Md. Sujan Ali
 **Name:** Dr. Md. Sujan Ali (Sheikh Sujan Ali)
-**Designation:** Professor & Head of Department (HoD)
+**Designation:** Professor
 **Department:** Computer Science and Engineering, JKKNIU
 **Core Expertise:** Brain-Computer Interface (BCI), Neural Signal Processing, EEG Analysis, Machine Learning.
 **Key Achievement:** Completed 5+ funded research projects (ICT Division) focused on BCI and EEG.
 **Literary Side:** Published writer (Poetry: 'Projapoti', 'Oronno Ebong Tumi', 'Bela Bhule Potrali'; Short Story: 'Sei Protishruto Golpoti').
-**Administrative Role:** Current Head of Department (HoD).
+**Administrative Role:** Previously head of the department (ended in 2026 January).
 **Alma Mater:** Islamic University (BSc, MSc), University of Rajshahi (PhD).

@@ -1,163 +1,98 @@
-# University Helpdesk Chatbot
+# JKKNIU Helpdesk Chatbot
 
-A RAG-based (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazrul Islam University** using LangChain and Ollama. This chatbot provides accurate information about university departments, faculty, admission procedures, and campus facilities.
+An advanced RAG (Retrieval-Augmented Generation) chatbot for **Jatiya Kabi Kazi Nazrul Islam University** designed to provide accurate information about departments, faculty, admissions, and facilities. This system leverages local LLMs (via Ollama) and Google Gemini for robust, context-aware responses.
 
-## Features
+## 🚀 Advanced RAG Architecture
 
-- 🎓 University information and structure
-- 👥 Faculty and department details
-- 📚 Admission procedures and requirements
-- 🏢 Campus facilities and services
-- ⚡ Fast response times with local LLM
-- 🔍 Context-aware answers using vector search
-- 📊 Optional LangSmith integration for monitoring and debugging
+This chatbot employs a sophisticated RAG pipeline to ensure high relevance and accuracy:
 
-## Setup
+1.  **Query Classification**: Input queries are classified into types (Factual, Aggregation, Reasoning, Vague) to determine the optimal retrieval strategy.
+2.  **Query Expansion**:
+    - **HyDE (Hypothetical Document Embeddings)**: Generates hypothetical university documents to improve semantic matching for vague queries.
+    - **Multi-Query Generation**: Breaks complex questions into simpler sub-queries.
+    - **Keyword Generation**:Extracts specific academic keywords to boost BM25 keyword search.
+3.  **Hybrid Retrieval**:
+    - **Semantic Search**: Uses `nomic-embed-text` embeddings with ChromaDB to find conceptually similar content.
+    - **Keyword Search**: Uses BM25 to find exact matches for names and specific terms that embeddings might miss.
+4.  **Reciprocal Rank Fusion (RRF)**: Merges results from semantic and keyword searches to rank the most relevant documents higher.
+5.  **Chain-of-Thought Generation**: The LLM uses the retrieved context to reason through the answer.
 
-1. **Clone the repository:**
+## 🔄 Automatic Database Synchronization
+
+The system features an intelligent **Auto-Ingestion** mechanism handled by `vector.py`.
+
+- **Registry-Based Tracking**: Uses `Data/General/ingestion_registry.json` to track MD5 hashes of all processed files.
+- **Smart Sync**: On startup (if configured) or when running `python vector.py`, it scans the `Data/` directory.
+    - **New/Modified Files**: Automatically detected, chunked, embedded, and added to the vector store.
+    - **Consistency**: If the vector database is deleted, the registry resets to ensure a full fresh ingestion.
+- **No Manual Scripts**: You do not need to manually run an "add data" script. Just drop text files into `Data/` and run the chatbot.
+
+## 🛠️ Setup
+
+1.  **Clone & Install**:
 
     ```bash
-    git clone <your-repo-url>
-    cd helpdesk-chatbot
-    ```
-
-2. **Create and activate virtual environment:**
-
-    ```bash
+    git clone <repository-url>
+    cd JKKNIU-Helpdesk
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3. **Install dependencies:**
-
-    ```bash
+    source venv/bin/activate
     pip install -r requirements.txt
     ```
 
-4. **Install and setup Ollama models:**
+2.  **Environment Variables**:
+    Create a `.env` file from `.env.example`:
 
     ```bash
-    # Install Ollama from https://ollama.ai
-    ollama pull llama3.2          # Main language model
-    ollama pull nomic-embed-text  # Embedding model
+    cp .env.example .env
+    # Edit .env and add your GOOGLE_API_KEYS (comma-separated for rotation)
     ```
 
-5. **Configure LangSmith (Optional):**
-
-    LangSmith is a platform for monitoring, debugging, and improving LLM applications. You can either enable it for enhanced observability or disable it completely.
-
-    **Option A: Enable LangSmith**
-
-    Create a `.env` file in the project root:
+3.  **Ollama Models**:
+    Ensure you have [Ollama](https://ollama.ai) installed and pull the required models:
 
     ```bash
-    LANGSMITH_TRACING=true
-    LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
-    LANGSMITH_API_KEY="your_api_key_here"
-    LANGSMITH_PROJECT="your_project_name"
+    ollama pull llama3.2          # For local inference (optional)
+    ollama pull nomic-embed-text  # For embeddings
     ```
 
-    To get your API key:
-    1. Sign up at [LangSmith](https://smith.langchain.com/)
-    2. Create a new project
-    3. Copy your API key from the settings
-    4. Replace `your_api_key_here` and `your_project_name` in the `.env` file
-
-    **Option B: Disable LangSmith**
-
-    Create a `.env` file with tracing disabled:
-
-    ```bash
-    LANGSMITH_TRACING=false
-    ```
-
-    Or simply don't create a `.env` file - the application will work without LangSmith.
-
-6. **Initialize the vector database:**
-
+4.  **Initialize Data**:
     ```bash
     python vector.py
     ```
 
-    This will process the data files and create the local vector database.
+## 💻 Usage
 
-7. **Run the chatbot:**
-    ```bash
-    python main_enhanced.py
-    ```
+### interactive Chat
 
-## Project Structure
+Run the main chatbot interface:
 
-```
-├── main_enhanced.py        # Main chatbot interface
-├── vector.py              # Vector database setup and retrieval
-├── evaluation/            # Evaluation scripts and results
-│   ├── evaluator.py       # Baseline evaluation script
-│   ├── evaluator_enhanced.py # Enhanced evaluation script
-│   └── *.md, *.json       # Evaluation results
-├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables (LangSmith config)
-├── Data/
-│   ├── Q&A.txt           # FAQ data
-│   └── structure_data.json # University structure data
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
+```bash
+python main.py
 ```
 
-## Usage
+### Comparison Mode
 
-1. Start the chatbot with `python main_enhanced.py`
-2. Ask questions about:
-    - University departments and faculty
-    - Admission procedures
-    - Campus facilities
-    - Academic programs
-    - Contact information
+Compare the "Original" (baseline RAG) vs. "Enhanced" (Advanced RAG) pipeline side-by-side:
 
-3. Type `q` to quit the application
+```bash
+python main.py --compare
+```
 
-### Example Questions
+## 📂 Project Structure
 
-- "What departments are available in the university?"
-- "Who is the head of Computer Science department?"
-- "What are the admission requirements?"
-- "Tell me about the residential halls"
-- "How can I contact the registrar office?"
+```
+├── main.py                 # Entry point for the CLI Chatbot
+├── server.py               # FastAPI Backend Server
+├── query_enhancer.py       # Advanced RAG logic (Classification, HyDE, Hybrid Search)
+├── vector.py               # Vector DB management & Auto-ingestion logic
+├── config.py               # Configuration settings
+├── Data/                   # Knowledge base (Text files & Structure JSON)
+│   ├── General/            # Registry & General info
+│   └── ...                 # Departmental & Faculty data
+└── web-ui/                 # Frontend React Application
+```
 
-## Configuration
+## ⚠️ Notes
 
-The chatbot uses the following default configurations:
-
-- **LLM Model:** llama3.2
-- **Embedding Model:** nomic-embed-text
-- **Chunk Size:** 500 characters
-- **Chunk Overlap:** 50 characters
-- **Retrieval Results:** Top 5 similar chunks
-- **LangSmith:** Optional (configured via .env file)
-
-## Data Sources
-
-The chatbot uses two main data sources:
-
-1. **Q&A.txt:** Frequently asked questions and answers
-2. **structure_data.json:** Structured university data including:
-    - University information
-    - Department details
-    - Faculty information
-    - Authority contacts
-
-## Development
-
-### Adding New Data
-
-1. Update `Data/` text files with new information
-2. The system automatically syncs new data on startup if `AUTO_UPDATE_VECTOR_DB` is True in `config.py`
-3. Alternatively, run `python vector.py` to manually rebuild the vector database
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+- **API Keys**: The system supports multiple Google API keys in `.env` for rotation to handle rate limits.
+- **Database**: The vector database is stored locally in `chroma_langchain_db/`. Deleting this folder will trigger a full rebuild on the next run.

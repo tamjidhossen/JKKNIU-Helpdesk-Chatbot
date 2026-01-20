@@ -45,7 +45,7 @@ This file provides high-level statistical data and relational insights for the C
 - Student-Teacher Ratio: ~12:1 (Based on 197/16).
 
 4. Departmental Roles
-- Head of Department (HoD): Dr. Md. Sujan Ali
+- Head of Department (HoD): Dr. Md. Saiful Islam (From Jan 2026)
 - Dean of Science & Engineering: Dr. A. H. M. Kamal
 - Administrative Staff: 1 Deputy Director (Mahmudul Hasan), 1 Principal Demonstrator (Mustak Ahammad), 1 Section Officer (Aminul Hauqe).
 

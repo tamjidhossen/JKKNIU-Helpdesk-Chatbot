@@ -56,10 +56,7 @@ The current Proctor is DR. MAHBUBUR RAHMAN. He is supported by several Assistant
 Department of Computer Science and Engineering (CSE)
 
 What is the current student enrollment and faculty size?
-Approximately 300 students are enrolled in the department, supported by a faculty of 15 members and 7 administrative staff.
-
-Who are some of the key faculty members?
-Professors include Dr. A. H. M. Kamal, Dr. Md. Mijanur Rahman, Dr. Md. Sujan Ali (Head of Department), among others. The department also has Associate Professors, Assistant Professors, and a Principal Demonstrator specializing in hardware.
+Approximately 300 students are enrolled in the department, supported by a faculty of 16 members and 7 administrative staff.
 
 What labs and research facilities are available?
 The department features Software, Network, and Hardware labs. Additionally, the Emerging Technologies Lab (EmTech JKKNIU) supports research in Structural Health Monitoring, Robotics, Machine Learning, and the Internet of Things (IoT).
@@ -70,8 +67,6 @@ Research areas include Machine Learning, Deep Learning, Digital Signal Processin
 How does the admission process work for the CSE department?
 Admission is conducted under the GST system through a competitive test. Applicants must apply via the GST admission portal, with deadlines and procedures detailed on the official site.
 
-Has the department received any notable recognition?
-Professor Dr. A. H. M. Kamal has been honored with a National Award for his contributions to Telecom and ICT. The department also organizes alumni events and offers digital skills training programs such as EDGE.
 
 Department of Electrical and Electronic Engineering (EEE)
 
