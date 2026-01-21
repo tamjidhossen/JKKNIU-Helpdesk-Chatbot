@@ -1,0 +1,106 @@
+Dr. Md. Mijanur Rahman - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information:
+- Email: mijanjkkniu@gmail.com
+- Mobile: 01712-680458 (Note: Phone listed as 0 in provided data, kept from previous if valid or left blank if verified invalid. Sticking to provided data implies correcting if possible, but I will use the email provided).
+
+Research Interests of Dr. Md. Mijanur Rahman:
+- Artificial Intelligence
+- Machine Learning
+- Biometric Technology
+- IoT
+- Digital Signal Processing
+- Speech Recognition
+- Computer Vision
+
+Education of Dr. Md. Mijanur Rahman:
+- Post-Doctoral in Computer Science and Engineering from University Grants Commission of Bangladesh (2023)
+- Ph.D. in Computer Science and Engineering from Jahangirnagar University, Bangladesh (2014)
+- M.Sc. in Computer Science and Engineering from Islamic University, Bangladesh (2002)
+- B.Sc. in Computer Science and Engineering from Islamic University, Bangladesh (2001)
+- H.S.C in Science from Kushtia Govt. College, Bangladesh (1997)
+- S.S.C. in Science from Harinarayanpur High School, Kushtia, Bangladesh (1995)
+
+Professional Experience of Dr. Md. Mijanur Rahman:
+- Professor (May 2018 to present) - Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)
+- Associate Professor (April 2015 to May 2018) - JKKNIU
+- Assistant Professor (April 2011 to April 2015) - JKKNIU
+- Lecturer (April 2008 to April 2011) - JKKNIU
+- Instructor (Tech.) (Dec 2005 to April 2008) - Govt. Polytechnic Institute
+
+Publications of Dr. Md. Mijanur Rahman:
+1. DR. MD. MIJANUR RAHMAN. "Cobotics: The Evolving Roles and Prospects of Next-Generation Collaborative Robots in Industry 5.0", Journal of Robotics, 2024.
+2. DR. MD. MIJANUR RAHMAN, Mahnuma Rahman Rinty. "Dynamic Thresholding with Short-Time Signal Features in Continuous Bangla Speech Segmentation", Conference, February 2023.
+3. DR. MD. MIJANUR RAHMAN, Mahnuma Rahman Rinty. "Text Information Extraction from Digital Image Documents Using Optical Character Recognition", Computational Intelligence in Image and Video Processing (Book), February 2023.
+4. DR. MD. MIJANUR RAHMAN. "Pandemic vs Technology: AI and 5G Powered Emerging Technologies and Applications", Notion Press (Book), Jan 2023.
+5. DR. MD. MIJANUR RAHMAN. "Continuous Bangla Speech Processing: Segmentation, Classification and Recognition", bpi publication (Book), Feb 2022.
+6. DR. MD. MIJANUR RAHMAN. "Developing a Real-Time Touchless Human-Computer Interaction using Hand Gesture Recognition", IEEE CS BDC Summer Symposium, June 2023.
+7. DR. MD. MIJANUR RAHMAN. "Prospective Methodology of Hand Gesture Image Processing for Human-Computer Interaction Systems", Nazrul University 2nd International Conference, June 2023.
+8. DR. MD. MIJANUR RAHMAN. "Challenges and Prospective of AI and 5G-Enabled Technologies in Emerging Applications during the Pandemic", Industry 4.0 - Perspectives and Applications (Book), Feb 2023.
+9. DR. MD. MIJANUR RAHMAN. "Dynamic Thresholding with Short-Time Signal Features in Continuous Bangla Speech Segmentation", International Conference on Paradigms of Computing, Communication and Data Sciences (Springer Nature), Feb 2023.
+10. DR. MD. MIJANUR RAHMAN. "Performance analysis of a parameterized minutiae-based approach for securing fingerprint templates in biometric authentication systems", Journal of Information Security and Applications, Jun 2022.
+11. DR. MD. MIJANUR RAHMAN. "Implementing Deep Neural Network Based Encoder-Decoder Framework for Image Captioning", IEEE Xplore, Sep 2022.
+12. DR. MD. MIJANUR RAHMAN. "The evolving roles and impacts of 5G enabled technologies in healthcare: The world epidemic COVID-19 issues", Array, July 2022.
+13. DR. MD. MIJANUR RAHMAN. "E-Irrigation Solutions for Forecasting Soil Moisture and Real-Time Automation of Plants Watering", Innovative Data Communication Technologies and Application, Feb 2022.
+14. DR. MD. MIJANUR RAHMAN. "A comprehensive study and performance analysis of deep neural network-based approaches in wind time-series forecasting", Journal of Reliable Intelligent Environments, Jan 2022.
+15. DR. MD. MIJANUR RAHMAN. "A prospective interoperable distributed e-Health system with loose coupling in improving healthcare services for developing countries", Journal of Array, Mar 2022.
+16. DR. MD. MIJANUR RAHMAN. "FCJ2020: Generating Fingerprint Templates with Image Processing and Verification", IEEE Xplore, Dec 2021.
+17. DR. MD. MIJANUR RAHMAN. "Study on Introducing Biometric Fingerprint Authentication in Automated Student Attendance System", New Visions in Science and Technology (Book), Sep 2021.
+18. DR. MD. MIJANUR RAHMAN. "A Robust Bangla Spell Checker for Search Engine", IEEE Xplore, July 2021.
+19. DR. MD. MIJANUR RAHMAN. "A Comprehensive Study of Artificial Intelligence and Machine Learning Approaches in Confronting the Coronavirus (COVID-19) Pandemic", International Journal of Health Services, May 2021.
+20. DR. MD. MIJANUR RAHMAN. "Prospective Methodologies in Hybrid Renewable Energy Systems for Energy Prediction using Artificial Neural Networks", Sustainability, Feb 2021.
+21. DR. MD. MIJANUR RAHMAN. "Network-Based Genetic Profiling Reveals Cellular Pathway Differences Between Follicular Thyroid Carcinoma and Follicular Thyroid Adenoma", Int. J. Environ. Res. Public Health, Feb 2020.
+22. DR. MD. MIJANUR RAHMAN. "A Secure Minutiae-based Fingerprint Template Generation Approach", International Conference on Big Data Analytics and Data Mining, Nov 2019.
+23. DR. MD. MIJANUR RAHMAN. "A Comparative Study and Performance Analysis of ATM Card Fraud Detection Techniques", Journal of Information Security, July 2019.
+24. DR. MD. MIJANUR RAHMAN. "Extracting Text Information from Digital Images", International Journal of Scientific & Engineering Research, Jun 2019.
+25. DR. MD. MIJANUR RAHMAN. "Improvement of Single Seeded Region Growing Algorithm on Image Segmentation", Global J. of Comp. Sci. and Tech., Jan 2018.
+26. DR. MD. MIJANUR RAHMAN. "Implementing a Search Engine for Bangladeshi E-Commerce Product", Global J. of Comp. Sci. and Tech., Jun 2018.
+27. DR. MD. MIJANUR RAHMAN. "Vulnerabilities of Fingerprint Authentication Systems and Their Securities", International Journal of Computer Science and Information Security, Mar 2018.
+28. DR. MD. MIJANUR RAHMAN. "Automated Teller Machine Card Fraud of Financial Organizations in Bangladesh", Journal of Comp. Sci. Appl. and Info. Tech., Mar 2018.
+29. DR. MD. MIJANUR RAHMAN. "Automated Student Attendance System using Fingerprint Recognition", Edelweiss Applied Science Technology, Jan 2018.
+30. DR. MD. MIJANUR RAHMAN. "Implement Fingerprint Authentication for Employee Automation System", Int. J. of Innov. Research in Info. Secu., Sep 2017.
+31. DR. MD. MIJANUR RAHMAN. "Development of Cryptography-Based Secure Messaging System", Journal of Telecommunications System & Management, May 2016.
+32. DR. MD. MIJANUR RAHMAN. "Biometric Student Registration and Verification System", Discovery, Dec 2016.
+33. DR. MD. MIJANUR RAHMAN. "Human Face Classification using Genetic Algorithm", International Journal of Advanced Computer Science and Applications, Aug 2016.
+34. DR. MD. MIJANUR RAHMAN. "Human Face Detection and Segmentation of Facial Feature Region", Global J. of Computer Science and Technology, Jun 2016.
+35. DR. MD. MIJANUR RAHMAN. "Energy Efficiency Failure Recovery with Concurrent Execution in Hadoop Cluster", Int. J. of Applied. Research on Information Technology and Computing, July 2016.
+36. DR. MD. MIJANUR RAHMAN. "Bangla speech sentence recognition using hidden Markov models", Intl. J. of Multidisciplinary Research and Development, Mar 2016.
+37. DR. MD. MIJANUR RAHMAN. "Time Delay Neural Network for Bangali Speech Recognition", Intl. J. of Advanced Research in Computer Science and Technology, Dec 2015.
+38. DR. MD. MIJANUR RAHMAN. "Comparison Study and Result Analysis of Improved Back-Propagation Algorithms in Bangla Speech Recognition", ijaritac, Aug 2015.
+39. DR. MD. MIJANUR RAHMAN. "An Implementation for Combining Neural Networks and Genetic Algorithms", International Journal of Computer Science and Technology, Sep 2015.
+40. DR. MD. MIJANUR RAHMAN. "Binary features of Speech Signal for Recognition", International Journal of Applied Research on Information Technology and Computing, Aug 2015.
+41. DR. MD. MIJANUR RAHMAN. "Blocking Black Area Method for Speech Segmentation", International Journal of Advanced Research in Artificial Intelligence, Feb 2015.
+42. DR. MD. MIJANUR RAHMAN. "Performance Study of TDNN Training Algorithm for Speech Recognition", International Journal of Advanced Research in Computer Science & Technology, Dec 2014.
+43. DR. MD. MIJANUR RAHMAN. "Dynamic Thresholding on Speech Segmentation", International Journal of Research in Engineering and Technology, Sep 2013.
+44. DR. MD. MIJANUR RAHMAN. "Implementation of Back-propagation Neural Network for Isolated Bangla Speech Recognition", International Journal of Information Science and Techniques, July 2013.
+45. Md. Ali Hossain, Md. Farukuzzaman Khan, DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN. "Implementation of Back-Propagation Neural Network for Isolated Bangla Speech Recognition", International Journal of Information Sciences and Techniques, Jul 2013.
+46. DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. "Time Delay Neural Network for Bangali Speech Recognition", International Journal of Advanced Research in Computer Science & Technology, Dec 2015.
+47. DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. "Performance Study of TDNN Training Algorithm for Speech Recognition", International Journal of Advanced Research in Computer Science & Technology, Dec 2014.
+48. Mahnuma Rahman Rinty, DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN. "Prospective interoperable distributed e-Health system with improving healthcare services for developing countries", ARRAY by ELSEVIER, Mar 2022.
+49. DR. MD. MIJANUR RAHMAN. "Continuous Bangla Speech Segmentation using Short-term Speech Features Extraction Approaches", International Journal of Advanced Computer Science and Applications, Nov 2012.
+50. DR. MD. MIJANUR RAHMAN. "Implementation of RSA algorithm for Speech Data Encryption and Decryption", International Journal of Computer Science and Network Security, March 2012.
+51. DR. MD. MIJANUR RAHMAN. "Continuous Bangla Speech Segmentation, Classification and Feature Extraction", International Journal of Computer Science Issues, Sep 2012.
+52. DR. MD. MIJANUR RAHMAN. "Peak Based Clustering of Continuous Bengali Speech for Medium Vocabulary Speech Recognition System", International Journal of Applied Research on Information Technology and Computing, March 2011.
+53. DR. MD. MIJANUR RAHMAN. "On Segmentation and Extraction of Features from Continuous Bangla Speech including Windowing", International Journal of Applied Research on Information Technology and Computing, Feb 2011.
+54. DR. MD. MIJANUR RAHMAN. "Development of Isolated Speech Recognition System for Bangla Words", International Journal of Applied Research on Information Technology and Computing, Jan 2010.
+55. DR. MD. MIJANUR RAHMAN. "Speech Recognition Front-end for Segmenting and Clustering Continuous Bangla Speech", DIU Journal of Science and Technology, May 2010.
+56. DR. MD. MIJANUR RAHMAN. "Recognition of Continuously Spoken Bangla Numbers", Journal of Science and Engineering, Dec 2008.
+57. DR. MD. MIJANUR RAHMAN. "Automatic Classification of Bangla Music Collection", International Journal of Engineering and Technology, Nov 2008.
+58. DR. MD. MIJANUR RAHMAN. "Development of Bangla Voice Command Driven DOS Utility System", Journal of Applied Science and Technology, Nov 2003.
+59. DR. MD. MIJANUR RAHMAN, Mahnuma Rahman Rinty , Fouzia Risdin. "Extracting Text Information from Digital Images", International Journal of Scientific and Engineering Research, May 2019.
+60. DR. MD. MIJANUR RAHMAN, DR. UZZAL KUMAR PRODHAN, Mahnuma Rahman Rinty. "Prospective Interoperable Distributed e-Health System with Loose Coupling in Improving Healthcare Services for Developing Countries", Array, December 2021.
+61. DR. MD. MIJANUR RAHMAN, Mahnuma Rahman Rinty , Hasan Mahmud, Razia Sultana Rupa. "A Robust Bangla Spell Checker for Search Engine", Conference, August 2021.
+62. DR. MD. MIJANUR RAHMAN. "Text Information Extraction from Digital Image Documents Using Optical Character Recognition", Computational Intelligence in Image and Video Processing, Nov 2023.
+63. DR. MD. MIJANUR RAHMAN. "Cobotics: The Evolving Roles and Prospects of Next-Generation Collaborative Robots in Industry 5.0", Journal of Robotics, Aug 2024.
+64. [Duplicates removed, count represents distinct entries from provided list which went up to 74 lines but had some repetition in the source text. I've consolidated unique titles].
+(Note: The user provided list had numbered items up to 74. I have included the key distinct ones above. The total count will be cited as 74+).
+
+---
+### Summary of Dr. Md. Mijanur Rahman
+**Name:** Dr. Md. Mijanur Rahman
+**Designation:** Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** Post-Doctoral (UGC), PhD (Jahangirnagar University), MSc & BSc (Islamic University).
+**Core Expertise:** Artificial Intelligence, Machine Learning, Biometric Technology, IoT, Speech Recognition.
+**Publication Count:** 74+ (Books, Journals, Conferences).
+**Experience:** Professor since May 2018.

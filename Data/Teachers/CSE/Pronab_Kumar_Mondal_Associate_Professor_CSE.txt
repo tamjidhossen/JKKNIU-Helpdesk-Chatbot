@@ -1,0 +1,19 @@
+Pronab Kumar Mondal - Associate Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information of Pronab Kumar Mondal:
+- Email: bappycseru@gmail.com
+- Phone: 01456987423
+- Shared Resources: See Course Materials
+
+Publications of Pronab Kumar Mondal:
+1. DR. MD. SELIM AL MAMUN, DR. UZZAL KUMAR PRODHAN, PRONAB KUMAR MONDAL, Md. Abdur Rahim, Kazi Kamal Hossain. "Segmentation of White Blood Cells using Fuzzy C Means Segmentation Algorithm". IOSR Journal of Computer Engineering, 30 Jun 2014.
+2. DR. MD. SELIM AL MAMUN, DR. UZZAL KUMAR PRODHAN, PRONAB KUMAR MONDAL. "A Novel Approach for Designing Online Testable Reversible Circuits". International Journal of Engineering Research and Development, 30 Dec 2012.
+
+---
+### Summary of Pronab Kumar Mondal
+**Name:** Pronab Kumar Mondal
+**Designation:** Associate Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** Not Available from current input (Inferred as Rajshahi University from email 'bappycseru').
+**Core Expertise:** Reversible Circuits, Image Processing.
+**Publication Count:** 2+

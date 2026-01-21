@@ -1,4 +1,11 @@
 langchain
+langchain_google_genai
 langchain-ollama
 langchain-chroma
 python-dotenv
+rich
+markdown
+langchain-text-splitters
+rank_bm25
+sentence-transformers
+langchain-community

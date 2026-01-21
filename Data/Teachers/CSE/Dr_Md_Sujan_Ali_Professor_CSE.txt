@@ -1,0 +1,89 @@
+Professor Dr. Md. Sujan Ali (Sheikh Sujan Ali) - Professor, Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Contact Information:
+- Email: sujan_cse@jkkniu.edu.bd
+- Mobile: +8801732155234
+- Social Profile: Not Available
+
+Research Interests of Dr. Md. Sujan Ali:
+- Neural Signal Processing
+- Brain–Computer Interfacing (BCI)
+- Non-invasive technologies for human communication
+- Assistive technology for individuals with disabilities
+- Interaction between brain and intelligent systems
+
+Education of Dr. Md. Sujan Ali:
+- PhD in Computer Science and Engineering from University of Rajshahi, Bangladesh (2019)
+- M.Sc. in Electrical and Electronic Engineering from Islamic University, Kushtia, Bangladesh (2006)
+- B.Sc. in Electrical and Electronic Engineering from Islamic University, Kushtia, Bangladesh (2004)
+
+Experience of Dr. Md. Sujan Ali:
+- Professor (2020-03-15 to present) - JKKNIU
+- Associate Professor (2016-03-15 to 2020-03-14) - JKKNIU
+- Assistant Professor (2011-03-15 to 2016-03-14) - JKKNIU
+- Lecturer (2008-10-14 to 2011-03-14) - JKKNIU
+- Lecturer (2006-07-01 to 2008-10-13) - Metropolitan University, Sylhet
+
+Research Activities (Funded Projects) of Dr. Md. Sujan Ali:
+1. "Brain Computer Interface Implementation with Dominant Feature Selection." Funding: ICT Division, Govt. of Bangladesh. Duration: 2021-2023. Status: Completed.
+2. "BIOMETRIC-BASED CLASS ATTENDANCE MANAGEMENT AND EXAMINEE IDENTIFICATION" Funding: University Funded. Duration: 2025-Ongoing.
+3. "Classification of Human Brain Activity Using Electroencephalography in Response to Auditory Stimuli" Funding: ICT Division, Govt. of Bangladesh. Duration: 2025 (Completed).
+4. "Electroencephalography (EEE) Based Analysis of Human Brain Activities for Audio Stimuli" Funding: ICT Division, Govt. of Bangladesh. Duration: 2016-2018. Status: Completed.
+5. "SSVEP based BCI using Canonical Correlation Analysis (CCA)" Funding: ICT Division, Govt. of Bangladesh. Duration: 2017-2018. Status: Completed.
+6. "Digital Image Segmentation by Combined Methods" Funding: ICT Division, Govt. of Bangladesh. Duration: 2012-2014. Status: Completed.
+
+Literary Works (Books) by Dr. Md. Sujan Ali:
+1. প্রজাপতি (Juvenile Poetry), 2014.
+2. অরণ্য এবং তুমি (Poetry Book), 2020.
+3. বেলা ভুলে পত্রালি (Poetry Book), 2021.
+4. সেই প্রতিশ্রুত গল্পটি (Contemporary Short Story), Otijya, 2022.
+
+Publications (Scientific Articles) of Dr. Md. Sujan Ali:
+1. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Motor Imagery EEG Signals Marginal Time Coherence Analysis for Brain-Computer Interface", International Journal of Advanced Computer Science and Applications, 2023.
+2. Md. Merajul Islam, DR. MD. SUJAN ALI. "Predicting the risk of hypertension using machine learning algorithms: A cross sectional study in Ethiopia", PLoS ONE, 2023.
+3. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Sub-band selection approach to artifact suppression from electroencephalography signal using hybrid wavelet transform", International Journal of Advanced Robotic Systems, 2021.
+4. DR. MD. SUJAN ALI. "Frequency recognition in SSVEP-based BCI using Gaussian elimination-based canonical correlation analysis method", International Journal of Computer Science and Information Security (IJCSIS), 2020.
+5. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A Novel Features Selection Approach with Common Spatial Pattern for EEG Based Brain–Computer Interface Implementation", IETE Journal of Research, 2019.
+6. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Comparison Among the Artifact Removing Algorithms for the Suppression of Artifact from EEG", Jagannath University Journal of Computer Science and Engineering, 2019.
+7. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A Filtering Approach to Clean EEG Signal Based on EMD-DF to Improve Classification Accuracy during Hands Movement", IJCSI International Journal of Computer Science Issues, 2019.
+8. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Eyeblink Artifact Suppression from EEG Signal using Lifting Wavelet Transform", IOSR Journal of VLSI and Signal Processing (IOSR-JVSP), 2017.
+9. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Time-Frequency Analysis of EEG Signal processing for Artifact Detection", International Journal of Science and Research (IJSR), 2017.
+10. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A Comparison of Wiener and Kalman Filters for the Artifact Suppression from EEG Signal", International Journal of Science and Research (IJSR), 2017.
+11. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Electroencephalography Signal Classification based on Sub-Band Common Spatial Pattern (SBCSP)", IOSR Journal of VLSI and Signal Processing (IOSR-JVSP), 2017.
+12. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Multiband Common Spatial Pattern Based EEG Classification for Brain-Computer Interface", IOSR Journal of Computer Engineering (IOSRJCE), 2017.
+13. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A Comparison of Butterworth Bandpass Filter and Discrete Wavelet Transform Filter for the Suppression of Ocular Artifact from EEG Signal", International Journal of Research in Engineering Technology, 2016.
+14. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Time-Frequency Coherence of Multichannel EEG Signals: Synchrosqueezing Transform Based Analysis", International Journal of Computer Science Trends and Technology (IJCST), 2016.
+15. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Data Adaptive Filtering Approach to Improve the Classification Accuracy of Motor Imagery for BCI", 9th International Conference on Electrical and Computer Engineering, BUET, 2016.
+16. DR. MD. SUJAN ALI. "Time-Frequency Coherence Analysis of Multichannel Brain Signals Using Synchrosqueezing Transform", International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2), 2016.
+17. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A survey report for performance analysis of finite impulse response digital filter by using different window techniques", International Journal of Research in Engineering and Technology, 2013.
+18. DR. MD. SUJAN ALI. "A Combination of Laplacian Energy, Global and Adaptive Techniques for Degraded Document Image Binarization", IOSR Journal of Computer Engineering (IOSRJCE), 2012.
+19. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Performance Enhancement of Optical Communication System by High Speed P-I-N Photodiode", International Journal of Engineering and Technology (IJET), 2012.
+20. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "A comparison characteristics of silica Based optical fiber materials for low loss transmission", 3rd International Conference on Structure, Processing and Properties of Materials, BUET, 2010.
+21. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Evaluation of Stratigraphic Cross-section and Sub-surface Layers Formation Thickness in the Southern Part of Daulatpur Upazial, Kushtia Using Hydrogeological and Geoelectrical Techniques", International Physics Conference, BUET, 2009.
+22. DR. MD. SUJAN ALI, DR. MST. JANNATUL FERDOUS. "Energy band gap, transmittance and structural properties study of L-Alanine: HBr optical organic material", The Dhaka University Journal of Science, 2008.
+23. DR. MD. SUJAN ALI. "Determination of Aquifer Properties and Groundwater Potentialities Using Hydrogeological and Geoelectrical Techniques", An International Conference on DELTAS, 2008.
+
+Awards received by Dr. Md. Sujan Ali:
+- ICT Fellowship for PhD program (2015) - Ministry of Post, Telecommunication and ICT.
+- Faculty merit scholarship (1999) - Islamic University, Kushtia (For excellent academic result).
+
+Teaching Courses by Dr. Md. Sujan Ali:
+- Neural Signal Processing (M.Sc.)
+- Digital Image Processing (4th Year 2nd Sem)
+- Digital Signal Processing (4th Year 1st Sem)
+- Computer Peripherals and Interfacing (3rd Year 2nd Sem)
+- Microprocessors (3rd Year 1st Sem)
+- Computer Architecture and Organization (2nd Year 2nd Sem)
+- Programming in C (1st Year 1st Sem)
+- Electronics, Basic Electrical Engineering
+
+---
+### Summary of Dr. Md. Sujan Ali
+**Name:** Dr. Md. Sujan Ali (Sheikh Sujan Ali)
+**Designation:** Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Core Expertise:** Brain-Computer Interface (BCI), Neural Signal Processing, EEG Analysis, Machine Learning.
+**Key Achievement:** Completed 5+ funded research projects (ICT Division) focused on BCI and EEG.
+**Literary Side:** Published writer (Poetry: 'Projapoti', 'Oronno Ebong Tumi', 'Bela Bhule Potrali'; Short Story: 'Sei Protishruto Golpoti').
+**Administrative Role:** Previously head of the department (ended in 2026 January).
+**Alma Mater:** Islamic University (BSc, MSc), University of Rajshahi (PhD).

@@ -1,0 +1,13 @@
+Statistics
+
+Department Head: MOST. TAWABUNNAHAR
+Designation: Department Head / Assistant Professor
+Email: ['tnrupa.7777@gmail.com', 'tnrupa@jkkniu.edu.bd']
+Phone: 01740156575
+
+Faculty Statistics:
+Total Faculty Members: 3
+- Professors: 0
+- Associate Professors: 0
+- Assistant Professors: 3
+- Lecturers: 0

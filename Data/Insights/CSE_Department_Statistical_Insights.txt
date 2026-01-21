@@ -1,0 +1,58 @@
+CSE Department Statistical Insights and Relations
+
+This file provides high-level statistical data and relational insights for the CSE department at JKKNIU to simplify complex queries.
+
+1. Faculty Composition & Designation Statistics
+- Total Full-time Teachers: 16
+- Professors: 9 (Kamal, Sujan Ali, Saiful Islam (head), Jannatul Ferdous, Tushar Saha, Subrata Das, Mijanur Rahman, Selim Mamun, Uzzal Prodhan)
+- Associate Professors: 4 (Indrani Mandal, Pronab Mondal, Habiba Sultana, Rubya Shaharin, Mahbubun Nahar)
+- Assistant Professors: 1 (Kazi Mahmudul Hassan)
+- Lecturers: 1 (Mahnuma Rahman Rinty)
+- Senior-most Faculty: Dr. A. H. M. Kamal (also Dean)
+- Junior-most Faculty: Mahnuma Rahman Rinty (Joined Jan 2026)
+- Faculty on Study Leave: 1 (Kazi Mahmudul Hassan)
+
+2. Educational Background Relations (Alma Mater)
+- Islamic University (IU), Kushtia Alumni: 6 Teachers
+  * Dr. Md. Sujan Ali
+  * Dr. Mst Jannatul Ferdous
+  * Dr. Tushar Kanti Saha
+  * Dr. Subrata Kumar Das
+  * Dr. Md. Mijanur Rahman
+  * Dr. Dr. Uzzal Kumar Prodhan
+- University of Rajshahi (RU) Alumni: 4 Teachers
+  * Dr. Md. Sujan Ali (PhD)
+  * Dr. Mst Jannatul Ferdous (PhD)
+  * Dr. Md. Saiful Islam (PhD, MPhil, MSc, BSc)
+  * Kazi Mahmudul Hassan (BSc, MSc)
+- JKKNIU Alumni: 4 Teachers (Internal hires)
+  * Habiba Sultana
+  * Mahbubun Nahar
+  * Mahnuma Rahman Rinty
+  * Rubya Shaharin
+- Jahangirnagar University (JU) Alumni: 3 Teachers
+  * Dr. Md. Mijanur Rahman (PhD)
+  * Dr. Uzzal Kumar Prodhan (PhD)
+  * Dr. Md. Selim Al Mamun (PhD)
+  * Dr. Subrata Kumar Das (PhD)
+- Post-Doctoral Researchers: 1 Teacher
+  * Dr. Md. Mijanur Rahman (UGC Fellowship)
+
+3. Student and Batch Statistics
+- Total Undergraduate Batches: 6 active cohorts.
+- Total Student Count: ~190 BSc students (Approx. 40 per batch).
+- Total MSc Students: ~30.
+- Student-Teacher Ratio: ~12:1 (Based on 197/16).
+
+4. Departmental Roles
+- Head of Department (HoD): Dr. Md. Saiful Islam (From Jan 2026)
+- Dean of Science & Engineering: Dr. A. H. M. Kamal
+- Administrative Staff: 1 Deputy Director (Mahmudul Hasan), 1 Principal Demonstrator (Mustak Ahammad), 1 Section Officer (Aminul Hauqe).
+
+5. Research Impact (Aggregated)
+- Total Publications (Combined): 294+ (Across Books, Journals, Conferences, Patents)
+- Top Publishing Faculty: Dr. Md. Mijanur Rahman (74+), Dr. A. H. M. Kamal (47+), Dr. Uzzal Kumar Prodhan (36+)
+
+6. Historical Context
+- Establishment: One of the first 4 departments of JKKNIU (2007).
+- Recognition: Noted for research in Computer Science and Environmental Science. Dr. Kamal received a National Award.

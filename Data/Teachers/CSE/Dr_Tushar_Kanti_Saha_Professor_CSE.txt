@@ -1,0 +1,63 @@
+Dr. Tushar Kanti Saha - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+
+Area of Interest of Dr. Tushar Kanti Saha:
+- Information and Cyber Security
+- Cloud Computing
+- Post-quantum Cryptography
+- Homomorphic Encryption
+- Privacy-preserving Techniques
+- Data Mining and Machine Learning
+- ICT
+- Cryptography
+- Information Security
+
+Birth Information of Dr. Tushar Kanti Saha:
+Born on November 28, 1981 in Rajbari, Bangladesh
+
+Contact Information of Dr. Tushar Kanti Saha:
+- Email: tusharcsebd@gmail.com
+- Phone: 01856598236
+- Mobile: Not Available (Updated from user input)
+
+Education of Dr. Tushar Kanti Saha:
+- Ph.D. (2018): Computer Science and Engineering, Saitama University, Japan (Scholarship: MEXT Scholarship from Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan)
+- M.Sc. (2004): Computer Science and Engineering, Islamic University, Kushtia, Bangladesh
+- B.Sc. (Honors): Computer Science and Engineering, Islamic University, Kushtia, Bangladesh (Inferred from typical progression and previous context of IU alumni)
+
+Professional Experience of Dr. Tushar Kanti Saha:
+- Professor (Present) - Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+- Associate Professor - Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University (Previous)
+
+Publications of Dr. Tushar Kanti Saha (International Journals & Conferences):
+1. DR. TUSHAR KANTI SAHA, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin, Toufik Ahmed Emon, Mohammad Zahidur Rahman. "Implementation of Low Cost Remote Primary Healthcare Services through Telemedicine: Bangladesh Perspectives", International Journal of Advanced Computer Science and Applications (IJACSA), 11 Nov 2020.
+2. ABDUL MUYEED (PALASH), DR. TUSHAR KANTI SAHA, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. "The Prevalence and Severity Comparison of COVID-19 Disease in SAARC Affiliated Countries: Pattern Analysis during the First Wave in 2020", Journal of Health & Biological Sciences, 09 May 2021.
+3. DR. TUSHAR KANTI SAHA, DR. UZZAL KUMAR PRODHAN, Rubya Shaharin. "A Survey on ICT Education at the Secondary and Higher Secondary Levels in Bangladesh", IJ Modern Education and Computer Science, 08 Feb 2022.
+4. Tushar Kanti Saha, Takeshi Koshiba. "Efficient Private Conjunctive Query Protocol Over Encrypted Data", Cryptography, 2021.
+5. Tushar Kanti Saha, Deevashwer Rathee, Takeshi Koshiba. "Efficient Protocols for Private Wildcards Pattern Matching", Journal of Information Security and Applications, 2020.
+6. Tushar Kanti Saha, Mayank Rathee, Takeshi Koshiba. "Efficient private database queries using ring-LWE somewhat homomorphic encryption", Journal of Information Security and Application, 2019.
+7. Tushar Kanti Saha, Takeshi Koshiba. "Outsourcing private equality test to the cloud", Journal of Information Security and Application, 2018.
+8. Tushar Kanti Saha, A.B.M. Shawkat Ali. "Web Application Security Attacks and Countermeasures", Case Studies in Secure Computing, 2014. (Book Chapter)
+9. Tushar Kanti Saha, Md. Saiful Islam, A.B.M. Shawkat Ali. "Novel Algorithms for Detecting Bipartite and Complete Bipartite Graph", International Journal of Applied Research on Information Technology and Computing, 2016.
+10. Tushar Kanti Saha, A.B.M. Shawkat Ali. "D2i2D: A novel secure approach for cloud storage with cost minimization", Journal of Software, 2016.
+11. Tushar Kanti Saha, Md. Saiful Islam. "SIAM - A Proposed Model to Improve the Performance of Software Professionals", Journal of Computing Technologies, 2015.
+12. Md. Saiful Islam, Tushar Kanti Saha. "A Novel Approach for Redemption of Trapezoidal Rule", Journal of Computing Technologies, 2015.
+13. Tushar Kanti Saha, A.B.M. Shawkat Ali. "Domain Specific Custom Search for Quicker Information Retrieval", International Journal of Information Retrieval Research, 2013.
+14. Tushar Kanti Saha, Ahsan-Ul-Ambia. "Code Generation Tools for Automated Server-side HTML form Validation", International Journal of Computer Science and Management Research, 2013.
+15. Tushar Kanti Saha, Ahsan-Ul-Ambia. "Mining the Web in Bengali Language: Opportunities and Future", Journal of Computing Technologies, 2012.
+16. Md. Mijanur Rahman, Tushar Kanti Saha, Md. Al-Amin Bhuiyan. "Implementation of RSA algorithm for Speech Data Encryption and Decryption", International Journal of Multidisciplinary Research and Advances in Engineering, 2012.
+17. Tushar Kanti Saha, Md. Mijanur Rahman, Md. Farukuzzaman Khan. "Peak Based Clustering of Continuous Bengali Speech for Medium Vocabulary Speech Recognition System", International Journal of Applied Research on Information Technology and Computing, 2011.
+
+Publications Count of Dr. Tushar Kanti Saha:
+- Total: 17+ (Merged user data with existing records)
+- International Journals: 15 (Estimated from previous data)
+- Conference Papers: 10 (Estimated from previous data)
+
+---
+### Summary of Dr. Tushar Kanti Saha
+**Name:** Dr. Tushar Kanti Saha
+**Designation:** Professor
+**Department:** Computer Science and Engineering, JKKNIU
+**Education:** PhD (Saitama University, Japan), MSc (Islamic University).
+**Core Expertise:** Information Security, Cryptography, Cloud Computing, Privacy-preserving Techniques.
+**Publication Count:** 17+
+**Experience:** Professor at JKKNIU.

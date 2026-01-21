@@ -1,0 +1,44 @@
+Agnibina Hall
+Type: Residential Hall
+University: Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)
+
+Provost: Md. Harunur Rashid
+Email: harun_du.rashid92@yahoo.com
+Phone: 01783906192
+
+House Tutors:
+- Md. Manir Alam, Assistant Professor, Email: maniralam73@gmail.com, Phone: 8801521108279
+- Didarul Hossain Limon, Assistant Professor, Email: didarullimon9@gmail.com, Phone: 01828336467
+- Md. Abdul Karim, Assistant Professor, Email: karim.fms.2021@gmail.com, Phone: 8801746144907
+  Education:
+    - MSS in Mass Communication and Journalism from University of Dhaka (2017)
+    - BSS in Mass Communication and Journalism from University of Dhaka (2016)
+  Experience:
+    - Assistant Professor at JKKNIU (2024-06-30 to Present)
+    - Lecturer at JKKNIU (2021-10-17 to 2024-06-29)
+- Tanjil Ahmed, Assistant Professor, Email: tanjilahmedtaj@gmail.com, Phone: 01737969375
+  Education:
+    - MSS in Public Administration and Governance Studies from JKKNIU (2017)
+    - BSS in Public Administration and Governance Studies from JKKNIU (2016)
+  Experience:
+    - Assistant Professor at JKKNIU (2023-12-20 to Present)
+- Abdullah Al-Mamun, Lecturer, Email: amamun.du09@gmail.com, Phone: 01776223416
+- Md. Zillal Hossain, Lecturer, Email: zillal.hossain46@gmail.com, Phone: 01832950342
+  Education:
+    - MA in History from Jahangirnagar University (2021)
+
+Research Projects:
+- Title: Improving Governance: MIS Implementation in Selected Municipalities
+  Investigator: Tanjil Ahmed
+  Status: Completed
+  Duration: 2024-12-10 to 2025-08-10
+
+- Title: People’s Satisfaction with Community Healthcare Services
+  Investigator: Tanjil Ahmed
+  Status: Completed
+  Duration: 2023-06-01 to 2024-08-30
+
+Publications (Sample):
+- "Investigating Consumer Interest in Online Shopping" by Tanjil Ahmed et al. (International Journal of Academe and Industry Research, 2025-06-01)
+- "Indigenous Garo Women's Role in Family Transformation" by Md. Harunur Rashid et al. (International Journal of Social Science Research and Review, 2022-09-30)
+

@@ -1,0 +1,9 @@
+{
+  "name": "jkkniu-helpdesk",
+  "version": "1.0.0",
+  "scripts": {
+    "dev-ui": "cd web-ui && npm run dev",
+    "build-ui": "cd web-ui && npm run build",
+    "server": "python3 server.py"
+  }
+}

@@ -1,0 +1,8 @@
+class routine (CSE-15 batch) 2020-21 (2020-2021) session: 4th year 2nd semester (4-2 class routine):
+| | 9:30 - 10:30 | 10:30 - 11:30 | 11:30 - 12:30 | 12:30 - 1:30 | 2:00 - 3:00 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **SUNDAY** | | C Graphics (CSE-427) | ML (CSE-425) | VLSI (CSE-451) | |
+| **MONDAY** | C Graphics (CSE-427) | ML (CSE-425) | | | VLSI Lab 2 (CSE-452) |
+| **TUESDAY** | Computer Graphics Lab 1 (CSE-428) | | | VLSI (CSE-451) | ML Lab 2 (CSE-426) |
+| **WEDNESDAY** | C Graphics (CSE-427) | VLSI (CSE-451) | ML (CSE-425) | | |
+| **THURSDAY** | | CSE-400(B) | | | |
