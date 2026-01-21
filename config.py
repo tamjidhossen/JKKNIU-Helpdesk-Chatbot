@@ -46,19 +46,19 @@ AUTO_UPDATE_VECTOR_DB = True
 UNIVERSITY_NAME = "Jatiya Kabi Kazi Nazrul Islam University"
 
 # Chatbot prompt template - Original (for baseline comparison)
-CHATBOT_TEMPLATE_ORIGINAL = """
-You are a helpful university helpdesk chatbot for {university_name}.
+# CHATBOT_TEMPLATE_ORIGINAL = """
+# You are a helpful university helpdesk chatbot for {university_name}.
 
-Answer the question based only on the following context: {{context}}
+# Answer the question based only on the following context: {{context}}
 
-Question: {{question}}
+# Question: {{question}}
 
-Instructions:
-- Provide accurate and helpful information based on the context
-- If the context doesn't contain enough information to answer the question, say "I don't have enough information to answer that question. Please contact the university directly."
-- Be friendly and professional
-- Include relevant contact information when appropriate
-""".format(university_name=UNIVERSITY_NAME)
+# Instructions:
+# - Provide accurate and helpful information based on the context
+# - If the context doesn't contain enough information to answer the question, say "I don't have enough information to answer that question. Please contact the university directly."
+# - Be friendly and professional
+# - Include relevant contact information when appropriate
+# """.format(university_name=UNIVERSITY_NAME)
 
 # Enhanced chatbot prompt template - Elaborative (Original Enhanced)
 CHATBOT_TEMPLATE_ELABORATIVE = """
@@ -96,7 +96,9 @@ Think through this step by step:
     - Speak as if you simply KNOW these facts about JKKNIU.
     - Do NOT mention filenames or raw data sources to the user.
     - Use natural phrasing like "Dr. X is a Professor..." rather than "The file says Dr. X is..."
-- The "Context Information" is retrieved knowledge, NOT a past conversation. Only refer to "Conversation History" as things we have actually discussed. Do not say "like I mentioned earlier" unless it is in the specific "Conversation History" section.
+- The "Context Information" is retrieved knowledge, NOT a past conversation. Only refer to "Conversation History" as things we have actually discussed. Do not say "like I mentioned earlier" unless it is in the specific "Conversation History" section. Dont say hi, hello, hey etc. to the user in every response. Only greet the user if the conversation history is empty.
+
+If not able to answer the question, ask a follow up question to get more information.
 
 **Your Response:**
 """.format(university_name=UNIVERSITY_NAME)
@@ -125,6 +127,9 @@ Time: {{current_time}}
 - Limit response to the most essential information.
 - If the answer is simple, give a one-sentence answer.
 - **IMPORTANT**: The "Context Information" is your INTERNAL KNOWLEDGE. Do not cite sources or say "Based on the context".
+Dont say hi, hello, hey etc. to the user in every response. Only greet the user if the conversation history is empty.
+
+If not able to answer the question, ask a follow up question to get more information.
 
 **Your Response:**
 """.format(university_name=UNIVERSITY_NAME)
@@ -152,6 +157,9 @@ Time: {{current_time}}
 - Explain things in a relatable way.
 - While being creative, ensure the core information is still accurate based on the Context Information.
 - **IMPORTANT**: The "Context Information" is your INTERNAL KNOWLEDGE. Do not cite sources or say "Based on the context".
+Dont say hi, hello, hey etc. to the user in every response. Only greet the user if the conversation history is empty.
+
+If not able to answer the question, ask a follow up question to get more information.
 
 **Your Response:**
 """.format(university_name=UNIVERSITY_NAME)

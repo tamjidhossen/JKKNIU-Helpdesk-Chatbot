@@ -8,14 +8,17 @@ from main import EnhancedChatbot
 import uvicorn
 from contextlib import asynccontextmanager
 from database import User
-from auth_utils import get_password_hash, verify_password, create_access_token, send_verification_email, send_password_reset_email
+from auth_utils import get_password_hash, verify_password, create_access_token, send_verification_email, send_password_reset_email, ACCESS_TOKEN_EXPIRE_MINUTES
 from jose import JWTError, jwt
+from datetime import timedelta
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 import os
 import uuid
+from query_enhancer import HistoryQueryRewriter
 
 # Initialize chatbot
 chatbot = EnhancedChatbot(use_enhanced=True)
+query_rewriter = HistoryQueryRewriter()
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-this")
@@ -137,7 +140,11 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), session: Sessi
     if not user.is_verified:
         raise HTTPException(status_code=400, detail="Email not verified")
     
-    access_token = create_access_token(data={"sub": user.email})
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token = create_access_token(
+        data={"sub": user.email}, 
+        expires_delta=access_token_expires
+    )
     return {"access_token": access_token, "token_type": "bearer"}
 
 @app.get("/auth/verify/{token}")
@@ -243,8 +250,15 @@ async def chat(request: ChatRequest, session: Session = Depends(get_session), cu
         role_label = "Student" if msg.role == "user" else "Assistant"
         history_text += f"{role_label}: {msg.content}\n"
     
+    # Rewrite question if history exists
+    final_question = request.message
+    if history_text.strip():
+        final_question = query_rewriter.rewrite(request.message, history_text)
+        if final_question != request.message:
+            print(f"🔄 Query Rewritten:\n  Original: {request.message}\n  New: {final_question}")
+            
     # 3. Get AI response
-    result = chatbot.ask(request.message, history=history_text, response_type=request.response_type)
+    result = chatbot.ask(final_question, history=history_text, response_type=request.response_type)
     
     if result["error"]:
         raise HTTPException(status_code=500, detail=result["error"])

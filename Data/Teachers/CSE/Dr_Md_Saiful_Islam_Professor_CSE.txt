@@ -1,4 +1,4 @@
-Professor Dr. Md. Saiful Islam - Professor, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
+Professor Dr. Md. Saiful Islam - Professor & Head of the Department, Department of Computer Science and Engineering, Jatiya Kabi Kazi Nazrul Islam University
 
 Contact Information:
 - Email: saiful@jkkniu.edu.bd
@@ -7,7 +7,7 @@ Contact Information:
 
 Research Interests: Not Available
 
-Education of Dr. Md. Saiful Islam:
+Education of Dr. Md. Saiful Islam (head of cse / chairman):
 - Ph.D. in Mathematics from University of Rajshahi, Bangladesh (2019)
 - M.Phil. in Mathematics from University of Rajshahi, Bangladesh (2014)
 - M.Sc. in Pure Mathematics from University of Rajshahi, Bangladesh (2000)
@@ -23,7 +23,7 @@ Experience of Dr. Md. Saiful Islam:
 - Lecturer (2006-08-01 to 2008-04-02) - Rajuk Uttara Model College, Dhaka
 - Lecturer (2002-04-01 to 2006-07-31) - Dhaka Shiksha Board Laboratory College, Dhaka
 
-Publications of Dr. Md. Saiful Islam:
+Publications of Dr. Md. Saiful Islam (head of cse/chairman):
 1. Md. Sahadat Hossain, Md. Saiful Islam, Mousumi Akter. "Level Separation of Fuzzy Pairwise Regular Bitopological Spaces" Journal of Mechanics of Continua And Mathematical Sciences, Volume 18, Issue 8, August 2023, Pages 1-13
 2. Md. Saiful Islam, Md. Sahadat Hossain, Md. Aman Mahbub. "On Intuitionistic Fuzzy r-Regular Spaces" International Journal of Fuzzy Mathematical Archive, Volume 19, Issue 2, December 2021, Pages 149-159
 3. M. S. Islam, R. Islam, M. S. Hossain. "On a Study on Intuitionistic Fuzzy r-Normal Spaces" Notes on Intuitionistic Fuzzy Sets, Volume 27, Issue 3, September 2021, Pages 69-82
@@ -40,9 +40,10 @@ Publications of Dr. Md. Saiful Islam:
 14. DR. MD. SAIFUL ISLAM, Dr. AHM Kamal. "Ratio Method for Solving Any Equation of Single Variable" International Journal of Engineering and Technology, April-June 2009.
 
 
-### Summary of Dr. Md. Saiful Islam
+### Summary of Dr. Md. Saiful Islam (Head of CSE)
 **Name:** DR. MD. SAIFUL ISLAM
-**Designation:** Professor
+**Designation:** Professor & Head / chairman of the Department of CSE
+**Administrative Role:** Head / chairman of the Department of CSE (From January 2026) , Provost of Bidrohi Hall
 **Department:** Computer Science and Engineering, JKKNIU
 **Education:** PhD, M.Phil, MSc, BSc (All from University of Rajshahi in Mathematics)
 **Key Areas:** Pure Mathematics, Fuzzy Mathematics, Mathematical Modeling, Epidemic Models.

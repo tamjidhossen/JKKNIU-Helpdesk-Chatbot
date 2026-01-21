@@ -4,7 +4,7 @@ This file provides high-level statistical data and relational insights for the C
 
 1. Faculty Composition & Designation Statistics
 - Total Full-time Teachers: 16
-- Professors: 9 (Kamal, Sujan Ali, Saiful Islam, Jannatul Ferdous, Tushar Saha, Subrata Das, Mijanur Rahman, Selim Mamun, Uzzal Prodhan)
+- Professors: 9 (Kamal, Sujan Ali, Saiful Islam (head), Jannatul Ferdous, Tushar Saha, Subrata Das, Mijanur Rahman, Selim Mamun, Uzzal Prodhan)
 - Associate Professors: 4 (Indrani Mandal, Pronab Mondal, Habiba Sultana, Rubya Shaharin, Mahbubun Nahar)
 - Assistant Professors: 1 (Kazi Mahmudul Hassan)
 - Lecturers: 1 (Mahnuma Rahman Rinty)

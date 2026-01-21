@@ -23,10 +23,10 @@ export const MetadataCard: React.FC<MetadataCardProps> = ({ message }) => {
             <Clock className="w-3 h-3" />
             <span>{message.elapsed_time?.toFixed(2)}s</span>
           </div>
-          <div className="flex items-center gap-1">
+          {/* <div className="flex items-center gap-1">
             <Database className="w-3 h-3" />
             <span>{message.docs_retrieved} docs</span>
-          </div>
+          </div> */}
         </CardContent>
       </Card>
     </motion.div>

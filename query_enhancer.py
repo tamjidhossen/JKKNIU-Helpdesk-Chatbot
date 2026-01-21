@@ -85,7 +85,7 @@ class QueryClassifier:
 class HyDEGenerator:
     """Generates hypothetical documents in JKKNIU data format."""
     
-    HYDE_PROMPT = """You are generating a hypothetical document snippet that would answer the following question about JKKNIU university.
+    HYDE_PROMPT = """You are generating a hypothetical document snippet that would answer the following question about JKKNIU (Jatiya Kabi Kazi Nazrul Islam University).
 
 IMPORTANT: Format your response EXACTLY like JKKNIU data documents:
 - For teacher queries: "Professor Dr. Name - Designation, Department of X, Jatiya Kabi Kazi Nazrul Islam University\\nPublications: ..."
@@ -121,7 +121,7 @@ Document snippet:"""
 class MultiQueryGenerator:
     """Generates sub-queries for complex questions."""
     
-    MULTI_QUERY_PROMPT = """Break down this complex question into 2-3 simpler sub-questions that together would help answer the original question.
+    MULTI_QUERY_PROMPT = """Break down this complex / combined question into 2-3 simpler sub-questions that together would help answer the original question.
 
 Original question: {question}
 
@@ -155,8 +155,9 @@ Output only the sub-questions, one per line, without numbering or explanation:""
 class KeywordGenerator:
     """Generates search keywords to improve BM25 retrieval."""
     
-    KEYWORD_PROMPT = """Generates a list of 3-5 specific search keywords or phrases for the following question.
-    Focus on synonyms, entity names, and variations found in academic/university contexts.
+    KEYWORD_PROMPT = """Generates a list of maximum 1-5 (max) specific search keywords (not phrases) for the following question.
+    This could be exact keyword from question or synonyms, entity names, and variations found in academic/university contexts (as you are a University Helpdesk Chatbot).
+    Example: "Who is the head of CSE department?" -> "head, chairman, CSE, Computer Science and Engineering"
     
     Question: {question}
     
@@ -181,6 +182,55 @@ class KeywordGenerator:
         except Exception as e:
             print(f"Keyword generation failed: {e}")
             return question
+
+
+class HistoryQueryRewriter:
+    """Rewrites follow-up questions based on conversation history."""
+    
+    REWRITE_PROMPT = """Given the following conversation history and a new question, rewrite the new question to be a standalone question that fully captures the context, resolving any pronouns or references.
+    
+    Rules:
+    1. If the question is already standalone, return it as is.
+    2. If the question refers to "he", "she", "it", "they", replace with the specific entity from history.
+    3. Do NOT answer the question.
+    4. Do NOT add extra information not present in the context or question.
+    5. Question should be a full question, not vague.
+
+    Example: --------------------------------------------
+    History: User: Who has experience of being head of department in CSE? Assistant: Professor Dr. Saiful Islam is the current head and previously Dr. Sujan Ali was the head of cse.
+
+    New Question: How about Dr Subrata?
+    Rewritten (expected from you): Does Professor Dr. Subrata have experience of being head of department in CSE?
+    -----------------------------------------------------
+
+    History:
+    {history}
+    
+    New Question: {question}
+    
+    Rewritten Question:"""
+
+    def __init__(self):
+        pass
+    
+    def _get_model(self):
+        api_key = get_next_api_key()
+        return ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
+    
+    def rewrite(self, question: str, history: str) -> str:
+        """Rewrite the question based on history."""
+        if not history.strip():
+            return question
+            
+        try:
+            model = self._get_model()
+            prompt = self.REWRITE_PROMPT.format(history=history, question=question)
+            response = model.invoke(prompt)
+            return response.content.strip()
+        except Exception as e:
+            print(f"Query rewriting failed: {e}")
+            return question
+
 
 
 class HybridRetriever:
@@ -308,12 +358,12 @@ class EnhancedRetriever:
         seen_content = set()
         
         # Determine which enhancement to use based on query type
-        use_hyde_for_query = self.use_hyde and query_type in ["vague", "reasoning"]
+        use_hyde_for_query = self.use_hyde and query_type in ["vague"]
         use_multi_query_for_query = self.use_multi_query and query_type == "aggregation"
         
         # Keyword expansion is useful for most queries except maybe very simple ones
         # But let's prioritize it for factual/aggregation where keywords matter
-        use_kw_expansion = self.use_keyword_expansion and self.use_hybrid and query_type in ["factual", "aggregation"]
+        use_kw_expansion = self.use_keyword_expansion and self.use_hybrid and query_type in ["factual", "aggregation", "reasoning", "vague"]
         
         queries_to_run = [query]
         

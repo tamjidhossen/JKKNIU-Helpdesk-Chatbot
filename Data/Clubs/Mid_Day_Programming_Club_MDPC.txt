@@ -1,0 +1,8 @@
+Mid-day Programming Club (MDPC) is a student led club at JKKNIU for the Department of Computer Science and Engineering (CSE) that focuses on programming and computer science education. The club is open to all students of CSE only and is run by a group of executive members and senior executive members. The club's activities include programming competitions (main), hackathons, and other events. The club has a membership fee of 200 take for every 6 months. The club approximately has 50 running members and 50 past members accross all cse batches.
+
+Core Activities
+The club regularly organizes events and sessions to enhance the technical proficiency of its members, particularly in the Department of Computer Science and Engineering (CSE): 
+
+    Weekly Contests: The club hosts periodic coding contests, such as the "JKKNIU Weekly Contest," often held on online platforms like Vjudge.
+    Extended Challenges: MDPC conducts long-duration events, including 5-day-long programming contests, to help students improve their persistence and complex problem-solving abilities.
+    Topic-Specific Training: Contests and practice sessions often focus on critical computer science topics such as Strings and Strongly Connected Components (SCC). 

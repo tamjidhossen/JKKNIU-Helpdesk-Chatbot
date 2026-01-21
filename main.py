@@ -38,7 +38,6 @@ from config import (
     CHATBOT_TEMPLATE_ELABORATIVE, 
     CHATBOT_TEMPLATE_CONCISE, 
     CHATBOT_TEMPLATE_CREATIVE,
-    CHATBOT_TEMPLATE_ORIGINAL, 
     GEMINI_MODEL, 
     AUTO_UPDATE_VECTOR_DB
 )
@@ -74,7 +73,7 @@ class EnhancedChatbot:
             self.prompt = self.templates["elaborative"]
         else:
             self.retriever = basic_retriever
-            self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ORIGINAL)
+            self.prompt = ChatPromptTemplate.from_template(CHATBOT_TEMPLATE_ELABORATIVE)
         
         self.conversation_history = []
     
@@ -157,7 +156,7 @@ class EnhancedChatbot:
         except Exception as e:
             error_str = str(e)
             if "exhausted" in error_str.lower() or "429" in error_str:
-                result["response"] = "I'm receiving too many requests at the moment. Please wait a minute and try again."
+                result["response"] = "I'm facing system load at the moment. Please wait a minute and try again."
                 result["query_type"] = "Error"
             elif "blocked" in error_str.lower():
                 result["response"] = "I'm sorry, I cannot answer that question as it might violate my safety guidelines."

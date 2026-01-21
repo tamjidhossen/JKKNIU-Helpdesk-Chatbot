@@ -45,7 +45,7 @@ What clubs and festivals are active on campus?
 Various clubs such as the JKKNIU Student Development Club (SDC) and programming or hobbyist groups exist. Major annual events include the cultural festival "Kuyasha Utshab" and celebrations for Nazrul Jayanti, reflecting the university's diverse cultural environment.
 
 What residential halls and sports facilities are available?
-The campus offers four residential halls named Agnibeena, Doloncapa, Bidrohi, and Shiulimala. There are sports grounds where students regularly participate in inter-university competitions.
+The campus offers four residential halls named Agnibeena (male), Doloncapa (female), Bidrohi (male), and Shiulimala (female). There are sports grounds where students regularly participate in inter-university competitions.
 
 What security and student support services are provided?
 Located on a rural campus of approximately 57 acres, JKKNIU maintains standard security measures including proctors and university help-lines to ensure student safety and support.
@@ -55,13 +55,10 @@ The current Proctor is DR. MAHBUBUR RAHMAN. He is supported by several Assistant
 
 Department of Computer Science and Engineering (CSE)
 
-What is the current student enrollment and faculty size?
-Approximately 300 students are enrolled in the department, supported by a faculty of 16 members and 7 administrative staff.
+What is the current student enrollment and faculty size of CSE?
+Approximately 200 students are enrolled in the department, supported by a faculty of 16 members and 7 administrative staff.
 
-What labs and research facilities are available?
-The department features Software, Network, and Hardware labs. Additionally, the Emerging Technologies Lab (EmTech JKKNIU) supports research in Structural Health Monitoring, Robotics, Machine Learning, and the Internet of Things (IoT).
-
-What are the main academic and research focus areas?
+What are the main academic and research focus areas of cse?
 Research areas include Machine Learning, Deep Learning, Digital Signal Processing, Digital Image Processing, Medical Imaging, Computer Networks, and Network Security.
 
 How does the admission process work for the CSE department?
@@ -90,3 +87,5 @@ The university has a dedicated Medical Center that provides healthcare services 
 How can I contact the Medical Center?
 The Medical Center's head, DR. Abul Khaer Mohammad Helal Uddin, can be reached at 01712236996 or via email at shadman_99@yahoo.com.
 
+How many students in JKKNIU?
+Approximately 6,000 - 8,000 students are enrolled in the university.
