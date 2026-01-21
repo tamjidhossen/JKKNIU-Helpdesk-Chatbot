@@ -68,15 +68,15 @@ class QueryClassifier:
                 if re.search(pattern, query_lower):
                     return query_type
         
-        return "factual"  # Default
+        return "aggregation"  # Default
     
     @classmethod
     def get_retrieval_k(cls, query_type: str) -> int:
         """Get optimal k value based on query type."""
         k_values = {
             "aggregation": RETRIEVAL_K_MAX if RETRIEVAL_K_MAX else 30,  # Max docs for aggregation
-            "factual": RETRIEVAL_K,      # Standard docs needed
-            "reasoning": RETRIEVAL_K + 5,    # Moderate amount
+            "factual": RETRIEVAL_K + 5,      # Standard docs needed
+            "reasoning": RETRIEVAL_K * 2,    # Moderate amount
             "vague": RETRIEVAL_K * 2,        # More for context
         }
         return k_values.get(query_type, RETRIEVAL_K)

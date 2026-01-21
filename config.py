@@ -31,7 +31,7 @@ CHUNK_OVERLAP = 400
 # Retrieval configuration
 RETRIEVAL_K = 10
 RETRIEVAL_K_MIN = 5
-RETRIEVAL_K_MAX = 50
+RETRIEVAL_K_MAX = 40
 
 # Data paths
 # Data paths
