@@ -187,14 +187,17 @@ def send_verification_email(email_to: str, token: str):
     message.attach(part2)
 
     try:
-        server = smtplib.SMTP(smtp_server, smtp_port)
-        server.starttls()
+        if smtp_port == 465:
+            server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        else:
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            server.starttls()
         server.login(sender_email, password)
         server.sendmail(sender_email, email_to, message.as_string())
         server.quit()
         return True
     except Exception as e:
-        print(f"Error sending email: {e}")
+        print(f"Error sending verification email: {e}")
         return False
 
 def send_password_reset_email(email: str, token: str):
@@ -259,13 +262,16 @@ def send_password_reset_email(email: str, token: str):
     msg.attach(MIMEText(html, 'html'))
 
     try:
-        server = smtplib.SMTP(smtp_server, smtp_port)
-        server.starttls()
+        if smtp_port == 465:
+            server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        else:
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            server.starttls()
         server.login(sender_email, password)
         server.send_message(msg)
         server.quit()
         print(f"Password reset email sent to {email}")
         return True
     except Exception as e:
-        print(f"Failed to send email: {e}")
+        print(f"Failed to send password reset email: {e}")
         return False

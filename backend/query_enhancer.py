@@ -28,9 +28,25 @@ from langchain_core.documents import Document
 from rank_bm25 import BM25Okapi
 from config import (
     EMBEDDING_MODEL, VECTOR_DB_PATH, COLLECTION_NAME,
-    GEMINI_MODEL, RETRIEVAL_K, RETRIEVAL_K_MIN, RETRIEVAL_K_MAX, UNIVERSITY_NAME
+    GEMINI_MODEL, RETRIEVAL_K, RETRIEVAL_K_MIN, RETRIEVAL_K_MAX, UNIVERSITY_NAME,
+    USE_HYDE
 )
 from api_keys import get_next_api_key
+
+
+def clean_response_content(content) -> str:
+    """Extract string content from Langchain LLM response, handling reasoning models returning list of blocks."""
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for part in content:
+            if isinstance(part, str):
+                parts.append(part)
+            elif isinstance(part, dict) and "text" in part:
+                parts.append(part["text"])
+        return "\n".join(parts)
+    return str(content)
 
 
 class QueryClassifier:
@@ -112,7 +128,8 @@ Document snippet:"""
             model = self._get_model()
             prompt = self.HYDE_PROMPT.format(question=question)
             response = model.invoke(prompt)
-            return response.content.strip()
+            content_str = clean_response_content(response.content)
+            return content_str.strip()
         except Exception as e:
             print(f"HyDE generation failed: {e}")
             return question  # Fallback to original query
@@ -141,9 +158,10 @@ Output only the sub-questions, one per line, without numbering or explanation:""
             model = self._get_model()
             prompt = self.MULTI_QUERY_PROMPT.format(question=question)
             response = model.invoke(prompt)
+            content_str = clean_response_content(response.content)
             
             # Parse sub-queries
-            sub_queries = [q.strip() for q in response.content.split("\n") if q.strip()]
+            sub_queries = [q.strip() for q in content_str.split("\n") if q.strip()]
             
             # Include original query
             return [question] + sub_queries[:2]  # Original + up to 2 sub-queries
@@ -176,8 +194,9 @@ class KeywordGenerator:
             model = self._get_model()
             prompt = self.KEYWORD_PROMPT.format(question=question)
             response = model.invoke(prompt)
+            content_str = clean_response_content(response.content)
             # Return cleaned text with keywords space-separated for BM25
-            keywords = response.content.replace(',', ' ').strip()
+            keywords = content_str.replace(',', ' ').strip()
             return f"{question} {keywords}" # Augment original question
         except Exception as e:
             print(f"Keyword generation failed: {e}")
@@ -226,7 +245,8 @@ class HistoryQueryRewriter:
             model = self._get_model()
             prompt = self.REWRITE_PROMPT.format(history=history, question=question)
             response = model.invoke(prompt)
-            return response.content.strip()
+            content_str = clean_response_content(response.content)
+            return content_str.strip()
         except Exception as e:
             print(f"Query rewriting failed: {e}")
             return question
@@ -330,7 +350,7 @@ class HybridRetriever:
 class EnhancedRetriever:
     """Main enhanced retriever combining all techniques."""
     
-    def __init__(self, use_hyde: bool = True, use_multi_query: bool = True, use_hybrid: bool = True, use_keyword_expansion: bool = True):
+    def __init__(self, use_hyde: bool = USE_HYDE, use_multi_query: bool = True, use_hybrid: bool = True, use_keyword_expansion: bool = True):
         self.embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
         self.vector_store = Chroma(
             collection_name=COLLECTION_NAME,
@@ -410,7 +430,7 @@ class EnhancedRetriever:
 
 # Create a default enhanced retriever for import
 def get_enhanced_retriever(
-    use_hyde: bool = True,
+    use_hyde: bool = USE_HYDE,
     use_multi_query: bool = True,
     use_hybrid: bool = True,
     use_keyword_expansion: bool = True

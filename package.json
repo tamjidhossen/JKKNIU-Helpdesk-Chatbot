@@ -5,7 +5,7 @@
   "main": "backend/server.py",
   "scripts": {
     "dev:client": "npm run dev --prefix client",
-    "dev:backend": "python3 backend/server.py 2>&1 | tee backend/server.log",
+    "dev:backend": "python3 -u backend/server.py 2>&1 | tee backend/server.log",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:client\"",
     "start:client": "npm run build --prefix client && npm run preview --prefix client",
     "start:backend": "python3 backend/server.py",

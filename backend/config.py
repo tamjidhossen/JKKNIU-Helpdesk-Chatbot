@@ -16,9 +16,9 @@ else:
 # Model configurations
 EMBEDDING_MODEL = "nomic-embed-text"
 LLM_MODEL = "deepseek-r1:1.5b"
-GEMINI_MODEL = "gemma-3-27b-it"
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 GOOGLE_EMBEDDING_MODEL = "models/gemini-embedding-001"
-EVALUATION_MODEL = "gemini-2.5-flash"  # Model used for evaluating chatbot responses
+EVALUATION_MODEL = "gemini-3.1-flash-lite"  # Model used for evaluating chatbot responses
 
 # Vector store configuration
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -168,3 +168,6 @@ If not able to answer the question, ask a follow up question to get more informa
 
 # Flag to switch between original and enhanced prompts
 USE_ENHANCED_PROMPT = True
+
+# Flag to enable/disable HyDE in query enhancement
+USE_HYDE = False

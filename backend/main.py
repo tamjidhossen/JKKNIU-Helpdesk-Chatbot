@@ -31,7 +31,7 @@ load_dotenv()
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
-from query_enhancer import EnhancedRetriever, QueryClassifier
+from query_enhancer import EnhancedRetriever, QueryClassifier, clean_response_content
 from vector import retriever as basic_retriever
 from vector import sync_database
 from config import (
@@ -39,7 +39,8 @@ from config import (
     CHATBOT_TEMPLATE_CONCISE, 
     CHATBOT_TEMPLATE_CREATIVE,
     GEMINI_MODEL, 
-    AUTO_UPDATE_VECTOR_DB
+    AUTO_UPDATE_VECTOR_DB,
+    USE_HYDE
 )
 from api_keys import get_next_api_key
 
@@ -59,7 +60,7 @@ class EnhancedChatbot:
         
         if use_enhanced:
             self.retriever = EnhancedRetriever(
-                use_hyde=True,
+                use_hyde=USE_HYDE,
                 use_multi_query=True,
                 use_hybrid=True,
                 use_keyword_expansion=True
@@ -144,13 +145,14 @@ class EnhancedChatbot:
                 "current_date": current_date,
                 "current_time": current_time
             })
-            result["response"] = response.content
+            response_content = clean_response_content(response.content)
+            result["response"] = response_content
             result["elapsed_time"] = time.time() - start_time
             
             # Update conversation history
             self.conversation_history.append({
                 "question": question,
-                "response": response.content[:200] + "..." if len(response.content) > 200 else response.content
+                "response": response_content[:200] + "..." if len(response_content) > 200 else response_content
             })
             
         except Exception as e:
