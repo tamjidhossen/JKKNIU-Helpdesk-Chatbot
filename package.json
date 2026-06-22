@@ -1,9 +1,26 @@
 {
   "name": "jkkniu-helpdesk",
   "version": "1.0.0",
+  "description": "An advanced RAG-based university helpdesk chatbot for JKKNIU",
+  "main": "backend/server.py",
   "scripts": {
-    "dev-ui": "cd web-ui && npm run dev",
-    "build-ui": "cd web-ui && npm run build",
-    "server": "python3 server.py"
+    "dev:client": "npm run dev --prefix client",
+    "dev:backend": "python3 backend/server.py 2>&1 | tee backend/server.log",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:client\"",
+    "start:client": "npm run build --prefix client && npm run preview --prefix client",
+    "start:backend": "python3 backend/server.py",
+    "start": "concurrently \"npm run start:backend\" \"npm run dev:client\"",
+    "build:client": "npm run build --prefix client",
+    "log": "cat backend/server.log",
+    "log:tail": "tail -f backend/server.log",
+    "ingest": "python3 backend/vector.py",
+    "cli": "python3 backend/main.py",
+    "eval:baseline": "python3 evaluation/evaluator.py --output evaluation/baseline_results",
+    "eval:enhanced": "python3 evaluation/evaluator_enhanced.py --output evaluation/enhanced_results",
+    "eval:advanced": "python3 evaluation/evaluator_advanced.py --output evaluation/adv_rag_result",
+    "eval:report": "python3 evaluation/generate_report.py evaluation/adv_rag_result.json"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

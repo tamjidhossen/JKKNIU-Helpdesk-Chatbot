@@ -73,3 +73,6 @@ logs/
 .github
 
 helpdesk.db
+chromaDB/
+data/
+node_modules/

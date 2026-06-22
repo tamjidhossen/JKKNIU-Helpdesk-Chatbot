@@ -19,13 +19,13 @@ This chatbot employs a sophisticated RAG pipeline to ensure high relevance and a
 
 ## 🔄 Automatic Database Synchronization
 
-The system features an intelligent **Auto-Ingestion** mechanism handled by `vector.py`.
+The system features an intelligent **Auto-Ingestion** mechanism handled by `backend/vector.py`.
 
-- **Registry-Based Tracking**: Uses `Data/General/ingestion_registry.json` to track MD5 hashes of all processed files.
-- **Smart Sync**: On startup (if configured) or when running `python vector.py`, it scans the `Data/` directory.
+- **Registry-Based Tracking**: Uses `data/General/ingestion_registry.json` to track MD5 hashes of all processed files.
+- **Smart Sync**: On startup (if configured) or when running `npm run ingest`, it scans the `data/` directory.
     - **New/Modified Files**: Automatically detected, chunked, embedded, and added to the vector store.
     - **Consistency**: If the vector database is deleted, the registry resets to ensure a full fresh ingestion.
-- **No Manual Scripts**: You do not need to manually run an "add data" script. Just drop text files into `Data/` and run the chatbot.
+- **No Manual Scripts**: You do not need to manually run an "add data" script. Just drop text files into `data/` and run the chatbot.
 
 ## 🛠️ Setup
 
@@ -57,17 +57,17 @@ The system features an intelligent **Auto-Ingestion** mechanism handled by `vect
 
 4.  **Initialize Data**:
     ```bash
-    python vector.py
+    npm run ingest
     ```
 
 ## 💻 Usage
 
-### interactive Chat
+### Interactive Chat
 
 Run the main chatbot interface:
 
 ```bash
-python main.py
+npm run cli
 ```
 
 ### Comparison Mode
@@ -75,24 +75,36 @@ python main.py
 Compare the "Original" (baseline RAG) vs. "Enhanced" (Advanced RAG) pipeline side-by-side:
 
 ```bash
-python main.py --compare
+npm run cli -- --compare
+```
+
+### Full Development Environment
+
+Start both the React frontend and FastAPI backend concurrently with logs piped:
+
+```bash
+npm run dev
 ```
 
 ## 📂 Project Structure
 
 ```
-├── main.py                 # Entry point for the CLI Chatbot
-├── server.py               # FastAPI Backend Server
-├── query_enhancer.py       # Advanced RAG logic (Classification, HyDE, Hybrid Search)
-├── vector.py               # Vector DB management & Auto-ingestion logic
-├── config.py               # Configuration settings
-├── Data/                   # Knowledge base (Text files & Structure JSON)
-│   ├── General/            # Registry & General info
-│   └── ...                 # Departmental & Faculty data
-└── web-ui/                 # Frontend React Application
+├── backend/                # FastAPI Backend & Core Python files
+│   ├── server.py           # FastAPI Backend Server
+│   ├── main.py             # Entry point for CLI Chatbot
+│   ├── query_enhancer.py   # Advanced RAG logic (Classification, HyDE, Hybrid Search)
+│   ├── vector.py           # Vector DB management & Auto-ingestion logic
+│   ├── database.py         # SQLModel database tables and session utilities
+│   ├── auth_utils.py       # Authentication utilities
+│   ├── config.py           # Configuration settings
+│   └── api_keys.py         # Google API key rotation logic
+├── client/                 # Frontend React Application (Vite + TypeScript)
+├── data/                   # Knowledge base (Text files & Structure JSON)
+├── chromaDB/               # Local Vector Database (ChromaDB)
+└── evaluation/             # Evaluation scripts and datasets
 ```
 
 ## ⚠️ Notes
 
 - **API Keys**: The system supports multiple Google API keys in `.env` for rotation to handle rate limits.
-- **Database**: The vector database is stored locally in `chroma_langchain_db/`. Deleting this folder will trigger a full rebuild on the next run.
+- **Database**: The vector database is stored locally in `chromaDB/`. Deleting this folder will trigger a full rebuild on the next run.

@@ -22,8 +22,10 @@ import json
 import time
 import random
 
-# Add parent directory to sys.path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add parent directory and backend directory to sys.path
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
+sys.path.append(os.path.join(parent_dir, "backend"))
 
 import argparse
 from datetime import datetime
