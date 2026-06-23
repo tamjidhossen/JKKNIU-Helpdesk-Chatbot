@@ -1,11 +1,11 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional, List
 from sqlmodel import Field, Relationship, Session, SQLModel, create_engine, select
 
 class Conversation(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     title: str
-    created_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     user_id: int = Field(foreign_key="user.id")
     
     messages: List["Message"] = Relationship(back_populates="conversation")
@@ -16,7 +16,7 @@ class Message(SQLModel, table=True):
     conversation_id: int = Field(foreign_key="conversation.id")
     role: str  # "user" or "assistant"
     content: str
-    created_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     
     # Metadata fields
     query_type: Optional[str] = None
@@ -32,7 +32,7 @@ class User(SQLModel, table=True):
     password_hash: str
     is_verified: bool = Field(default=False)
     verification_token: Optional[str] = None
-    created_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     
     conversations: List[Conversation] = Relationship(back_populates="user")
 

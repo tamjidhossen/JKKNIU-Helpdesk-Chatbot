@@ -9,3 +9,8 @@ langchain-text-splitters
 rank_bm25
 sentence-transformers
 langchain-community
+fastapi
+sqlmodel
+python-jose
+python-multipart
+uvicorn
